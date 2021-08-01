@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // importar los estilos de CSS 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './CSS/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Layout from './JS/layout';
 
