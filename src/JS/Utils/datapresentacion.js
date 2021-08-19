@@ -4,7 +4,7 @@ const DPres = {
             Institucion: "SITRAINA",
             NombreCompleto: "Sindicato de Trabajadores de INA",
             Lema: "Mientras haya Injusticia... Habra Sindicalismo!",
-            Aviso1: "Esta sitio web cuenta con accesibilidad web para beneficiar a las personas con alguna discapacidad para un mejor acceso y navegación de sus usuarios",
+            Aviso1: "Este sitio web cuenta con accesibilidad web para beneficiar a las personas con alguna discapacidad para un mejor acceso y navegación de sus usuarios",
             Aviso2: "La siguiente opción sera para ingresar a el sitio web",
         }
     ],

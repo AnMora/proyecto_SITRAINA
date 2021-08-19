@@ -41,19 +41,19 @@ const DPP = {
             seccion: "Hoja de Miercoles",
             icon: "fas fa-clipboard-list fa-2x text-gray-300",
             path: "/sitraina/hojamiercoles",
-            descripcion: "Informacion sobre hojas nuevas cada miercoles"
+            descripcion: "Información sobre hojas nuevas cada miercoles"
         },
         {
             seccion: "Reglamentos",
             icon: "fas fa-book fa-2x text-gray-300",
             path: "",
-            descripcion: "Informacion sobre reglas y codigos"
+            descripcion: "Información sobre reglas y codigos"
         },
         {
             seccion: "Junta Directiva",
             icon: "fas fa-address-book fa-2x text-gray-300",
             path: "",
-            descripcion: "Informacion sobre los miembros"
+            descripcion: "Información sobre los miembros"
         },
         {
             seccion: "Servicios",
