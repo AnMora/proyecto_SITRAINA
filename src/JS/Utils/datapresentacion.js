@@ -18,7 +18,7 @@ const DPres = {
                     Link: "https://www.facebook.com/Sindicato-Trabajadores-del-INA-SITRAINA-754168658008668/"
                 },
                 {
-                    Nombre: "Gmail de SITRAINA",
+                    Nombre: "Correo de SITRAINA",
                     Icono: "fas fa-envelope-square",
                     Link: "mailto:SITRAINA@ina.ac.cr"
                 },

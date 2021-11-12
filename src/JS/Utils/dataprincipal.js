@@ -24,6 +24,10 @@ const DPP = {
         {
             path: "",
             seccion: "Servicios"
+        },
+        {
+            path: "/sitraina/contactenos",
+            seccion: "Contactenos"
         }
     ],
     multimedia: [

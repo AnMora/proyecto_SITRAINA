@@ -20,6 +20,10 @@ const DHmiercoles = {
         {
             path: "",
             seccion: "Servicios"
+        },
+        {
+            path: "/sitraina/contactenos",
+            seccion: "Contactenos"
         }
     ],
     multimedia: [

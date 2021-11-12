@@ -16,6 +16,7 @@ const Presentacion = (props) => {
                     className="btn btn-primary btn-circle m-1"
                     href={item.Link}
                     target="_blank"
+                    rel="noopener noreferrer"
                     data-tip
                     data-for={item.Nombre}
                 >
@@ -45,7 +46,7 @@ const Presentacion = (props) => {
                     <h5 className="mt-3">{Presentacion.Aviso2}</h5>
                     <div className="col-auto">
                         <Link to="/sitraina">
-                            <a className="text-light btn btn-primary mt-2 mb-2" value="Ingresar">Ingresar</a>
+                            <a href="##" className="text-light btn btn-primary mt-2 mb-2" value="Ingresar">Ingresar</a>
                         </Link>
                     </div>
                     </article>

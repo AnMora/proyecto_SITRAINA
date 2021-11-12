@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import $ from 'jquery';
 import { Link } from 'react-router-dom';
 import { animateScroll as scroll } from 'react-scroll';

@@ -3,8 +3,7 @@ import React, { Component } from "react";
 import { 
     BrowserRouter as Router,
     Route,
-    Switch,
-    Link
+    Switch
 } from "react-router-dom";
 
 // Organizar los import por prioridad
@@ -50,7 +49,7 @@ export class Layout extends Component {
                     <Route path="/sitraina/hojamiercoles">
                         <div id="wrapper">
                             <Navbar data={this.state.pDataHmiercoles} />
-                            <main id="content-wrapper" class="d-flex flex-column">
+                            <main id="content-wrapper" className="d-flex flex-column">
                                 <div className="content">
                                     <Header data={this.state.pDataPresentacion} />
                                     <HojaMiercoles data={this.state.pDataHmiercoles} />
@@ -62,7 +61,7 @@ export class Layout extends Component {
                     <Route path="/sitraina/contactenos">
                         <div id="wrapper">
                             <Navbar data={this.state.pDataContactenos} />
-                            <main id="content-wrapper" class="d-flex flex-column">
+                            <main id="content-wrapper" className="d-flex flex-column">
                                 <Header data={this.state.pDataPresentacion} />
                                 <Contacto data={this.state.pDataContactenos} />
                                 <Footer data={this.state.pDataPresentacion} />
@@ -72,7 +71,7 @@ export class Layout extends Component {
                     <Route path="/sitraina">
                         <div id="wrapper">
                             <Navbar data={this.state.pDataPaginaPrincipal} />
-                            <main id="content-wrapper" class="d-flex flex-column">
+                            <main id="content-wrapper" className="d-flex flex-column">
                                 <Header data={this.state.pDataPresentacion} />
                                 <Sitraina data={this.state.pDataPaginaPrincipal} />
                                 <Footer data={this.state.pDataPresentacion} />
