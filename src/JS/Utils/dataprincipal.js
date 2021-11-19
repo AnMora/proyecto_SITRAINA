@@ -6,11 +6,11 @@ const DPP = {
             seccion: "Hoja de Miercoles"
         },
         {
-            path: "",
+            path: "/sitraina/reglamentos",
             seccion: "Reglamentos"
         },
         {
-            path: "",
+            path: "/sitraina/juntadirectiva",
             seccion: "Junta Directiva"
         },
         {
@@ -50,13 +50,13 @@ const DPP = {
         {
             seccion: "Reglamentos",
             icon: "fas fa-book fa-2x text-gray-300",
-            path: "",
+            path: "/sitraina/reglamentos",
             descripcion: "Información sobre reglas y codigos"
         },
         {
             seccion: "Junta Directiva",
             icon: "fas fa-address-book fa-2x text-gray-300",
-            path: "",
+            path: "/sitraina/juntadirectiva",
             descripcion: "Información sobre los miembros"
         },
         {

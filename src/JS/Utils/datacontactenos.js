@@ -6,11 +6,11 @@ const DCont = {
             seccion: "Hoja de Miercoles"
         },
         {
-            path: "",
+            path: "/sitraina/reglamentos",
             seccion: "Reglamentos"
         },
         {
-            path: "",
+            path: "/sitraina/juntadirectiva",
             seccion: "Junta Directiva"
         },
         {

@@ -24,6 +24,12 @@ import Contacto from "../pages/contactenos";
 // Pagina sitraina/hojamiercoles
 import HojaMiercoles from "../pages/hojamiercoles";
 
+// Pagina sitraina/reglamentos
+import Reglamentos from "../pages/reglamentos";
+
+// Pagina sitraina/reglamentos
+import JDirectiva from "../pages/juntaDirectiva";
+
 // Import Estilos
 import "../CSS/general.css";
 
@@ -32,13 +38,17 @@ import DPres from './Utils/datapresentacion';
 import DPP from './Utils/dataprincipal';
 import DCont from './Utils/datacontactenos';
 import DHmiercoles from "./Utils/datahojamiercoles";
+import DRegla from "./Utils/datareglamentos";
+import DJDirectiva from "./Utils/dataJuntaDirectiva"
 
 export class Layout extends Component {
   state = {
     pDataPresentacion: DPres,
     pDataPaginaPrincipal: DPP,
     pDataContactenos: DCont,
-    pDataHmiercoles: DHmiercoles
+    pDataHmiercoles: DHmiercoles,
+    pDataReglamentos: DRegla,
+    pDataJDirectiva: DJDirectiva
   };
 
   render() {
@@ -46,6 +56,30 @@ export class Layout extends Component {
         <Router>
             <>
                 <Switch>
+                <Route path="/sitraina/juntadirectiva">
+                        <div id="wrapper">
+                            <Navbar data={this.state.pDataJDirectiva} />
+                            <main id="content-wrapper" className="d-flex flex-column">
+                                <div className="content">
+                                    <Header data={this.state.pDataPresentacion} />
+                                    <JDirectiva data={this.state.pDataJDirectiva} />
+                                </div>
+                            <Footer data={this.state.pDataPresentacion} />
+                            </main>
+                        </div>
+                    </Route>
+                    <Route path="/sitraina/reglamentos">
+                        <div id="wrapper">
+                            <Navbar data={this.state.pDataReglamentos} />
+                            <main id="content-wrapper" className="d-flex flex-column">
+                                <div className="content">
+                                    <Header data={this.state.pDataPresentacion} />
+                                    <Reglamentos data={this.state.pDataReglamentos} />
+                                </div>
+                            <Footer data={this.state.pDataPresentacion} />
+                            </main>
+                        </div>
+                    </Route>
                     <Route path="/sitraina/hojamiercoles">
                         <div id="wrapper">
                             <Navbar data={this.state.pDataHmiercoles} />

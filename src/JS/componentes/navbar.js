@@ -199,7 +199,7 @@ const Navbar = (props) => {
           <div className="col-12 mt-2 mb-3">
             <a
               href={Boleta}
-              className="d-none d-block btn btn-sm btn-primary shadow-sm icon"
+              className="d-none d-block btn btn-sm btn-primary shadow-sm icon p-2"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -8,32 +8,32 @@ const HojaMiercoles = (props) => {
     return (
         <>
           <a key={position} href="##" target="_blank">
-              <div className="container-fluid">
-                <div className="mb-3 mt-3">
-                  <div className="card border-left-warning shadow h-100 py-2">
-                    <div className="card-body">
-                      <div className="row no-gutters align-items-center">
-                        <div className="col mr-2">
-                          <div className="font-weight-bold text-info text-uppercase mb-1">
-                            {item.titulo}
-                          </div>
-                          <div className="row no-gutters align-items-center">
-                            <div className="col-auto">
-                              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                                {item.año} / {item.mes} / {item.fecha}
-                              </div>
+            <div className="container-fluid">
+              <div className="mb-3 mt-3">
+                <div className="card border-left-warning shadow h-100 py-2">
+                  <div className="card-body">
+                    <div className="row no-gutters align-items-center">
+                      <div className="col mr-2">
+                        <div className="font-weight-bold text-info text-uppercase mb-1">
+                          {item.titulo} 
+                        </div>
+                        <div className="row no-gutters align-items-center">
+                          <div className="col-auto">
+                            <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                              {item.año} / {item.mes} / {item.fecha}
                             </div>
                           </div>
                         </div>
-                        <div className="col-auto">
-                          <i className="fas fa-download fa-2x text-gray-300"></i>
-                        </div>
+                      </div>
+                      <div className="col-auto">
+                        <i className="fas fa-download fa-2x text-gray-300"></i>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
+          </a>
         </>
     )
   })
