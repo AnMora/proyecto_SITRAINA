@@ -22,13 +22,13 @@ const Reglamentos = (props) => {
                                 <div className="col-auto">
                                     <div className="col-12">
                                         <a
-                                        href="##"
+                                        href={item.link}
                                         className="d-none d-block btn btn-sm btn-primary shadow-sm icon p-2"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         >
-                                        <i className="fas fa-fw fa-download fa-sm text-white-50"></i>
-                                        <span>Reglamento</span>
+                                            <i className="fas fa-fw fa-download fa-sm text-white-50"></i>
+                                            <span>Reglamento</span>
                                         </a>
                                     </div>
                                 </div>

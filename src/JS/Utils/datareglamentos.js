@@ -45,35 +45,43 @@ const DRegla = {
     Documentos: [
         {
             reglamento: "Criterio de Zonaje",
-            descripcion: "descripcion"
+            descripcion: "Reglamento para el pago de zonaje al personal del INA.",
+            link: "../../Documentos/reglamentos/Reglamento-criterio_de_zonaje_2013.pdf",
         },
         {
             reglamento: "Estatuto Sitraina",
-            descripcion: "descripcion"
+            descripcion: "Asociacion voluntaria de trabajadores y pensionados.",
+            link: "../../Documentos/reglamentos/Reglamento-Estatuto_SITRAINA_aprobado_por_el_Ministerio_de_Trabajo.pdf",
         },
         {
-            reglamento: "l Convencion Colectiva",
-            descripcion: "descripcion",
+            reglamento: "Ley 2 - Codigo de Trabajo",
+            descripcion: "Congreso constitucional de la republica de Costa Rica.",
+            link: "../../Documentos/reglamentos/Reglamento-Ley_2_codigo_de_trabajo.pdf",
         },
         {
-            reglamento: "Codigo de Trabajo",
-            descripcion: "descripcion"
+            reglamento: "Estatuto de servicio civil",
+            descripcion: "Reglamento del Estatuto del servicio civil.",
+            link: "../../Documentos/reglamentos/Reglamento-Estatuto_de_Servicio_Civil.pdf",
         },
         {
-            reglamento: "l Convencion Colectiva",
-            descripcion: "descripcion",
+            reglamento: "Convencion Colectiva",
+            descripcion: "Acuerdo de convencion colectiva en el marco de instrumento de solidaridad laboral y social.",
+            link: "../../Documentos/reglamentos/Reglamento-convencion_colectiva.pdf",
         },
         {
-            reglamento: "Codigo de Trabajo",
-            descripcion: "descripcion"
+            reglamento: "Instituto Nacional de Aprendizaje",
+            descripcion: "Reglamento para el pago de incentivo a personas trabajadoras de INA que laboran en codiciones de peligrosidad.",
+            link: "../../Documentos/reglamentos/Reglamento-INSTITUTO_NACIONAL_DE_APRENDIZAJE.pdf",
         },
         {
-            reglamento: "l Convencion Colectiva",
-            descripcion: "descripcion",
+            reglamento: "Junta de relacion",
+            descripcion: "Reglamento de organizacion y funcionamiento de la junta de relaciones laborales del INA.",
+            link: "../../Documentos/reglamentos/Reglamento-reglamento_de_la_junta_de_relacion_la_gaceta_n_172.pdf",
         },
         {
-            reglamento: "Codigo de Trabajo",
-            descripcion: "descripcion"
+            reglamento: "Zonaje y perecederos",
+            descripcion: "Reglamento para el pago de zonaje al personale del INA.",
+            link: "../../Documentos/reglamentos/Reglamento-zonaje_y_perecederos.pdf",
         }
     ],
 }

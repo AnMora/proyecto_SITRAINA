@@ -163,23 +163,23 @@ const DPP = {
     valores: [
         {
             Valor: "Solidaridad",
-            descripcion: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+            descripcion: "La solidaridad es un valor que se caracteriza por la colaboración mutua entre los individuos, lo que permite lograr la superación de los más terribles desastres, como guerras, pestes, enfermedades, entre otros."
         },
         {
             Valor: "Igualdad",
-            descripcion: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+            descripcion: "La igualdad es el trato idéntico que un organismo, estado, empresa, asociación, grupo o individuo le brinda a las personas sin que medie ningún tipo de reparo por la raza, sexo, clase social u otra circunstancia plausible de diferencia o para hacerlo más práctico, es la ausencia de cualquier tipo de discriminación."
         },
         {
             Valor: "Respeto",
-            descripcion: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+            descripcion: "El respeto es un valor que permite al ser humano reconocer, aceptar, apreciar y valorar las cualidades del prójimo y sus derechos. Es decir, el respeto es el reconocimiento del valor propio y de los derechos de los individuos y de la sociedad."
         },
         {
             Valor: "Honestidad",
-            descripcion: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+            descripcion: "En otras palabras, la honestidad constituye una cualidad humana que consiste en comportarse y expresarse con sinceridad y coherencia, respetando los valores de la justicia y la verdad."
         },
         {
             Valor: "Excelencia",
-            descripcion: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+            descripcion: "Excelencia es desafiar el status QUO y hacer realidad el cambio aprovechando el aprendizaje para crear innovación y oportunidades de mejora. Tienen una mentalidad abierta para aceptar y utilizar las ideas de todos los grupos de interés. Animan a las personas a ver más allá del día a día y de las capacidades actuales."
         }
     ]
 }
