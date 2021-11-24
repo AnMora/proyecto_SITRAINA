@@ -7,7 +7,7 @@ const HojaMiercoles = (props) => {
   const HM2021 = props.data.HM2021.map((item,position) => {
     return (
         <>
-          <a key={position} href="##" target="_blank">
+          <a key={position} href={item.link} target="_blank" rel="noopener noreferrer">
             <div className="container-fluid">
               <div className="mb-3 mt-3">
                 <div className="card border-left-warning shadow h-100 py-2">
@@ -15,7 +15,7 @@ const HojaMiercoles = (props) => {
                     <div className="row no-gutters align-items-center">
                       <div className="col mr-2">
                         <div className="font-weight-bold text-info text-uppercase mb-1">
-                          {item.titulo} 
+                          {item.titulo}
                         </div>
                         <div className="row no-gutters align-items-center">
                           <div className="col-auto">
@@ -41,7 +41,7 @@ const HojaMiercoles = (props) => {
   const HM2020 = props.data.HM2020.map((item,position) => {
     return (
         <>
-          <a key={position} href="##" target="_blank">
+          <a key={position} href={item.link} target="_blank" rel="noopener noreferrer">
               <div className="container-fluid">
                 <div className="mb-3 mt-3">
                   <div className="card border-left-warning shadow h-100 py-2">
@@ -127,23 +127,6 @@ const HojaMiercoles = (props) => {
               {HM2020}
           </div>
         </div>
-
-        <div className="card border-bottom-info shadow mb-4">
-          <a
-            href="#Collapse2019"
-            className="d-block card-header"
-            data-toggle="collapse"
-            role="button"
-            aria-expanded="true"
-            aria-controls="collapseCard"
-          >
-            <h4 className="m-0 font-weight-bold text-primary">2019</h4>
-          </a>
-          <div className="collapse show" id="Collapse2019">
-              {HM2021}
-          </div>
-        </div>
-
         {/* Al final de todo contenido de paginas siempre el ScrollToTop Component */}
         <ScrollToTop />
       </div>
