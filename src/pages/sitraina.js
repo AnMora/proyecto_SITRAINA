@@ -1,4 +1,5 @@
 import React from 'react';
+// Comentario de prueba
 import { Link } from "react-router-dom";
 import ScrollToTop from '../JS/componentes/ScrollToTop';
 
