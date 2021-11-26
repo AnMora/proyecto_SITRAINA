@@ -45,6 +45,13 @@ const DHmiercoles = {
     HM2021: [
       {
         año: 2021,
+        titulo: "Hoja de Miercoles 24 de Noviembre, 2021",
+        mes: "Noviembre",
+        fecha: 24,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-24_noviembre_2021.pdf",
+      },
+      {
+        año: 2021,
         titulo: "Hoja de Miercoles 17 de Noviembre, 2021",
         mes: "Noviembre",
         fecha: 17,

@@ -42,34 +42,7 @@ const DJDirectiva = {
             lema: "La junta directiva es un grupo colegiado que se constituye para dirigir una organización, así que es una forma de organización o dirección que se encarga de tomar las decisiones según las directrices que imponga la junta de socios o accionistas"
         }
     ],
-    actas_correspondencia: [
-        {
-          representante: "Soledad Zamora Cordero",
-          contactar: "szamoracordero@ina.ac.cr",
-          cargo: "Secretaria de Actas y Correspondencia",
-          deberes: [
-            {
-                atribucion: "Asistir puntualmente a las reuniones de la Junta Directiva y Asamblea General."
-            },
-            {
-                atribucion: "Tramitar la correspondencia que la Junta Directiva le delegue."
-            },
-            {
-                atribucion: "Levantar las actas de las reuniones de la Junta Directiva y de la Asamblea General."
-            },
-            {
-                atribucion: "Llevar y firmar los Libros de Actas de la Asamblea General y de la Junta Directiva y velar por el buen estado y custodia de los mismos."
-            },
-            {
-                atribucion: "Velar porque el libro de actas permanezca en el local de SITRAINA."
-            },
-            {
-                atribucion: "Desempeñar las comisiones y tareas que le encomiende la Junta Directiva."
-            },
-          ]
-        },
-    ],
-    administracion: [
+    secretario_general: [
         {
             representante: "Ricardo Jara Nuñez",
             contactar: "rjaranunez@ina.ac.cr",
@@ -104,6 +77,8 @@ const DJDirectiva = {
                 },
             ]
         },
+    ],
+    secretario_adjunto: [
         {
             representante: "Marianela Delgado Quesada",
             contactar: "mdelgadoquesada@ina.ac.cr",
@@ -133,11 +108,11 @@ const DJDirectiva = {
             ]
         },
     ],
-    finanzas: [
+    finanzas_administracion: [
         {
             representante: "Jeffrey Chavarría Jiménez",
             contactar: "jeffrey.profe@gmail.com",
-            cargo: "Secretarío de Finanzas",
+            cargo: "Secretarío de Finanzas y Administración",
             deberes: [
                 {
                     atribucion: "Asistir puntualmente a las reuniones de la Junta Directiva y Asamblea General."
@@ -175,29 +150,38 @@ const DJDirectiva = {
             ]
         }
     ],
-    culturales_sociales: [
+    actas_correspondencia: [
         {
-            representante: "Magalli Murillo Miranda",
-            contactar: "mmurillomiranda@ina.ac.cr",
-            cargo: "Secretaría de Asuntos Culturales y Sociales",
-            deberes: [
-                {
-                    atribucion: "Asistir puntualmente a las reuniones de la Junta Directiva y Asamblea General."
-                },
-                {
-                    atribucion: "Promover el desarrollo integral de la mujer en todos lo niveles, en concordancia con lo que dispone la Ley de Igualdad Real de la Mujer."
-                },
-                {
-                    atribucion: "Fomentar las relaciones sociales, en el más amplio sentido, promoviendo la integración solidaria de los trabajadores. Organizar actividades e intercambios culturales así como actividades deportivas y otras asignadas por la Asamblea General y/o la Junta Directiva Estatuto."
-                },
-            ]
-        }
+          representante: "Soledad Zamora Cordero",
+          contactar: "szamoracordero@ina.ac.cr",
+          cargo: "Secretaria de Actas y Correspondencia",
+          deberes: [
+            {
+                atribucion: "Asistir puntualmente a las reuniones de la Junta Directiva y Asamblea General."
+            },
+            {
+                atribucion: "Tramitar la correspondencia que la Junta Directiva le delegue."
+            },
+            {
+                atribucion: "Levantar las actas de las reuniones de la Junta Directiva y de la Asamblea General."
+            },
+            {
+                atribucion: "Llevar y firmar los Libros de Actas de la Asamblea General y de la Junta Directiva y velar por el buen estado y custodia de los mismos."
+            },
+            {
+                atribucion: "Velar porque el libro de actas permanezca en el local de SITRAINA."
+            },
+            {
+                atribucion: "Desempeñar las comisiones y tareas que le encomiende la Junta Directiva."
+            },
+          ]
+        },
     ],
-    afiliaciones: [
+    afiliacion_propaganda: [
         {
-            representante: "Orlando Bonilla Gutiérrez",
-            contactar: "obonillagutierrez@ina.ac.cr",
-            cargo: "Secretaría de Afiliación",
+            representante: "Andrés Moreno Vargas",
+            contactar: "amorenovargas@ina.ac.cr",
+            cargo: "Secretarío de Afiliación y Propaganda",
             deberes: [
                 {
                     atribucion: "Informar a lo interno y externo de todas las actividades del sindicato."
@@ -226,87 +210,21 @@ const DJDirectiva = {
             ]
         }
     ],
-    conflictos: [
+    culturales_sociales: [
         {
-            representante: "Alejandra Angulo Barquero",
-            contactar: "aangulobarquero@ina.ac.cr",
-            cargo: "Secretaría Asuntos de Conflictos",
+            representante: "José Miguel Alfaro Carranza",
+            contactar: "jalfarocarranza@ina.ac.cr",
+            cargo: "Secretarío de Asuntos Culturales y Sociales",
             deberes: [
                 {
-                    atribucion: "Asistir puntualmente a todas las sesiones de la Junta Directiva y Asamblea General."
+                    atribucion: "Asistir puntualmente a las reuniones de la Junta Directiva y Asamblea General."
                 },
                 {
-                    atribucion: "Prevenir por todos los medios posibles, el surgimiento de conflictos de trabajo."
+                    atribucion: "Promover el desarrollo integral de la mujer en todos lo niveles, en concordancia con lo que dispone la Ley de Igualdad Real de la Mujer."
                 },
                 {
-                    atribucion: "Recibir los reclamos que presenten las personas afiliadas y canalizarlos en las instancias que correspondan."
+                    atribucion: "Fomentar las relaciones sociales, en el más amplio sentido, promoviendo la integración solidaria de los trabajadores. Organizar actividades e intercambios culturales así como actividades deportivas y otras asignadas por la Asamblea General y/o la Junta Directiva Estatuto."
                 },
-                {
-                    atribucion: "Atender la solución de los conflictos que se presenten ante la Junta Directiva, por parte de las personas afiliadas u otros órganos del sindicato, con ocasión del cumplimiento del trabajo."
-                },
-                {
-                    atribucion: "Asesorar a las personas afiliadas que así lo soliciten en sus conflictos individuales de trabajo. Los conflictos de carácter colectivo, deben de consultarse con la Junta Directiva, antes de adoptarse cualquier actitud decisiva para los intereses de la organización."
-                },
-                {
-                    atribucion: "Velar porque se cumpla el Convenio Colectivo negociado, así como recopilar las nuevas propuestas las personas afiliadas presenten."
-                },
-                {
-                    atribucion: "Estudiar con interés el código de trabajo y demás leyes de previsión social, manteniendo una recopilación de aquellas leyes complementarias o reglamentos aplicables para poder desempeñar más eficazmente su cargo."
-                },
-                {
-                    atribucion: "Debe estar al tanto de la manera de tramitar y resolver los asuntos judiciales de su competencia y asesorarse en los casos en que crea conveniente."
-                },
-                {
-                    atribucion: "Coordinar el trabajo de quienes realizan asesorías jurídicas."
-                },
-                {
-                    atribucion: "Constituir equipos de estudio y asesoría en los diversos conflictos colectivos que se planteen."
-                },
-                {
-                    atribucion: "Ser miembro integrante titular de la Junta Asesora de Relaciones Laborales."
-                },
-                {
-                    atribucion: "Otras que señale la Junta Directiva."
-                }
-            ]
-        }
-    ],
-    La_mujer: [
-        {
-            representante: "Tatiana Retana Chacón",
-            contactar: "tretanachacon@ina.ac.cr",
-            cargo: "Secretaría Asuntos de la Mujer",
-            deberes: [
-                {
-                    atribucion: "Motivar la participación y organización de la mujer trabajador del INA en SITRAINA."
-                },
-                {
-                    atribucion: "Promover la representatividad de las MUJERES Sindicalistas en la estructura del Sindicato."
-                },
-                {
-                    atribucion: "Motivar a las mujeres que participan en las estructuras de SITRAINA como dirigentes Sindicales."
-                },
-                {
-                    atribucion: "Defender y asesorar a la mujer Trabajadora del INA sobre sus derechos en materia laboral."
-                },
-                {
-                    atribucion: "Denunciar toda situación que implícitamente agreda la integridad de la mujer."
-                },
-                {
-                    atribucion: "Contribuir a la unidad del movimiento sindical."
-                },
-                {
-                    atribucion: "Desarrollar campañas de promoción para incentivar la participación de las mujeres en las actividades de la Secretaría de la Mujer u otras secretarías."
-                },
-                {
-                    atribucion: "Propiciar la discusión de la problemática de la mujer en los centros de trabajo."
-                },
-                {
-                    atribucion: "Coordinar con otras organizaciones tanto a nivel nacional como internacional, que tengan como misión luchar por los derechos de la Mujer."
-                },
-                {
-                    atribucion: "Desempeñar cualesquiera otras funciones, en comisiones y tareas que le encomiende la Junta Directiva."
-                }
             ]
         }
     ],
@@ -355,28 +273,112 @@ const DJDirectiva = {
             ]
         }
     ],
-    suplencia: [
+    La_mujer: [
         {
-            representante: "Andrés Moreno Vargas",
-            contactar: "amorenovargas@ina.ac.cr",
-            cargo: "Primer Suplencia",
+            representante: "Tatiana Retana Chacón",
+            contactar: "tretanachacon@ina.ac.cr",
+            cargo: "Secretaría Asuntos de la Mujer",
             deberes: [
-              {
-                  atribucion: "La suplencia tendrá como función la de ocupar la primera vacante que se presente entre los miembros titulares de la Junta Directiva, y la de cumplir las atribuciones y deberes del cargo."
-              }
+                {
+                    atribucion: "Motivar la participación y organización de la mujer trabajador del INA en SITRAINA."
+                },
+                {
+                    atribucion: "Promover la representatividad de las MUJERES Sindicalistas en la estructura del Sindicato."
+                },
+                {
+                    atribucion: "Motivar a las mujeres que participan en las estructuras de SITRAINA como dirigentes Sindicales."
+                },
+                {
+                    atribucion: "Defender y asesorar a la mujer Trabajadora del INA sobre sus derechos en materia laboral."
+                },
+                {
+                    atribucion: "Denunciar toda situación que implícitamente agreda la integridad de la mujer."
+                },
+                {
+                    atribucion: "Contribuir a la unidad del movimiento sindical."
+                },
+                {
+                    atribucion: "Desarrollar campañas de promoción para incentivar la participación de las mujeres en las actividades de la Secretaría de la Mujer u otras secretarías."
+                },
+                {
+                    atribucion: "Propiciar la discusión de la problemática de la mujer en los centros de trabajo."
+                },
+                {
+                    atribucion: "Coordinar con otras organizaciones tanto a nivel nacional como internacional, que tengan como misión luchar por los derechos de la Mujer."
+                },
+                {
+                    atribucion: "Desempeñar cualesquiera otras funciones, en comisiones y tareas que le encomiende la Junta Directiva."
+                }
             ]
-          },
-          {
-            representante: "José Miguel Alfaro Carranza",
-            contactar: "jalfarocarranza@ina.ac.cr",
-            cargo: "Segunda Suplencia",
+        }
+    ],
+    conflictos: [
+        {
+            representante: "Alejandra Angulo Barquero",
+            contactar: "aangulobarquero@ina.ac.cr",
+            cargo: "Secretaría Asuntos de Conflictos",
             deberes: [
-              {
-                  atribucion: "La suplencia tendrá como función la de ocupar la primera vacante que se presente entre los miembros titulares de la Junta Directiva, y la de cumplir las atribuciones y deberes del cargo."
-              }
+                {
+                    atribucion: "Asistir puntualmente a todas las sesiones de la Junta Directiva y Asamblea General."
+                },
+                {
+                    atribucion: "Prevenir por todos los medios posibles, el surgimiento de conflictos de trabajo."
+                },
+                {
+                    atribucion: "Recibir los reclamos que presenten las personas afiliadas y canalizarlos en las instancias que correspondan."
+                },
+                {
+                    atribucion: "Atender la solución de los conflictos que se presenten ante la Junta Directiva, por parte de las personas afiliadas u otros órganos del sindicato, con ocasión del cumplimiento del trabajo."
+                },
+                {
+                    atribucion: "Asesorar a las personas afiliadas que así lo soliciten en sus conflictos individuales de trabajo. Los conflictos de carácter colectivo, deben de consultarse con la Junta Directiva, antes de adoptarse cualquier actitud decisiva para los intereses de la organización."
+                },
+                {
+                    atribucion: "Velar porque se cumpla el Convenio Colectivo negociado, así como recopilar las nuevas propuestas las personas afiliadas presenten."
+                },
+                {
+                    atribucion: "Estudiar con interés el código de trabajo y demás leyes de previsión social, manteniendo una recopilación de aquellas leyes complementarias o reglamentos aplicables para poder desempeñar más eficazmente su cargo."
+                },
+                {
+                    atribucion: "Debe estar al tanto de la manera de tramitar y resolver los asuntos judiciales de su competencia y asesorarse en los casos en que crea conveniente."
+                },
+                {
+                    atribucion: "Coordinar el trabajo de quienes realizan asesorías jurídicas."
+                },
+                {
+                    atribucion: "Constituir equipos de estudio y asesoría en los diversos conflictos colectivos que se planteen."
+                },
+                {
+                    atribucion: "Ser miembro integrante titular de la Junta Asesora de Relaciones Laborales."
+                },
+                {
+                    atribucion: "Otras que señale la Junta Directiva."
+                }
             ]
-          }
-    ]
+        }
+    ],
+    // suplencia: [
+    //     {
+    //         representante: "Andrés Moreno Vargas",
+    //         contactar: "amorenovargas@ina.ac.cr",
+    //         cargo: "Primer Suplencia",
+    //         deberes: [
+    //           {
+    //               atribucion: "La suplencia tendrá como función la de ocupar la primera vacante que se presente entre los miembros titulares de la Junta Directiva, y la de cumplir las atribuciones y deberes del cargo."
+    //           }
+    //         ]
+    //       },
+    //       {
+    //         representante: "José Miguel Alfaro Carranza",
+    //         contactar: "jalfarocarranza@ina.ac.cr",
+    //         cargo: "Segunda Suplencia",
+    //         deberes: [
+    //           {
+    //               atribucion: "La suplencia tendrá como función la de ocupar la primera vacante que se presente entre los miembros titulares de la Junta Directiva, y la de cumplir las atribuciones y deberes del cargo."
+    //           }
+    //         ]
+    //       }
+    // ]
 }
 
 export default DJDirectiva

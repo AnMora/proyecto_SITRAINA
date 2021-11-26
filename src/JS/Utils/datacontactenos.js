@@ -45,7 +45,8 @@ const DCont = {
         {
             medio: "Tele-Fax: ",
             icon: "fas fa-fax fa-2x text-gray-300",
-            contactar: "2220-2480 ó a la ext 6200."
+            contactar: "2210-6200",
+            otro: "2220-2480 ó a la ext 6200.",
         },
         {
             medio: "Apartado Postal: ",

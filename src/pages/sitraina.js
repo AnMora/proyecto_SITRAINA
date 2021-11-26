@@ -1,5 +1,4 @@
 import React from 'react';
-// Comentario de prueba
 import { Link } from "react-router-dom";
 import ScrollToTop from '../JS/componentes/ScrollToTop';
 
@@ -32,6 +31,40 @@ const Sitraina = (props) => {
             </>
         )
     })
+
+    const HMReciente = props.data.HMActual.map((item,position) => {
+        return (
+            <>
+              <a key={position} href={item.link} target="_blank" rel="noopener noreferrer">
+                {/* <div className="container-fluid"> */}
+                  <div className="mb-3 mt-3">
+                    <div className="card border-left-warning shadow h-100 py-2">
+                      <div className="card-body">
+                        <div className="row no-gutters align-items-center">
+                          <div className="col mr-2">
+                            <div className="font-weight-bold text-info text-uppercase mb-1">
+                              {item.titulo}
+                            </div>
+                            <div className="row no-gutters align-items-center">
+                              <div className="col-auto">
+                                <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                                  {item.año} / {item.mes} / {item.fecha}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-auto">
+                            <i className="fas fa-download fa-2x text-gray-300"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  {/* </div> */}
+                </div>
+              </a>
+            </>
+        )
+      })
 
     const Sitraina = props.data.Sitraina.map((item,position) => {
         if(position === 0){
@@ -184,7 +217,35 @@ const Sitraina = (props) => {
         <div className="container-fluid">
             <div className="mt-4">
                 <div className="alert alert-primary" role="alert">
-                    Este sitio web aun se encuentra en construcción por lo que solo se encuentra en su función: <strong>Página principal, hoja de miercoles, reglamentos, junta directiva y contactenos.</strong>
+                    Este sitio web aun se encuentra en construcción por lo que solo se encuentra en su función: <strong>Página principal, hoja de miércoles, reglamentos, junta directiva y contactenos.</strong>
+                </div>
+                
+                {/* {HMReciente} */}
+                <div className="alert alert-primary" role="alert">
+                    {HMReciente}
+                    <strong>Visualice o descargue la hoja de miércoles más reciente.</strong>
+                </div>
+
+                <div className="mt-4 mb-4">
+                    <div className="card border-left-warning shadow h-100 py-2">
+                        <div className="card-body">
+                            <div className="row no-gutters align-items-center">
+                                <div className="col mr-2">
+                                    <div className="h4 font-weight-bold text-info text-uppercase mb-1">
+                                        Página Principal
+                                    </div>
+
+                                    <div className="row no-gutters align-items-center">
+                                        <div className="col-auto">
+                                            <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                                                Las siguientes opciones puede hacer uso de los campos con enlaces directos a sus respectivas paginas.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="row">
