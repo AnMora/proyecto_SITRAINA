@@ -30,6 +30,9 @@ import Reglamentos from "../pages/reglamentos";
 // Pagina sitraina/reglamentos
 import JDirectiva from "../pages/juntaDirectiva";
 
+// Pagina sitraina/reglamentos
+import Fiscalia from "../pages/fiscalia";
+
 // Import Estilos
 import "../CSS/general.css";
 
@@ -39,7 +42,8 @@ import DPP from './Utils/dataprincipal';
 import DCont from './Utils/datacontactenos';
 import DHmiercoles from "./Utils/datahojamiercoles";
 import DRegla from "./Utils/datareglamentos";
-import DJDirectiva from "./Utils/dataJuntaDirectiva"
+import DJDirectiva from "./Utils/dataJuntaDirectiva";
+import DFisc from "./Utils/datafiscalia";
 
 export class Layout extends Component {
   state = {
@@ -48,7 +52,8 @@ export class Layout extends Component {
     pDataContactenos: DCont,
     pDataHmiercoles: DHmiercoles,
     pDataReglamentos: DRegla,
-    pDataJDirectiva: DJDirectiva
+    pDataJDirectiva: DJDirectiva,
+    pDataFiscalia: DFisc
   };
 
   render() {
@@ -56,7 +61,19 @@ export class Layout extends Component {
         <Router>
             <>
                 <Switch>
-                <Route path="/sitraina/juntadirectiva">
+                    <Route path="/sitraina/fiscalia">
+                        <div id="wrapper">
+                            <Navbar data={this.state.pDataFiscalia} />
+                            <main id="content-wrapper" className="d-flex flex-column">
+                                <div className="content">
+                                    <Header data={this.state.pDataPresentacion} />
+                                    <Fiscalia data={this.state.pDataFiscalia} />
+                                </div>
+                            <Footer data={this.state.pDataPresentacion} />
+                            </main>
+                        </div>
+                    </Route>
+                    <Route path="/sitraina/juntadirectiva">
                         <div id="wrapper">
                             <Navbar data={this.state.pDataJDirectiva} />
                             <main id="content-wrapper" className="d-flex flex-column">

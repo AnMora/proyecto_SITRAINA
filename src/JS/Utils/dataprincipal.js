@@ -14,7 +14,7 @@ const DPP = {
             seccion: "Junta Directiva"
         },
         {
-            path: "",
+            path: "/sitraina/fiscalia",
             seccion: "Fiscalia"
         },
         {

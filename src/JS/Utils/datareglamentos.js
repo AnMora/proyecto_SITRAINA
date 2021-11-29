@@ -10,7 +10,7 @@ const DRegla = {
             seccion: "Junta Directiva"
         },
         {
-            path: "",
+            path: "/sitraina/fiscalia",
             seccion: "Fiscalia"
         },
         {

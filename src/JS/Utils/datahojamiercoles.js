@@ -10,7 +10,7 @@ const DHmiercoles = {
             seccion: "Junta Directiva"
         },
         {
-            path: "",
+            path: "/sitraina/fiscalia",
             seccion: "Fiscalia"
         },
         {
@@ -43,40 +43,40 @@ const DHmiercoles = {
         }
     ],
     HM2021: [
-      {
-        año: 2021,
-        titulo: "Hoja de Miercoles 24 de Noviembre, 2021",
-        mes: "Noviembre",
-        fecha: 24,
-        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-24_noviembre_2021.pdf",
-      },
-      {
-        año: 2021,
-        titulo: "Hoja de Miercoles 17 de Noviembre, 2021",
-        mes: "Noviembre",
-        fecha: 17,
-        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-17_noviembre_2021.pdf",
-      },
-      {
-        año: 2021,
-        titulo: "Hoja de Miercoles 10 de Noviembre, 2021",
-        mes: "Noviembre",
-        fecha: 10,
-        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-10_noviembre_2021.pdf",
-      },{
-        año: 2021,
-        titulo: "Hoja de Miercoles 05 de Noviembre, 2021 - Edicion Especial",
-        mes: "Noviembre",
-        fecha: 5,
-        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-05_noviembre_2021-Edicion_Especial.pdf",
-      },
-      {
-        año: 2021,
-        titulo: "Hoja de Miercoles 03 de Noviembre, 2021",
-        mes: "Noviembre",
-        fecha: 3,
-        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-03_noviembre_2021.pdf",
-      },
+        {
+          año: 2021,
+          titulo: "Hoja de Miercoles 24 de Noviembre, 2021",
+          mes: "Noviembre",
+          fecha: 24,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-24_noviembre_2021.pdf",
+        },
+        {
+          año: 2021,
+          titulo: "Hoja de Miercoles 17 de Noviembre, 2021",
+          mes: "Noviembre",
+          fecha: 17,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-17_noviembre_2021.pdf",
+        },
+        {
+          año: 2021,
+          titulo: "Hoja de Miercoles 10 de Noviembre, 2021",
+          mes: "Noviembre",
+          fecha: 10,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-10_noviembre_2021.pdf",
+        },{
+          año: 2021,
+          titulo: "Hoja de Miercoles 05 de Noviembre, 2021 - Edicion Especial",
+          mes: "Noviembre",
+          fecha: 5,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-05_noviembre_2021-Edicion_Especial.pdf",
+        },
+        {
+          año: 2021,
+          titulo: "Hoja de Miercoles 03 de Noviembre, 2021",
+          mes: "Noviembre",
+          fecha: 3,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-03_noviembre_2021.pdf",
+        },
         {
           año: 2021,
           titulo: "Hoja de Miercoles 27 de Octubre, 2021",

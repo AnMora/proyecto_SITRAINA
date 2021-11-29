@@ -10,7 +10,7 @@ const DJDirectiva = {
             seccion: "Reglamentos"
         },
         {
-            path: "",
+            path: "/sitraina/fiscalia",
             seccion: "Fiscalia"
         },
         {
@@ -39,7 +39,7 @@ const DJDirectiva = {
     JDirectiva: [
         {
             titulo: "Junta Directiva",
-            lema: "La junta directiva es un grupo colegiado que se constituye para dirigir una organización, así que es una forma de organización o dirección que se encarga de tomar las decisiones según las directrices que imponga la junta de socios o accionistas"
+            lema: "La junta directiva es un grupo colegiado que se constituye para dirigir una organización, así que es una forma de organización o dirección que se encarga de tomar las decisiones según las directrices que imponga la junta de socios o accionistas."
         }
     ],
     secretario_general: [
