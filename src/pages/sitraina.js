@@ -217,7 +217,7 @@ const Sitraina = (props) => {
         <div className="container-fluid">
             <div className="mt-4">
                 <div className="alert alert-primary" role="alert">
-                    Este sitio web aun se encuentra en construcción por lo que solo se encuentra en su función: <strong>Página principal, hoja de miércoles, reglamentos, junta directiva y contactenos.</strong>
+                    Este sitio web aun se encuentra en construcción por lo que solo se encuentra en su función: <strong>Página principal, hoja de miércoles, reglamentos, junta directiva, fiscalia y contactenos.</strong>
                 </div>
                 
                 {/* {HMReciente} */}
