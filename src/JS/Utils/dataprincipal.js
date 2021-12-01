@@ -43,20 +43,20 @@ const DPP = {
     HMActual: [
         {
           año: 2021,
-          titulo: "Hoja de Miercoles 24 de Noviembre, 2021",
-          mes: "Noviembre",
-          fecha: 24,
-          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-24_noviembre_2021.pdf",
+          titulo: "Hoja de Miercoles 01 de Diciembre, 2021",
+          mes: "Diciembre",
+          fecha: 1,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-01_diciembre_2021.pdf",
         },
     ],
     // PROXIMA HOJA DE MIERCOLES DE SIGUIENTE SEMANA
     // HMActual: [
     //     {
     //       año: 2021,
-    //       titulo: "Hoja de Miercoles 01 de Diciembre, 2021",
+    //       titulo: "Hoja de Miercoles 08 de Diciembre, 2021",
     //       mes: "Diciembre",
-    //       fecha: 1,
-    //       link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-01_diciembre_2021.pdf",
+    //       fecha: 8,
+    //       link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-08_diciembre_2021.pdf",
     //     },
     // ],
     Informacion: [
