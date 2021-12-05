@@ -1,5 +1,6 @@
 import React from "react";
 import $ from "jquery";
+import { Link } from "react-router-dom";
 import ReactTooltip from "react-tooltip";
 import logo from "../../multimedia/icono/SITRAINA.png";
 
@@ -153,27 +154,17 @@ const Header = (props) => {
         </button>
 
         <ul className="navbar-nav ml-auto">
-          <li className="nav-item dropdown no-arrow mx-1" data-tip data-for="Accesibilidad">
-            <a className="nav-link dropdown-toggle" href="##" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i className="fas fa-fw fa-user-cog"></i>
-            </a>
-            <div className="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
-              <h6 className="dropdown-header" data-tip data-for="AjusteLetra">
-                Aumento tamaño letra
-              </h6>
-                {mapLetras}
-                <ReactTooltip id="AjusteLetra" place="left" type="dark" effect="solid">
-                  Esta opcion permite el aumento de letra para usuarios con discapacidad
-                  visual
-                </ReactTooltip>
-              <h6 className="dropdown-header" data-tip data-for="AjusteColor">
-                Cambiar color del sitio
-              </h6>
-                {mapColores}
-                <ReactTooltip id="AjusteColor" place="left" type="dark" effect="solid">
-                  Esta opcion permite el cambio de color para usuarios con discapacidad visual
-                </ReactTooltip>
-            </div>
+          {/* <li className="nav-item dropdown no-arrow mx-1" data-tip data-for="Accesibilidad">
+            <Link to="/sitraina">
+              <a className="nav-link dropdown-toggle" href="##" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div className="spinner-grow spinner-grow-sm text-danger" role="status">
+                  <span className="sr-only">Loading...</span>
+                </div>
+                <span className="mr-2 d-lg-inline">
+                  <b>ENVIVO</b>
+                </span>
+              </a>
+            </Link>
           </li>
           <ReactTooltip
             id="Accesibilidad"
@@ -181,11 +172,10 @@ const Header = (props) => {
             type="dark"
             effect="solid"
           >
-            Permite el cambio de diseño en la página para personas con
-            discapacidad
+            Programa de SITRAINA transmision EN VIVO
           </ReactTooltip>
 
-          <div className="topbar-divider d-none d-sm-block"></div>
+          <div className="topbar-divider d-none d-sm-block"></div> */}
 
           <li className="nav-item dropdown no-arrow" data-tip data-for="Lema">
             <a

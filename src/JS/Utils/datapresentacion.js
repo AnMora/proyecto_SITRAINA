@@ -18,6 +18,11 @@ const DPres = {
                     Link: "https://www.facebook.com/Sindicato-Trabajadores-del-INA-SITRAINA-754168658008668/"
                 },
                 {
+                    Nombre: "Instagram de SITRAINA",
+                    Icono: "fab fa-instagram-square",
+                    Link: "https://instagram.com/sitrainacr?utm_medium=copy_link"
+                },
+                {
                     Nombre: "Correo de SITRAINA",
                     Icono: "fas fa-envelope-square",
                     Link: "mailto:SITRAINA@ina.ac.cr"
@@ -25,8 +30,8 @@ const DPres = {
                 {
                     Nombre: "Youtube de SITRAINA",
                     Icono: "fab fa-youtube-square",
-                    Link: "https://www.youtube.com/channel/UCPeJzGfDgxIU4qyL9SY_yPQ"
-                }
+                    Link: "https://www.youtube.com/channel/UC0QRZ-1S9ERs3LqEeCdNaUg"
+                },
             ]
         }
     ]

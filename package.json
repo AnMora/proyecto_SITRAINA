@@ -20,6 +20,7 @@
     "react-use": "^17.2.4",
     "web-vitals": "^1.1.2"
   },
+  "homepage": "https://sitraina.org/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
