@@ -19,7 +19,7 @@ const DFisc = {
         },
         {
             path: "",
-            seccion: "Servicios"
+            seccion: "Convenios"
         },
         {
             path: "/sitraina/contactenos",

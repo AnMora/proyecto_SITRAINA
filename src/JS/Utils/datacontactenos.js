@@ -23,7 +23,7 @@ const DCont = {
         },
         {
             path: "",
-            seccion: "Servicios"
+            seccion: "Convenios"
         }
     ],
     multimedia: [

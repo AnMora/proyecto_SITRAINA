@@ -23,7 +23,7 @@ const DPP = {
         },
         {
             path: "",
-            seccion: "Servicios"
+            seccion: "Convenios"
         },
         {
             path: "/sitraina/contactenos",
@@ -40,23 +40,28 @@ const DPP = {
             seccion: "Audio/Video"
         }
     ],
+    transmision: [
+        {
+            linkEnvivo: "https://udecr.zoom.us/j/82248446764"
+        }
+    ],
     HMActual: [
         {
           año: 2021,
-          titulo: "Hoja de Miercoles 01 de Diciembre, 2021",
+          titulo: "Hoja de Miercoles 08 de Diciembre, 2021",
           mes: "Diciembre",
-          fecha: 1,
-          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-01_diciembre_2021.pdf",
+          fecha: 8,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-08_diciembre_2021.pdf",
         },
     ],
     // PROXIMA HOJA DE MIERCOLES DE SIGUIENTE SEMANA
     // HMActual: [
     //     {
     //       año: 2021,
-    //       titulo: "Hoja de Miercoles 08 de Diciembre, 2021",
+    //       titulo: "Hoja de Miercoles 15 de Diciembre, 2021",
     //       mes: "Diciembre",
-    //       fecha: 8,
-    //       link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-08_diciembre_2021.pdf",
+    //       fecha: 15,
+    //       link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-15_diciembre_2021.pdf",
     //     },
     // ],
     Informacion: [

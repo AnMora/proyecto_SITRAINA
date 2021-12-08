@@ -19,7 +19,7 @@ const DHmiercoles = {
         },
         {
             path: "",
-            seccion: "Servicios"
+            seccion: "Convenios"
         },
         {
             path: "/sitraina/contactenos",
@@ -46,12 +46,19 @@ const DHmiercoles = {
         // Hoja de Miercoles proxima
         // {
         //   año: 2021,
-        //   titulo: "Hoja de Miercoles 08 de Diciembre, 2021",
+        //   titulo: "Hoja de Miercoles 15 de Diciembre, 2021",
         //   mes: "Diciembre",
-        //   fecha: 8,
-        //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-08_diciembre_2021.pdf",
+        //   fecha: 15,
+        //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-15_diciembre_2021.pdf",
         // },
         // Hoja de Miercoles Actual
+        {
+          año: 2021,
+          titulo: "Hoja de Miercoles 08 de Diciembre, 2021",
+          mes: "Diciembre",
+          fecha: 8,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-08_diciembre_2021.pdf",
+        },
         {
           año: 2021,
           titulo: "Hoja de Miercoles 01 de Diciembre, 2021",

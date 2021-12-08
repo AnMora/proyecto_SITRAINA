@@ -19,7 +19,7 @@ const DJDirectiva = {
         },
         {
             path: "",
-            seccion: "Servicios"
+            seccion: "Convenios"
         },
         {
             path: "/sitraina/contactenos",
