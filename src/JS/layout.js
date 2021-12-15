@@ -16,6 +16,7 @@ import Presentacion from '../pages/presentacion';
 import Navbar from "./componentes/navbar";
 import Header from "./componentes/header";
 import Sitraina from '../pages/sitraina';
+import ENVIVO from "../pages/transmision";
 import Footer from './componentes/footer';
 
 // Pagina sitraina/contactenos
@@ -27,16 +28,20 @@ import HojaMiercoles from "../pages/hojamiercoles";
 // Pagina sitraina/reglamentos
 import Reglamentos from "../pages/reglamentos";
 
-// Pagina sitraina/reglamentos
+// Pagina sitraina/juntadirectiva
 import JDirectiva from "../pages/juntaDirectiva";
 
-// Pagina sitraina/reglamentos
+// Pagina sitraina/fiscalia
 import Fiscalia from "../pages/fiscalia";
+
+// Pagina sitraina/convenios
+import Convenios from "../pages/convenios";
 
 // Import Estilos
 import "../CSS/general.css";
 
 // Importar Data
+import EVV from "./Utils/datatransmision";
 import DPres from './Utils/datapresentacion';
 import DPP from './Utils/dataprincipal';
 import DCont from './Utils/datacontactenos';
@@ -44,16 +49,19 @@ import DHmiercoles from "./Utils/datahojamiercoles";
 import DRegla from "./Utils/datareglamentos";
 import DJDirectiva from "./Utils/dataJuntaDirectiva";
 import DFisc from "./Utils/datafiscalia";
+import DConv from "./Utils/dataconvenios";
 
 export class Layout extends Component {
   state = {
     pDataPresentacion: DPres,
+    pDataTranmisiones: EVV,
     pDataPaginaPrincipal: DPP,
     pDataContactenos: DCont,
     pDataHmiercoles: DHmiercoles,
     pDataReglamentos: DRegla,
     pDataJDirectiva: DJDirectiva,
-    pDataFiscalia: DFisc
+    pDataFiscalia: DFisc,
+    pDataConvenios: DConv
   };
 
   render() {
@@ -61,6 +69,18 @@ export class Layout extends Component {
         <Router>
             <>
                 <Switch>
+                    <Route path="/sitraina/convenios">
+                        <div id="wrapper">
+                            <Navbar data={this.state.pDataConvenios} />
+                            <main id="content-wrapper" className="d-flex flex-column">
+                                <div className="content">
+                                    <Header data={this.state.pDataPresentacion} />
+                                    <Convenios data={this.state.pDataConvenios} />
+                                </div>
+                            <Footer data={this.state.pDataPresentacion} />
+                            </main>
+                        </div>
+                    </Route>
                     <Route path="/sitraina/fiscalia">
                         <div id="wrapper">
                             <Navbar data={this.state.pDataFiscalia} />
@@ -115,6 +135,16 @@ export class Layout extends Component {
                             <main id="content-wrapper" className="d-flex flex-column">
                                 <Header data={this.state.pDataPresentacion} />
                                 <Contacto data={this.state.pDataContactenos} />
+                                <Footer data={this.state.pDataPresentacion} />
+                            </main>
+                        </div>
+                    </Route>
+                    <Route path="/EnVIVO">
+                        <div id="wrapper">
+                            <Navbar data={this.state.pDataTranmisiones} />
+                            <main id="content-wrapper" className="d-flex flex-column">
+                                <Header data={this.state.pDataPresentacion} />
+                                <ENVIVO data={this.state.pDataTranmisiones} />
                                 <Footer data={this.state.pDataPresentacion} />
                             </main>
                         </div>

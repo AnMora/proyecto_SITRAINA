@@ -42,7 +42,19 @@ const Presentacion = (props) => {
                 <section className="container text-primary text-center">
                     <article className="col-12">
                     <h1 className="display-5">Bienvenidos a <b>{Presentacion.Institucion}</b></h1>
-                    <h5 className="imp">{Presentacion.Aviso1}</h5>
+                    {/* <h1 className="display-5"><b>SITRAINA INFORMA</b></h1>
+                    <h2 className="display-5"><b>Martes 14 de Diciembre 2021</b></h2>
+                    <h2 className="display-5"><b>Horario: 4 pm a 5pm</b></h2>
+                    <h5 className="mt-3">
+                        Contexto Político Nacional con el profesor Esteban Aguilar Ramírez - <b>ENVIVO</b>
+                    </h5>
+                    <div className="col-auto">
+                        <Link to="/EnVIVO">
+                            <a href="##" className="text-light btn btn-info mt-2 mb-2" value="Ingresar">Ver Programa</a>
+                        </Link>
+                    </div> */}
+
+                    {/* <h5 className="imp">{Presentacion.Aviso1}</h5> */}
                     <h5 className="mt-3">{Presentacion.Aviso2}</h5>
                     <div className="col-auto">
                         <Link to="/sitraina">

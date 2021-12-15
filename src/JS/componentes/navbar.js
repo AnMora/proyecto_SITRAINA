@@ -148,76 +148,81 @@ const Navbar = (props) => {
           </>
         )}
 
-        <hr className="sidebar-divider" />
+        {estasEn === "Tramisiones ENVIVO" ? "" : (
+          <>
+            <hr className="sidebar-divider" />
 
-        <div className="sidebar-heading" data-tip data-for="Paginas">
-          Páginas de SITRAINA
-        </div>
-        <ReactTooltip id="Paginas" place="right" type="dark" effect="solid">
-          Partes que conforman SITRAINA
-        </ReactTooltip>
-
-        {Link_paginas}
-
-        <li className="nav-item" data-tip data-for="Multimedia">
-          <a
-            href="##"
-            className="nav-link collapsed icon"
-            data-toggle="collapse"
-            data-target="#collapseGallery"
-            aria-expanded="true"
-            aria-controls="collapseGallery"
-          >
-            <i className="fas fa-fw fa-photo-video"></i>
-            <span>Multimedia</span>
-          </a>
-          <div
-            id="collapseGallery"
-            className="collapse"
-            aria-labelledby="headingPages"
-            data-parent="#accordionSidebar"
-          >
-            <div className="bg-white py-2 collapse-inner rounded">
-              <h6 className="collapse-header">Galerias:</h6>
-              {Link_multimedia}
+            <div className="sidebar-heading" data-tip data-for="Paginas">
+              Páginas de SITRAINA
             </div>
-          </div>
-        </li>
-        <ReactTooltip id="Multimedia" place="right" type="dark" effect="solid">
-          Archivos (Fotos/Audios/Videos) de SITRAINA
-        </ReactTooltip>
-        
-        <hr className="sidebar-divider" />
+            <ReactTooltip id="Paginas" place="right" type="dark" effect="solid">
+              Partes que conforman SITRAINA
+            </ReactTooltip>
 
-        <div className="sidebar-heading" data-tip data-for="Afiliacion">
-          Afiliación
-        </div>
-        <ReactTooltip id="Afiliacion" place="right" type="dark" effect="solid">
-          Afiliese a SITRAINA descargando la siguiente boleta
-        </ReactTooltip>
-        <li className="nav-item" data-tip data-for="Boleta">
-          <div className="col-12 mt-2 mb-3">
+            {Link_paginas}
+
+            <li className="nav-item" data-tip data-for="Multimedia">
             <a
-              href={Boleta}
-              className="d-none d-block btn btn-sm btn-primary shadow-sm icon p-2"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="##"
+              className="nav-link collapsed icon"
+              data-toggle="collapse"
+              data-target="#collapseGallery"
+              aria-expanded="true"
+              aria-controls="collapseGallery"
             >
-              <i className="fas fa-fw fa-download fa-sm text-white-50"></i>
-              <span>Boleta</span>
+              <i className="fas fa-fw fa-photo-video"></i>
+              <span>Multimedia</span>
             </a>
-          </div>
-        </li>
-        <ReactTooltip id="Boleta" place="right" type="dark" effect="solid">
-          Descargar hoja de afiliación
-        </ReactTooltip>
+            <div
+              id="collapseGallery"
+              className="collapse"
+              aria-labelledby="headingPages"
+              data-parent="#accordionSidebar"
+            >
+              <div className="bg-white py-2 collapse-inner rounded">
+                <h6 className="collapse-header">Galerias:</h6>
+                {Link_multimedia}
+              </div>
+            </div>
+            </li>
+            <ReactTooltip id="Multimedia" place="right" type="dark" effect="solid">
+            Archivos (Fotos/Audios/Videos) de SITRAINA
+            </ReactTooltip>
+
+            <hr className="sidebar-divider" />
+
+            <div className="sidebar-heading" data-tip data-for="Afiliacion">
+              Afiliación
+            </div>
+            <ReactTooltip id="Afiliacion" place="right" type="dark" effect="solid">
+              Afiliese a SITRAINA descargando la siguiente boleta
+            </ReactTooltip>
+            <li className="nav-item" data-tip data-for="Boleta">
+              <div className="col-12 mt-2 mb-3">
+                <a
+                  href={Boleta}
+                  className="d-none d-block btn btn-sm btn-primary shadow-sm icon p-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fas fa-fw fa-download fa-sm text-white-50"></i>
+                  <span>Boleta</span>
+                </a>
+              </div>
+            </li>
+            <ReactTooltip id="Boleta" place="right" type="dark" effect="solid">
+              Descargar hoja de afiliación
+            </ReactTooltip>
+          </>
+        )}
+
         <div className="text-center d-none d-md-inline">
-          <button
-            className="rounded-circle border-0"
-            id="sidebarToggle"
-            onClick={(e) => handleSide(e)}
-          ></button>
-        </div>
+              <button
+                className="rounded-circle border-0"
+                id="sidebarToggle"
+                onClick={(e) => handleSide(e)}
+              ></button>
+            </div>
       </ul>
     </>
   );

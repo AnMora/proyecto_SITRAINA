@@ -10,7 +10,7 @@ const DPres = {
     ],
     PiePagina: [
         {
-            Derechos: "Copyright © SITRAINA 2021",
+            Derechos: "Copyright © TODOS LOS DERECHOS RESERVADOS - SITRAINA 2022",
             iconos: [
                 {
                     Nombre: "Facebook de SITRAINA",

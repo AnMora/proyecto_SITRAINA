@@ -18,7 +18,7 @@ const DJDirectiva = {
             seccion: "Seccionales"
         },
         {
-            path: "",
+            path: "/sitraina/convenios",
             seccion: "Convenios"
         },
         {

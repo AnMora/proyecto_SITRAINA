@@ -22,7 +22,7 @@ const DPP = {
             seccion: "Seccionales"
         },
         {
-            path: "",
+            path: "/sitraina/convenios",
             seccion: "Convenios"
         },
         {
@@ -40,30 +40,17 @@ const DPP = {
             seccion: "Audio/Video"
         }
     ],
-    transmision: [
-        {
-            linkEnvivo: "https://udecr.zoom.us/j/82248446764"
-        }
-    ],
+    transmision: "",
     HMActual: [
         {
           año: 2021,
-          titulo: "Hoja de Miercoles 08 de Diciembre, 2021",
+          titulo: "Hoja de Miercoles 15 de Diciembre, 2021",
           mes: "Diciembre",
-          fecha: 8,
-          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-08_diciembre_2021.pdf",
+          fecha: 15,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-15_diciembre_2021.pdf",
         },
     ],
-    // PROXIMA HOJA DE MIERCOLES DE SIGUIENTE SEMANA
-    // HMActual: [
-    //     {
-    //       año: 2021,
-    //       titulo: "Hoja de Miercoles 15 de Diciembre, 2021",
-    //       mes: "Diciembre",
-    //       fecha: 15,
-    //       link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-15_diciembre_2021.pdf",
-    //     },
-    // ],
+    // REVISAR CAMBIOS EN datahojamiercoles.js
     Informacion: [
         {
             seccion: "Hoja de Miercoles",
@@ -84,10 +71,10 @@ const DPP = {
             descripcion: "Información sobre los miembros"
         },
         {
-            seccion: "Servicios",
+            seccion: "Convenios",
             icon: "fas fa-info-circle fa-2x text-gray-300",
-            path: "",
-            descripcion: "Información sobre los servicios"
+            path: "/sitraina/convenios",
+            descripcion: "Información sobre los convenios"
         }
     ],
     Sitraina: [

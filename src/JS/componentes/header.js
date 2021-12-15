@@ -154,8 +154,11 @@ const Header = (props) => {
         </button>
 
         <ul className="navbar-nav ml-auto">
-          {/* <li className="nav-item dropdown no-arrow mx-1" data-tip data-for="Accesibilidad">
-            <Link to="/sitraina">
+
+        {/* ENVIVO ////////////////////////////////////////////////// */}
+
+          {/* <li className="nav-item dropdown no-arrow" data-tip data-for="Accesibilidad">
+            <Link to="/EnVIVO">
               <a className="nav-link dropdown-toggle" href="##" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div className="spinner-grow spinner-grow-sm text-danger" role="status">
                   <span className="sr-only">Loading...</span>
@@ -176,6 +179,8 @@ const Header = (props) => {
           </ReactTooltip>
 
           <div className="topbar-divider d-none d-sm-block"></div> */}
+
+          {/* ENVIVO ////////////////////////////////////////////////// */}
 
           <li className="nav-item dropdown no-arrow" data-tip data-for="Lema">
             <a

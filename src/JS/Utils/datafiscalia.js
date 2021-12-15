@@ -18,7 +18,7 @@ const DFisc = {
             seccion: "Seccionales"
         },
         {
-            path: "",
+            path: "/sitraina/convenios",
             seccion: "Convenios"
         },
         {

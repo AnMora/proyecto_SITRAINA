@@ -216,8 +216,22 @@ const Sitraina = (props) => {
     return (
         <div className="container-fluid">
             <div className="mt-4">
+                {/* <div className="alert alert-info" role="alert">
+                    <h1 className="display-5"><b>SITRAINA INFORMA</b></h1>
+                    <h2 className="display-5"><b>Martes 14 de Diciembre 2021</b></h2>
+                    <h2 className="display-5"><b>Horario: 4 pm a 5pm</b></h2>
+                    <h5 className="mt-3">
+                        Contexto Político Nacional con el profesor Esteban Aguilar Ramírez - <b>ENVIVO</b>
+                    </h5>
+                    <div className="col-auto">
+                        <Link to="/EnVIVO">
+                            <a href="##" className="text-light btn btn-info mt-2 mb-2" value="Ingresar">Ver Programa</a>
+                        </Link>
+                    </div>
+                </div> */}
+
                 <div className="alert alert-primary" role="alert">
-                    Este sitio web aun se encuentra en construcción por lo que solo se encuentra en su función: <strong>Página principal, hoja de miércoles, reglamentos, junta directiva, fiscalia y contactenos.</strong>
+                    Este sitio web aun se encuentra en construcción por lo que solo se encuentra en su función: <strong>Página principal, hoja de miércoles, reglamentos, junta directiva, fiscalia, convenios y contactenos.</strong>
                 </div>
                 
                 {/* {HMReciente} */}
