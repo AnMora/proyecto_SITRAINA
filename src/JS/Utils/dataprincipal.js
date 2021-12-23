@@ -44,10 +44,10 @@ const DPP = {
     HMActual: [
         {
           año: 2021,
-          titulo: "Hoja de Miercoles 15 de Diciembre, 2021",
+          titulo: "Hoja de Miercoles 22 de Diciembre, 2021",
           mes: "Diciembre",
-          fecha: 15,
-          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-15_diciembre_2021.pdf",
+          fecha: 22,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-22_diciembre_2021.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js

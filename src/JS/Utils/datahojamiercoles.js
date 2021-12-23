@@ -44,13 +44,29 @@ const DHmiercoles = {
     ],
     HM2021: [
       // Hoja de Miercoles proxima
-        // {
-        //   año: 2021,
-        //   titulo: "Hoja de Miercoles 22 de Diciembre, 2021",
-        //   mes: "Diciembre",
-        //   fecha: 22,
-        //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-22_diciembre_2021.pdf",
-        // },
+      // {
+      //   año: 2021,
+      //   titulo: "Hoja de Miercoles 05 de Diciembre, 2022",
+      //   mes: "Diciembre",
+      //   fecha: 05,
+      //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-05_diciembre_2021.pdf",
+      // },
+      // Hoja de Miercoles proxima
+      // {
+      //   año: 2021,
+      //   titulo: "Hoja de Miercoles 29 de Diciembre, 2021",
+      //   mes: "Diciembre",
+      //   fecha: 29,
+      //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-29_diciembre_2021.pdf",
+      // },
+      // Hoja de Miercoles Actual
+        {
+          año: 2021,
+          titulo: "Hoja de Miercoles 22 de Diciembre, 2021",
+          mes: "Diciembre",
+          fecha: 22,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-22_diciembre_2021.pdf",
+        },
         // Hoja de Miercoles Actual
         {
           año: 2021,
