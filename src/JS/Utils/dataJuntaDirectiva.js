@@ -28,7 +28,7 @@ const DJDirectiva = {
     ],
     multimedia: [
         {
-            path: "",
+            path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
         {

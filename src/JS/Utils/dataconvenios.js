@@ -28,7 +28,7 @@ const DConv = {
     ],
     multimedia: [
         {
-            path: "",
+            path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
         {

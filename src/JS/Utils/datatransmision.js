@@ -8,7 +8,7 @@ const EVV = {
     ],
     multimedia: [
         {
-            path: "",
+            path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
         {

@@ -28,7 +28,7 @@ const DHmiercoles = {
     ],
     multimedia: [
         {
-            path: "",
+            path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
         {

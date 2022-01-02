@@ -1,11 +1,10 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 // Instalar react-router-dom
 import { 
     BrowserRouter as Router,
     Route,
     Switch
 } from "react-router-dom";
-
 // Organizar los import por prioridad
 
 // Import Contenido primera pagina
@@ -37,6 +36,9 @@ import Fiscalia from "../pages/fiscalia";
 // Pagina sitraina/convenios
 import Convenios from "../pages/convenios";
 
+// Pagina sitraina/AlbumnesFotos
+import AlbumnesFotos from "../pages/fotosAlbumnes";
+
 // Import Estilos
 import "../CSS/general.css";
 
@@ -51,6 +53,8 @@ import DJDirectiva from "./Utils/dataJuntaDirectiva";
 import DFisc from "./Utils/datafiscalia";
 import DConv from "./Utils/dataconvenios";
 
+import DFotAlbm from "./Utils/dataFotosAlbumnes";
+
 export class Layout extends Component {
   state = {
     pDataPresentacion: DPres,
@@ -61,7 +65,8 @@ export class Layout extends Component {
     pDataReglamentos: DRegla,
     pDataJDirectiva: DJDirectiva,
     pDataFiscalia: DFisc,
-    pDataConvenios: DConv
+    pDataConvenios: DConv,
+    pDataAlbumnesFotos: DFotAlbm
   };
 
   render() {
@@ -69,6 +74,18 @@ export class Layout extends Component {
         <Router>
             <>
                 <Switch>
+                    <Route path="/sitraina/AlbumnesFotos">
+                        <div id="wrapper">
+                            <Navbar data={this.state.pDataAlbumnesFotos} />
+                            <main id="content-wrapper" className="d-flex flex-column">
+                                <div className="content">
+                                    <Header data={this.state.pDataPresentacion} />
+                                    <AlbumnesFotos data={this.state.pDataAlbumnesFotos} />
+                                </div>
+                            <Footer data={this.state.pDataPresentacion} />
+                            </main>
+                        </div>
+                    </Route>
                     <Route path="/sitraina/convenios">
                         <div id="wrapper">
                             <Navbar data={this.state.pDataConvenios} />

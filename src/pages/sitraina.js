@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
 import { Link } from "react-router-dom";
 import ScrollToTop from '../JS/componentes/ScrollToTop';
 
 const Sitraina = (props) => {
+
+    useEffect(() => {
+        ReactGA.initialize('UA-216041901-1');
+        // to report page view
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }, []);
 
     const Secciones_Links = props.data.Informacion.map((item,position) => {
         return (
@@ -231,7 +238,7 @@ const Sitraina = (props) => {
                 </div> */}
 
                 <div className="alert alert-primary" role="alert">
-                    Este sitio web aun se encuentra en construcción por lo que solo se encuentra en su función: <strong>Página principal, hoja de miércoles, reglamentos, junta directiva, fiscalia, convenios y contactenos.</strong>
+                    Este sitio web aun se encuentra en construcción por lo que solo se encuentra en su función: <strong>Página principal, hoja de miércoles, reglamentos, junta directiva, fiscalia, convenios y contactenos.</strong> Dentro de la sección multimedia presentamos la página: <strong>Albumnes/Fotos.</strong>
                 </div>
                 
                 {/* {HMReciente} */}

@@ -32,7 +32,7 @@ const DPP = {
     ],
     multimedia: [
         {
-            path: "",
+            path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
         {
