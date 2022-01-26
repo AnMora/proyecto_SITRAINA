@@ -42,12 +42,19 @@ const DPP = {
     ],
     transmision: "",
     HMActual: [
+        // {
+        //   año: 2022,
+        //   titulo: "Hoja de Miercoles 26 de Enero, 2022",
+        //   mes: "Enero",
+        //   fecha: 26,
+        //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-26_enero_2022.pdf",
+        // },
         {
-          año: 2021,
-          titulo: "Hoja de Miercoles 22 de Diciembre, 2021",
-          mes: "Diciembre",
-          fecha: 22,
-          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-22_diciembre_2021.pdf",
+            año: 2022,
+            titulo: "Hoja de Miercoles 19 de Enero, 2022",
+            mes: "Enero",
+            fecha: 19,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-19_enero_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js

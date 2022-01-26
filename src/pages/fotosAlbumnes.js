@@ -17,28 +17,62 @@ const AlbumnesFotos = (props) => {
         // setModel(true);
     };
 
-    const Captura = props.data.Capturas.map((item,position) => {
+    const AlbumRandom = props.data.Album_Random.map((item,position) => {
         return (
             <>
                 <div key={position} className="col-xl-2 col-md-4 pics" onClick={() => getImg(item.img, item.titulo, item.descripcion)}>
                     <div className="m-2">
                         <img src={item.img} className='rounded-lg img-thumbnail'
                         data-toggle="modal"
-                        data-target=".bd-example-modal-lg" />
+                        data-target=".bd-example-modal-lg"
+                        alt="SITRAINA" />
                     </div>
                 </div>
             </>
         )
     })
 
-    const Exposicion = props.data.Exposiciones.map((item,position) => {
+    const Album2019 = props.data.Album_2019.map((item,position) => {
         return (
             <>
                 <div key={position} className="col-xl-2 col-md-4 pics" onClick={() => getImg(item.img, item.titulo, item.descripcion)}>
                     <div className="m-2">
                         <img src={item.img} className='rounded-lg img-thumbnail'
                         data-toggle="modal"
-                        data-target=".bd-example-modal-lg" />
+                        data-target=".bd-example-modal-lg"
+                        alt="SITRAINA" />
+                    </div>
+                </div>
+            </>
+        )
+    })
+
+    const GiraSur = props.data.Gira_SurSur.map((item,position) => {
+        return (
+            <>
+                <div key={position} className="col-xl-2 col-md-4 pics" onClick={() => getImg(item.img, item.titulo, item.descripcion)}>
+                    <div className="m-2">
+                        <img src={item.img} className='rounded-lg img-thumbnail'
+                        data-toggle="modal"
+                        data-target=".bd-example-modal-lg" 
+                        alt="SITRAINACR"
+                        />
+                    </div>
+                </div>
+            </>
+        )
+    })
+
+    const GiraGuanacaste = props.data.Gira_Guanacaste.map((item,position) => {
+        return (
+            <>
+                <div key={position} className="col-xl-2 col-md-4 pics" onClick={() => getImg(item.img, item.titulo, item.descripcion)}>
+                    <div className="m-2">
+                        <img src={item.img} className='rounded-lg img-thumbnail'
+                        data-toggle="modal"
+                        data-target=".bd-example-modal-lg" 
+                        alt="SITRAINACR"
+                        />
                     </div>
                 </div>
             </>
@@ -71,42 +105,78 @@ const AlbumnesFotos = (props) => {
 
                 <div className="card border-bottom-info shadow mb-4">
                     <a
-                        href="#Capturas"
+                        href="#AlbumRandom"
                         className="d-block card-header"
                         data-toggle="collapse"
                         role="button"
                         aria-expanded="true"
                         aria-controls="collapseCard"
                     >
-                        <h4 className="m-0 font-weight-bold text-primary">Capturas</h4>
+                        <h4 className="m-0 font-weight-bold text-primary">Album SITRAINA</h4>
                     </a>
-                    <div className="collapse show" id="Capturas">
+                    <div className="collapse show" id="AlbumRandom">
                         <div className="row">
-                            {Captura}
+                            {AlbumRandom}
                         </div>
                     </div>
                 </div>
 
                 <div className="card border-bottom-info shadow mb-4">
                     <a
-                        href="#Exposiciones"
+                        href="#Album2019"
                         className="d-block card-header"
                         data-toggle="collapse"
                         role="button"
                         aria-expanded="true"
                         aria-controls="collapseCard"
                     >
-                        <h4 className="m-0 font-weight-bold text-primary">Exposiciones </h4>
+                        <h4 className="m-0 font-weight-bold text-primary">Album 2019</h4>
                     </a>
-                    <div className="collapse show" id="Exposiciones">
+                    <div className="collapse show" id="Album2019">
                         <div className="row">
-                            {Exposicion}
+                            {Album2019}
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card border-bottom-info shadow mb-4">
+                    <a
+                        href="#GiraSur"
+                        className="d-block card-header"
+                        data-toggle="collapse"
+                        role="button"
+                        aria-expanded="true"
+                        aria-controls="collapseCard"
+                    >
+                        <h4 className="m-0 font-weight-bold text-primary">Gira al Sur</h4>
+                    </a>
+                    <div className="collapse show" id="GiraSur">
+                        <div className="row">
+                            {GiraSur}
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card border-bottom-info shadow mb-4">
+                    <a
+                        href="#GiraGuanacaste"
+                        className="d-block card-header"
+                        data-toggle="collapse"
+                        role="button"
+                        aria-expanded="true"
+                        aria-controls="collapseCard"
+                    >
+                        <h4 className="m-0 font-weight-bold text-primary">Gira Puntarenas/Guanacaste/Upala</h4>
+                    </a>
+                    <div className="collapse show" id="GiraGuanacaste">
+                        <div className="row">
+                            {GiraGuanacaste}
                         </div>
                     </div>
                 </div>
 
                 <div
-                    className="modal fade bd-example-modal-lg"
+                    className="modal fade bd-example-modal-lg shadow-lg"
                     id="exampleModal"
                     tabindex="-1"
                     role="dialog"
@@ -119,11 +189,9 @@ const AlbumnesFotos = (props) => {
                             <div className="modal-title h4 font-weight-bold text-info text-uppercase mb-1" id="exampleModalLabel">
                                 {tempimgtitle}
                             </div>
-                            <small className='m-2'>{tempimgdescp}</small>
+                            <small className="mt-2">{tempimgdescp}</small>
                         </div>
-                        <div className="modal-body">
-                            <img src={tempimgSrc} className='rounded-lg img-fluid' />
-                        </div>
+                            <img src={tempimgSrc} className='img-fluid' alt="SITRAINACR"/>
                         <div className="modal-footer">
                             <button
                             type="button"

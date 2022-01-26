@@ -78,7 +78,7 @@ const DConv = {
         {
             titulo: "Opticas Visión", 
             link: "../../Documentos/convenios/convenio_Ovision.jpg",
-            descripcion: "Examen de la vista gratis, 15% Descuento en la compra de lentes."
+            descripcion: "Examen de la vista gratis, 15% Descuento en la compra de lentes. Más información: 2220 2480"
         },
         {
             titulo: "Universidad de las Ciencias y el Arte",

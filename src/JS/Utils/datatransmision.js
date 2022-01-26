@@ -1,5 +1,5 @@
 const EVV = {
-    estasEn: "Tramisiones ENVIVO",
+    estasEn: "Transmisión ENVIVO",
     paginas: [
         {
             path: "/sitraina",
@@ -17,7 +17,7 @@ const EVV = {
         }
     ],
     transmision: "",
-    // transmision: "https://www.facebook.com/754168658008668/videos/227604179488271"
+    // transmision: "https://www.facebook.com/SitrainaCR/videos/998541544338880/",
 }
 
 export default EVV

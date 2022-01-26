@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from "react";
+import React, { Component } from "react";
 // Instalar react-router-dom
 import { 
     BrowserRouter as Router,
@@ -55,7 +55,7 @@ import DConv from "./Utils/dataconvenios";
 
 import DFotAlbm from "./Utils/dataFotosAlbumnes";
 
-export class Layout extends Component {
+class Layout extends Component {
   state = {
     pDataPresentacion: DPres,
     pDataTranmisiones: EVV,

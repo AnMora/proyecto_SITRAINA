@@ -11,10 +11,12 @@ const ENVIVO = (props) => {
                 <div className="mt-4">
                     <div className="alert alert-info" role="alert">
                         <h1 className="display-5"><b>SITRAINA INFORMA</b></h1>
-                        <h2 className="display-5"><b>Martes 14 de Diciembre 2021</b></h2>
-                        <h2 className="display-5"><b>Horario: 4 pm a 5pm</b></h2>
-                        <h5 className="mt-3">
-                            Contexto Político Nacional con el profesor Esteban Aguilar Ramírez - <b>ENVIVO</b>
+                        <h5 className="display-5"><b>Martes 25 de Enero 2022 - Horario: 4 pm a 5pm</b></h5>
+                        <h4 className="mt-3">
+                            <b>¿Como llevar un procedimiento de acoso laboral en el INA?</b>
+                        </h4>
+                        <h5>
+                            con Melissa Segura Navarro - Abogada de SITRAINA
                         </h5>
                     </div>
 

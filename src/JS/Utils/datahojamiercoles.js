@@ -42,24 +42,39 @@ const DHmiercoles = {
             lema: "Las Hojas de Miercoles estan acomodadas por listas dentro de las opciones desplegables teniendo de titular su año correspondiente que se muestran a continuacion."
         }
     ],
-    HM2021: [
+    HM2022: [
       // Hoja de Miercoles proxima
       // {
-      //   año: 2021,
-      //   titulo: "Hoja de Miercoles 05 de Diciembre, 2022",
-      //   mes: "Diciembre",
-      //   fecha: 05,
-      //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-05_diciembre_2021.pdf",
-      // },
-      // Hoja de Miercoles proxima
-      // {
-      //   año: 2021,
-      //   titulo: "Hoja de Miercoles 29 de Diciembre, 2021",
-      //   mes: "Diciembre",
-      //   fecha: 29,
-      //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-29_diciembre_2021.pdf",
+      //   año: 2022,
+      //   titulo: "Hoja de Miercoles 02 de Febrero, 2022",
+      //   mes: "Febrero",
+      //   fecha: 2,
+      //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-02_febrero_2022.pdf",
       // },
       // Hoja de Miercoles Actual
+      // {
+      //   año: 2022,
+      //   titulo: "Hoja de Miercoles 26 de Enero, 2022",
+      //   mes: "Enero",
+      //   fecha: 26,
+      //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-26_enero_2022.pdf",
+      // },
+      {
+        año: 2022,
+        titulo: "Hoja de Miercoles 19 de Enero, 2022",
+        mes: "Enero",
+        fecha: 19,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-19_enero_2022.pdf",
+      },
+      {
+        año: 2022,
+        titulo: "Hoja de Miercoles 12 de Enero, 2022",
+        mes: "Enero",
+        fecha: 12,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-12_enero_2022.pdf",
+      },
+    ],
+    HM2021: [
         {
           año: 2021,
           titulo: "Hoja de Miercoles 22 de Diciembre, 2021",

@@ -201,13 +201,13 @@ const Header = (props) => {
                 alt="Fines ilustrativos"
               />
             </a>
-            <div
+            {/* <div
               className="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
               aria-labelledby="LinksDropdown"
             >
               <h6 className="dropdown-header">Te inivitamos visitar</h6>
               {RSociales_icons}
-            </div>
+            </div> */}
           </li>
           <ReactTooltip id="Lema" place="left" type="dark" effect="solid">
             Mientras haya Injusticia.. Habrá Sindicalismo
