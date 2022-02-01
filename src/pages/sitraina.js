@@ -287,15 +287,70 @@ const Sitraina = (props) => {
           </div>
         </div> */}
 
-        <div className="alert alert-primary" role="alert">
-          Este sitio web aun se encuentra en construcción por lo que solo se
-          encuentra en su función:{" "}
-          <strong>
-            Página principal, hoja de miércoles, reglamentos, junta directiva,
-            fiscalia, convenios y contactenos.
-          </strong>{" "}
-          Dentro de la sección multimedia presentamos la página:{" "}
-          <strong>Albumnes/Fotos.</strong>
+        <div className="card border-left-danger shadow mb-4">
+          <a
+            href="#Utiles"
+            className="d-block card-header"
+            data-toggle="collapse"
+            role="button"
+            aria-expanded="true"
+            aria-controls="collapseCard"
+          >
+            <h4 className="m-0 font-weight-bold text-primary">
+              Venta de Utiles Escolares
+            </h4>
+            <small className="mt-2">
+              Un programa para ayudar a la economia de nuestras personas
+              afiliadas
+            </small>
+          </a>
+          <div className="collapse show" id="Utiles">
+            <div className="card-body">
+              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                <div className="row">
+                  <div className="col-md-4">
+                    <div classname="card">
+                      <div classname="card-body">
+                        <img
+                          src="../../Documentos/informativas/utilesescolares.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div classname="card">
+                      <div classname="card-body">
+                        <img
+                          src="../../Documentos/informativas/utilesescolares1.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div classname="card">
+                      <div classname="card-body">
+                        <img
+                          src="../../Documentos/informativas/utilesescolares2.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* {HMReciente} */}

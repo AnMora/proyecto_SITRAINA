@@ -9,15 +9,18 @@ import Boleta from "../../Documentos/afiliacion/boleta_afiliacion_sitraina.pdf";
 const Navbar = (props) => {
   const handleSide = (e) => {
     e.preventDefault();
-    $("body").toggleClass("sidebar-toggled");
-    $(".sidebar").toggleClass("toggled");
+    if (window.screen.width < 768){
+      $(".sidebar").toggleClass("toggled");
+    } else {
+      $("body").toggleClass("sidebar-toggled");
+    }
   };
 
   const estasEn = props.data.estasEn;
   const Link_paginas = props.data.paginas.map((item, position) => {
     return (
       <>
-        <li className="nav-item" data-tip data-for={item.seccion} key={position}>
+        <li className="nav-item" data-tip data-for={item.seccion} key={position} onClick={(e) => handleSide(e)}>
           <Link to={item.path}>
             <a href="##" className="nav-link icon">
               <i className="fas fa-fw fa-file-alt"></i>
@@ -77,7 +80,7 @@ const Navbar = (props) => {
             <ReactTooltip id="estasEn" place="right" type="dark" effect="solid">
               Muestra de Ubicación para usuarios con discapacidad en SITRAINA
             </ReactTooltip>
-            <li className="nav-item d-inline-flex active">
+            <li className="nav-item d-inline-flex active" onClick={(e) => handleSide(e)}>
               <a
                 href="##"
                 className="nav-link"
@@ -125,7 +128,7 @@ const Navbar = (props) => {
             <ReactTooltip id="Volver" place="right" type="dark" effect="solid">
               La siguiente opción es para volver a Página Principal
             </ReactTooltip>
-            <li className="nav-item d-inline-flex">
+            <li className="nav-item d-inline-flex" onClick={(e) => handleSide(e)}>
               <Link to="/sitraina">
                 <a
                   href="##"
@@ -148,7 +151,7 @@ const Navbar = (props) => {
           </>
         )}
 
-        {estasEn === "Tramisiones ENVIVO" ? "" : (
+        {estasEn === "Transmision ENVIVO" ? "" : (
           <>
             <hr className="sidebar-divider" />
 
@@ -161,33 +164,37 @@ const Navbar = (props) => {
 
             {Link_paginas}
 
-            <li className="nav-item" data-tip data-for="Multimedia">
-            <a
-              href="##"
-              className="nav-link collapsed icon"
-              data-toggle="collapse"
-              data-target="#collapseGallery"
-              aria-expanded="true"
-              aria-controls="collapseGallery"
-            >
-              <i className="fas fa-fw fa-photo-video"></i>
-              <span>Multimedia</span>
-            </a>
-            <div
-              id="collapseGallery"
-              className="collapse"
-              aria-labelledby="headingPages"
-              data-parent="#accordionSidebar"
-            >
-              <div className="bg-white py-2 collapse-inner rounded">
-                <h6 className="collapse-header">Galerias:</h6>
-                {Link_multimedia}
-              </div>
-            </div>
-            </li>
-            <ReactTooltip id="Multimedia" place="right" type="dark" effect="solid">
-            Archivos (Fotos/Audios/Videos) de SITRAINA
-            </ReactTooltip>
+            {estasEn === "Albumnes/Fotos" ? "" : (
+              <>
+                <li className="nav-item" data-tip data-for="Multimedia">
+                  <a
+                    href="##"
+                    className="nav-link collapsed icon"
+                    data-toggle="collapse"
+                    data-target="#collapseGallery"
+                    aria-expanded="true"
+                    aria-controls="collapseGallery"
+                  >
+                    <i className="fas fa-fw fa-photo-video"></i>
+                    <span>Multimedia</span>
+                  </a>
+                  <div
+                    id="collapseGallery"
+                    className="collapse"
+                    aria-labelledby="headingPages"
+                    data-parent="#accordionSidebar"
+                  >
+                    <div className="bg-white py-2 collapse-inner rounded">
+                      <h6 className="collapse-header">Galerias:</h6>
+                      {Link_multimedia}
+                    </div>
+                  </div>
+                </li>
+                {/* <ReactTooltip id="Multimedia" place="right" type="dark" effect="solid">
+                  Archivos (Fotos/Audios/Videos) de SITRAINA
+                </ReactTooltip> */}
+              </>
+            )}
 
             <hr className="sidebar-divider" />
 
@@ -215,14 +222,6 @@ const Navbar = (props) => {
             </ReactTooltip>
           </>
         )}
-
-        <div className="text-center d-none d-md-inline">
-              <button
-                className="rounded-circle border-0"
-                id="sidebarToggle"
-                onClick={(e) => handleSide(e)}
-              ></button>
-            </div>
       </ul>
     </>
   );

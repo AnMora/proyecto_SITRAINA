@@ -1,5 +1,5 @@
 const EVV = {
-    estasEn: "Transmisión ENVIVO",
+    estasEn: "Transmision ENVIVO",
     paginas: [
         {
             path: "/sitraina",
@@ -11,10 +11,10 @@ const EVV = {
             path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
-        {
-            path: "",
-            seccion: "Audio/Video"
-        }
+        // {
+        //     path: "",
+        //     seccion: "Audio/Video"
+        // }
     ],
     transmision: "",
     // transmision: "https://www.facebook.com/SitrainaCR/videos/998541544338880/",

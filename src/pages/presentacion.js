@@ -65,15 +65,15 @@ const Presentacion = (props) => {
             <h1 className="display-5 text-danger">
               <b>SITRAINA INFORMA</b>
             </h1>
-            {/* <h5 className="display-5">
-              <b>Martes 25 de enero</b>
+            <h5 className="display-5">
+              <b>Martes 01 de Febrero</b>
             </h5>
             <h3 className="display-5 text-danger">
-              <b>¿Como llevar un procedimiento de acoso laboral en el INA?</b>
+              <b>Proyecto vida natural - Fomento de una etica ambiental en el INA</b>
             </h3>
             <h5>
-              <b>con Melissa Segura Navarro - Abogada de SITRAINA</b>
-            </h5> */}
+              <b>con Sebastian Miranda Brenes - Docente de gestion ambiental, unidad regional huetar caribe</b>
+            </h5>
             <h3 className="display-5 mt-3">
               <b>Síguenos todos los martes a las 4:00 pm</b>
             </h3>
@@ -85,13 +85,13 @@ const Presentacion = (props) => {
               <b>SITRAINA INFORMA</b>
             </h1>
             <h5 className="display-5">
-              <b>Martes 25 de Enero 2022 - Horario: 4 pm a 5pm</b>
+              <b>Martes 01 de Febrero 2022 - Horario: 4 pm a 5pm</b>
             </h5>
             <h3 className="display-5 text-danger">
-              <b>¿Como llevar un procedimiento de acoso laboral en el INA?</b>
+              <b>Proyecto vida natural - Fomento de una etica ambiental en el INA</b>
             </h3>
             <h5>
-              <b>con Melissa Segura Navarro - Abogada de SITRAINA</b>
+              <b>con Sebastian Miranda Brenes - Docente de gestion ambiental, unidad regional Huetar Caribe</b>
             </h5>
             <h5 className="mt-3">
               <div className="spinner-grow spinner-grow-sm text-danger mb-2" role="status">

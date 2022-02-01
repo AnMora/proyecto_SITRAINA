@@ -17,10 +17,10 @@ const DPP = {
             path: "/sitraina/fiscalia",
             seccion: "Fiscalia"
         },
-        {
-            path: "",
-            seccion: "Seccionales"
-        },
+        // {
+        //     path: "",
+        //     seccion: "Seccionales"
+        // },
         {
             path: "/sitraina/convenios",
             seccion: "Convenios"
@@ -35,27 +35,27 @@ const DPP = {
             path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
-        {
-            path: "",
-            seccion: "Audio/Video"
-        }
+        // {
+        //     path: "",
+        //     seccion: "Audio/Video"
+        // }
     ],
-    transmision: "",
     HMActual: [
         // {
         //   año: 2022,
-        //   titulo: "Hoja de Miercoles 26 de Enero, 2022",
-        //   mes: "Enero",
-        //   fecha: 26,
-        //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-26_enero_2022.pdf",
+        //   titulo: "Hoja de Miercoles 02 de Febrero, 2022",
+        //   mes: "Febrero",
+        //   fecha: 2,
+        //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-02_febrero_2022.pdf",
         // },
         {
-            año: 2022,
-            titulo: "Hoja de Miercoles 19 de Enero, 2022",
-            mes: "Enero",
-            fecha: 19,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-19_enero_2022.pdf",
+          año: 2022,
+          titulo: "Hoja de Miercoles 26 de Enero, 2022",
+          mes: "Enero",
+          fecha: 26,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-26_enero_2022.pdf",
         },
+
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
     Informacion: [

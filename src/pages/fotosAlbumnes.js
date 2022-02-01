@@ -79,6 +79,22 @@ const AlbumnesFotos = (props) => {
         )
     })
 
+    const GiraTLSSN = props.data.Gira_TLSSN.map((item,position) => {
+        return (
+            <>
+                <div key={position} className="col-xl-2 col-md-4 pics" onClick={() => getImg(item.img, item.titulo, item.descripcion)}>
+                    <div className="m-2">
+                        <img src={item.img} className='rounded-lg img-thumbnail'
+                        data-toggle="modal"
+                        data-target=".bd-example-modal-lg" 
+                        alt="SITRAINACR"
+                        />
+                    </div>
+                </div>
+            </>
+        )
+    })
+
     return (
         <>
             <div className='container-fluid'>
@@ -105,36 +121,18 @@ const AlbumnesFotos = (props) => {
 
                 <div className="card border-bottom-info shadow mb-4">
                     <a
-                        href="#AlbumRandom"
+                        href="#GiraTLSSN"
                         className="d-block card-header"
                         data-toggle="collapse"
                         role="button"
                         aria-expanded="true"
                         aria-controls="collapseCard"
                     >
-                        <h4 className="m-0 font-weight-bold text-primary">Album SITRAINA</h4>
+                        <h5 className="m-0 font-weight-bold text-primary">Gira Turrialba/Limón/Sarapiquí/San Carlos/Naranjo</h5>
                     </a>
-                    <div className="collapse show" id="AlbumRandom">
+                    <div className="collapse show" id="GiraTLSSN">
                         <div className="row">
-                            {AlbumRandom}
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card border-bottom-info shadow mb-4">
-                    <a
-                        href="#Album2019"
-                        className="d-block card-header"
-                        data-toggle="collapse"
-                        role="button"
-                        aria-expanded="true"
-                        aria-controls="collapseCard"
-                    >
-                        <h4 className="m-0 font-weight-bold text-primary">Album 2019</h4>
-                    </a>
-                    <div className="collapse show" id="Album2019">
-                        <div className="row">
-                            {Album2019}
+                            {GiraTLSSN}
                         </div>
                     </div>
                 </div>
@@ -148,7 +146,7 @@ const AlbumnesFotos = (props) => {
                         aria-expanded="true"
                         aria-controls="collapseCard"
                     >
-                        <h4 className="m-0 font-weight-bold text-primary">Gira al Sur</h4>
+                        <h5 className="m-0 font-weight-bold text-primary">Gira al Sur</h5>
                     </a>
                     <div className="collapse show" id="GiraSur">
                         <div className="row">
@@ -166,11 +164,47 @@ const AlbumnesFotos = (props) => {
                         aria-expanded="true"
                         aria-controls="collapseCard"
                     >
-                        <h4 className="m-0 font-weight-bold text-primary">Gira Puntarenas/Guanacaste/Upala</h4>
+                        <h5 className="m-0 font-weight-bold text-primary">Gira Puntarenas/Guanacaste/Upala</h5>
                     </a>
                     <div className="collapse show" id="GiraGuanacaste">
                         <div className="row">
                             {GiraGuanacaste}
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card border-bottom-info shadow mb-4">
+                    <a
+                        href="#AlbumRandom"
+                        className="d-block card-header"
+                        data-toggle="collapse"
+                        role="button"
+                        aria-expanded="true"
+                        aria-controls="collapseCard"
+                    >
+                        <h5 className="m-0 font-weight-bold text-primary">Album SITRAINA</h5>
+                    </a>
+                    <div className="collapse show" id="AlbumRandom">
+                        <div className="row">
+                            {AlbumRandom}
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card border-bottom-info shadow mb-4">
+                    <a
+                        href="#Album2019"
+                        className="d-block card-header"
+                        data-toggle="collapse"
+                        role="button"
+                        aria-expanded="true"
+                        aria-controls="collapseCard"
+                    >
+                        <h5 className="m-0 font-weight-bold text-primary">Album 2019</h5>
+                    </a>
+                    <div className="collapse show" id="Album2019">
+                        <div className="row">
+                            {Album2019}
                         </div>
                     </div>
                 </div>
@@ -186,7 +220,7 @@ const AlbumnesFotos = (props) => {
                     <div className="modal-dialog modal-lg" role="document">
                         <div className="modal-content">
                         <div className="modal-header">
-                            <div className="modal-title h4 font-weight-bold text-info text-uppercase mb-1" id="exampleModalLabel">
+                            <div className="modal-title p font-weight-bold text-primary text-uppercase mb-1" id="exampleModalLabel">
                                 {tempimgtitle}
                             </div>
                             <small className="mt-2">{tempimgdescp}</small>

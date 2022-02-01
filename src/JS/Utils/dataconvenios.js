@@ -17,10 +17,10 @@ const DConv = {
             path: "/sitraina/fiscalia",
             seccion: "Fiscalia"
         },
-        {
-            path: "",
-            seccion: "Seccionales"
-        },
+        // {
+        //     path: "",
+        //     seccion: "Seccionales"
+        // },
         {
             path: "/sitraina/contactenos",
             seccion: "Contactenos"
@@ -31,10 +31,10 @@ const DConv = {
             path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
-        {
-            path: "",
-            seccion: "Audio/Video"
-        }
+        // {
+        //     path: "",
+        //     seccion: "Audio/Video"
+        // }
     ],
     HConvenios: [
         {

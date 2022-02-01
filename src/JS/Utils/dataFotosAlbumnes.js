@@ -17,10 +17,10 @@ const DFotAlbm = {
             path: "/sitraina/fiscalia",
             seccion: "Fiscalia"
         },
-        {
-            path: "",
-            seccion: "Seccionales"
-        },
+        // {
+        //     path: "",
+        //     seccion: "Seccionales"
+        // },
         {
             path: "/sitraina/convenios",
             seccion: "Convenios"
@@ -31,10 +31,10 @@ const DFotAlbm = {
         }
     ],
     multimedia: [
-        {
-            path: "",
-            seccion: "Audio/Video"
-        }
+        // {
+        //     path: "",
+        //     seccion: "Audio/Video"
+        // }
     ],
     HAlbumnesFotos: [
         {
@@ -42,6 +42,108 @@ const DFotAlbm = {
             lema: "Una galería de imágenes es un recurso muy útil cuando necesitas mostrar una serie de fotos en una página o artículo de tu sitio web. Te permite agruparlas y mostrarlas de una forma más profesional.",
         }
     ],
+    Gira_TLSSN: [
+        {
+            titulo: "Regional de Turrialba",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_Turrialba/WhatsApp Image 2022-01-25 at 10.42.08 AM.jpeg",
+            descripcion: "Gira de visita a regional de Turrialba"
+        },
+        {
+            titulo: "Regional de Turrialba",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_Turrialba/WhatsApp Image 2022-01-25 at 10.42.10 AM.jpeg",
+            descripcion: "Gira de visita a regional de Turrialba"
+        },
+        {
+            titulo: "Regional de Turrialba",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_Turrialba/WhatsApp Image 2022-01-25 at 10.42.11 AM.jpeg",
+            descripcion: "Gira de visita a regional de Turrialba"
+        },
+        {
+            titulo: "Regional Huetar Caribe",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_HuetarCaribe/WhatsApp Image 2022-01-25 at 10.44.56 AM.jpeg",
+            descripcion: "Gira de visita a regional de Huetar Caribe"
+        },
+        {
+            titulo: "Regional Huetar Caribe",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_HuetarCaribe/WhatsApp Image 2022-01-25 at 10.44.57 AM.jpeg",
+            descripcion: "Gira de visita a regional de Huetar Caribe"
+        },
+        {
+            titulo: "Centro de formación de Limón",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_Limon/WhatsApp Image 2022-01-25 at 10.45.50 AM.jpeg",
+            descripcion: "Gira de visita a centro de formación en Limón"
+        },
+        {
+            titulo: "Centro de formación de Limón",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_Limon/WhatsApp Image 2022-01-25 at 10.45.52 AM.jpeg",
+            descripcion: "Gira de visita a centro de formación en Limón"
+        },
+        {
+            titulo: "Centro de formación de Sarapiquí",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_Sarapiqui/WhatsApp Image 2022-01-25 at 10.46.58 AM.jpeg",
+            descripcion: "Gira de visita a centro de formación de Sarapiquí"
+        },
+        {
+            titulo: "Centro de formación de Sarapiquí",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_Sarapiqui/WhatsApp Image 2022-01-25 at 10.46.59 AM (1).jpeg",
+            descripcion: "Gira de visita a centro de formación de Sarapiquí"
+        },
+        {
+            titulo: "Centro de formación de Sarapiquí",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_Sarapiqui/WhatsApp Image 2022-01-25 at 10.46.59 AM.jpeg",
+            descripcion: "Gira de visita a centro de formación de Sarapiquí"
+        },
+        {
+            titulo: "Regional Huetar Norte",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_HuetarNorte/WhatsApp Image 2022-01-25 at 10.48.18 AM.jpeg",
+            descripcion: "Gira de visita a regional de Huetar Norte"
+        },
+        {
+            titulo: "Regional Huetar Norte",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_HuetarNorte/WhatsApp Image 2022-01-25 at 10.48.21 AM.jpeg",
+            descripcion: "Gira de visita a regional de Huetar Norte"
+        },
+        {
+            titulo: "Regional Huetar Norte",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_HuetarNorte/WhatsApp Image 2022-01-25 at 10.48.48 AM.jpeg",
+            descripcion: "Gira de visita a regional de Huetar Norte"
+        },
+        {
+            titulo: "Centro de formación de Ciudad Quesada",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_CQuesada/WhatsApp Image 2022-01-25 at 10.49.06 AM.jpeg",
+            descripcion: "Gira de visita a centro de formación de Ciudad Quesada"
+        },
+        {
+            titulo: "Centro de formación de Ciudad Quesada",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_CQuesada/WhatsApp Image 2022-01-25 at 10.49.41 AM.jpeg",
+            descripcion: "Gira de visita a centro de formación de Ciudad Quesada"
+        },
+        {
+            titulo: "Centro de formación de Ciudad Quesada",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_CQuesada/WhatsApp Image 2022-01-25 at 10.49.48 AM.jpeg",
+            descripcion: "Gira de visita a centro de formación de Ciudad Quesada"
+        },
+        {
+            titulo: "Centro de formación de Naranjo",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_Naranjo/WhatsApp Image 2022-01-25 at 10.52.10 AM.jpeg",
+            descripcion: "Gira de visita a centro de formación de Naranjo"
+        },
+        {
+            titulo: "Centro de formación de Naranjo",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_Naranjo/WhatsApp Image 2022-01-25 at 10.52.11 AM.jpeg",
+            descripcion: "Gira de visita a centro de formación de Naranjo"
+        },
+        {
+            titulo: "Centro de formación de Naranjo",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_Naranjo/WhatsApp Image 2022-01-25 at 10.52.11 AM.jpeg",
+            descripcion: "Gira de visita a centro de formación de Naranjo"
+        },
+        {
+            titulo: "Centro de formación de Naranjo",
+            img: "../../multimedia/imagenes/Gira_TLSSN/Regional_Naranjo/WhatsApp Image 2022-01-25 at 10.52.12 AM.jpeg",
+            descripcion: "Gira de visita a centro de formación de Naranjo"
+        },
+    ],    
     Album_Random: [
         {
             titulo: "Capturas de SITRAINA",

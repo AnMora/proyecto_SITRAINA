@@ -17,10 +17,10 @@ const DCont = {
             path: "/sitraina/fiscalia",
             seccion: "Fiscalia"
         },
-        {
-            path: "",
-            seccion: "Seccionales"
-        },
+        // {
+        //     path: "",
+        //     seccion: "Seccionales"
+        // },
         {
             path: "/sitraina/convenios",
             seccion: "Convenios"
@@ -31,10 +31,10 @@ const DCont = {
             path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
-        {
-            path: "",
-            seccion: "Audio/Video"
-        }
+        // {
+        //     path: "",
+        //     seccion: "Audio/Video"
+        // }
     ],
     Contactenos: [
         {

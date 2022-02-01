@@ -7,8 +7,11 @@ import logo from "../../multimedia/icono/SITRAINA.png";
 const Header = (props) => {
   const handleMenu = (e) => {
     e.preventDefault();
-    $("body").toggleClass("sidebar-toggled");
-    $(".sidebar").toggleClass("toggled");
+    if (window.screen.width < 768){
+      $(".sidebar").toggleClass("toggled");
+    } else {
+      $("body").toggleClass("sidebar-toggled");
+    }
   };
 
   const Colores = [
@@ -144,7 +147,7 @@ const Header = (props) => {
 
   return (
     <>
-      <nav className="navbar navbar-expand navbar-primary text-primary bg-white topbar static-top shadow">
+      <nav className="navbar navbar-expand navbar-primary text-primary bg-light topbar static-top shadow">
         <button
           id="sidebarToggleTop"
           className="btn btn-outline-primary btn-link text-primary d-md-none icon"

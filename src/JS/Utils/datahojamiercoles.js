@@ -13,10 +13,10 @@ const DHmiercoles = {
             path: "/sitraina/fiscalia",
             seccion: "Fiscalia"
         },
-        {
-            path: "",
-            seccion: "Seccionales"
-        },
+        // {
+        //     path: "",
+        //     seccion: "Seccionales"
+        // },
         {
             path: "/sitraina/convenios",
             seccion: "Convenios"
@@ -31,10 +31,10 @@ const DHmiercoles = {
             path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
-        {
-            path: "",
-            seccion: "Audio/Video"
-        }
+        // {
+        //     path: "",
+        //     seccion: "Audio/Video"
+        // }
     ],
     HMiercoles: [
         {
@@ -52,13 +52,13 @@ const DHmiercoles = {
       //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-02_febrero_2022.pdf",
       // },
       // Hoja de Miercoles Actual
-      // {
-      //   año: 2022,
-      //   titulo: "Hoja de Miercoles 26 de Enero, 2022",
-      //   mes: "Enero",
-      //   fecha: 26,
-      //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-26_enero_2022.pdf",
-      // },
+      {
+        año: 2022,
+        titulo: "Hoja de Miercoles 26 de Enero, 2022",
+        mes: "Enero",
+        fecha: 26,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-26_enero_2022.pdf",
+      },
       {
         año: 2022,
         titulo: "Hoja de Miercoles 19 de Enero, 2022",

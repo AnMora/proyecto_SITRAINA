@@ -13,10 +13,10 @@ const DFisc = {
             path: "/sitraina/juntadirectiva",
             seccion: "Junta Directiva"
         },
-        {
-            path: "",
-            seccion: "Seccionales"
-        },
+        // {
+        //     path: "",
+        //     seccion: "Seccionales"
+        // },
         {
             path: "/sitraina/convenios",
             seccion: "Convenios"
@@ -31,10 +31,10 @@ const DFisc = {
             path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
-        {
-            path: "",
-            seccion: "Audio/Video"
-        }
+        // {
+        //     path: "",
+        //     seccion: "Audio/Video"
+        // }
     ],
     HFiscalia: [
         {
