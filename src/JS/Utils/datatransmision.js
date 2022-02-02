@@ -16,7 +16,7 @@ const EVV = {
         //     seccion: "Audio/Video"
         // }
     ],
-    transmision: "",
+    transmision: "https://www.facebook.com/SitrainaCR/videos/330492192336280",
     // transmision: "https://www.facebook.com/SitrainaCR/videos/998541544338880/",
 }
 

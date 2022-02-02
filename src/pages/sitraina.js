@@ -263,16 +263,19 @@ const Sitraina = (props) => {
   return (
     <div className="container-fluid">
       <div className="mt-4">
-        {/* <div className="alert alert-info" role="alert">
+        <div className="alert alert-info" role="alert">
           <h1 className="display-5">
             <b>SITRAINA INFORMA</b>
           </h1>
-          <h5 className="display-5"><b>Martes 25 de Enero 2022 - Horario: 4 pm a 5pm</b></h5>
+          <h5 className="display-5">
+              <b>Programa - Martes 01 de Febrero 2022</b>
+            </h5>
+          {/* <h5 className="display-5"><b>Martes 01 de Febrero 2022 - Horario: 4 pm a 5pm</b></h5> */}
           <h4 className="mt-3">
-              <b>¿Como llevar un procedimiento de acoso laboral en el INA?</b>
+            <b>Proyecto vida natural - Fomento de una etica ambiental en el INA</b>
           </h4>
           <h5>
-              con Melissa Segura Navarro - Abogada de SITRAINA
+            con Sebastian Miranda Brenes - Docente de gestion ambiental, unidad regional huetar caribe
           </h5>
           <div className="col-auto">
             <Link to="/EnVIVO">
@@ -285,7 +288,7 @@ const Sitraina = (props) => {
               </a>
             </Link>
           </div>
-        </div> */}
+        </div>
 
         <div className="card border-left-danger shadow mb-4">
           <a

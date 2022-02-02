@@ -11,7 +11,8 @@ const ENVIVO = (props) => {
                 <div className="mt-4">
                     <div className="alert alert-info" role="alert">
                         <h1 className="display-5"><b>SITRAINA INFORMA</b></h1>
-                        <h5 className="display-5"><b>Martes 01 de Febrero 2022 - Horario: 4 pm a 5pm</b></h5>
+                        <h5 className="display-5"><b>Programa - Martes 01 de Febrero 2022</b></h5>
+                        {/* <h5 className="display-5"><b>Martes 01 de Febrero 2022 - Horario: 4 pm a 5pm</b></h5> */}
                         <h4 className="mt-3">
                             <b>Proyecto vida natural - Fomento de una etica ambiental en el INA</b>
                         </h4>

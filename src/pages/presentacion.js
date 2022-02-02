@@ -66,7 +66,7 @@ const Presentacion = (props) => {
               <b>SITRAINA INFORMA</b>
             </h1>
             <h5 className="display-5">
-              <b>Martes 01 de Febrero</b>
+              <b>Programa - Martes 01 de Febrero 2022</b>
             </h5>
             <h3 className="display-5 text-danger">
               <b>Proyecto vida natural - Fomento de una etica ambiental en el INA</b>
@@ -80,27 +80,20 @@ const Presentacion = (props) => {
             <h3 className="display-5">
               <b>¡Por un país con mayor justicia social!</b>
             </h3>
-
-            {/* <h1 className="display-5 text-danger">
-              <b>SITRAINA INFORMA</b>
-            </h1>
-            <h5 className="display-5">
+            {/* <h5 className="display-5">
               <b>Martes 01 de Febrero 2022 - Horario: 4 pm a 5pm</b>
-            </h5>
-            <h3 className="display-5 text-danger">
-              <b>Proyecto vida natural - Fomento de una etica ambiental en el INA</b>
-            </h3>
-            <h5>
-              <b>con Sebastian Miranda Brenes - Docente de gestion ambiental, unidad regional Huetar Caribe</b>
-            </h5>
-            <h5 className="mt-3">
+            </h5> */}
+
+            {/* ======================== */}
+
+            {/* <h5 className="mt-3">
               <div className="spinner-grow spinner-grow-sm text-danger mb-2" role="status">
                 <span className="sr-only">Loading...</span>
               </div>
               <span className="mr-2 d-lg-inline">
                 <b>ENVIVO</b>
               </span>
-            </h5>
+            </h5> */}
             <div className="col-auto">
               <Link to="/EnVIVO">
                 <a
@@ -111,7 +104,7 @@ const Presentacion = (props) => {
                   Ver Programa
                 </a>
               </Link>
-            </div> */}
+            </div>
 
             {/* <h5 className="imp">{Presentacion.Aviso1}</h5> */}
             <h5 className="mt-3">{Presentacion.Aviso2}</h5>
