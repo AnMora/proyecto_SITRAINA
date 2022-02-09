@@ -66,23 +66,22 @@ const Presentacion = (props) => {
               <b>SITRAINA INFORMA</b>
             </h1>
             <h5 className="display-5">
-              <b>Programa - Martes 01 de Febrero 2022</b>
-            </h5>
+              <b>Programa: Martes 08 de Febrero 2022 - Horario: 4 pm a 5pm</b></h5>
             <h3 className="display-5 text-danger">
-              <b>Proyecto vida natural - Fomento de una etica ambiental en el INA</b>
+              <b>Reglamento autónomo de servicios: Una introducción</b>
             </h3>
             <h5>
-              <b>con Sebastian Miranda Brenes - Docente de gestion ambiental, unidad regional huetar caribe</b>
+              <b>con Ricardo Jara Nuñez - secretario general SITRAINA</b>
             </h5>
+
+
             <h3 className="display-5 mt-3">
               <b>Síguenos todos los martes a las 4:00 pm</b>
             </h3>
+
             <h3 className="display-5">
               <b>¡Por un país con mayor justicia social!</b>
             </h3>
-            {/* <h5 className="display-5">
-              <b>Martes 01 de Febrero 2022 - Horario: 4 pm a 5pm</b>
-            </h5> */}
 
             {/* ======================== */}
 
@@ -106,7 +105,6 @@ const Presentacion = (props) => {
               </Link>
             </div>
 
-            {/* <h5 className="imp">{Presentacion.Aviso1}</h5> */}
             <h5 className="mt-3">{Presentacion.Aviso2}</h5>
             <div className="col-auto">
               <Link to="/sitraina">

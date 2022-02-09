@@ -42,20 +42,20 @@ const DPP = {
     ],
     HMActual: [
         // {
-        //   año: 2022,
-        //   titulo: "Hoja de Miercoles 02 de Febrero, 2022",
-        //   mes: "Febrero",
-        //   fecha: 2,
-        //   link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2021/Hoja_de_Miercoles-02_febrero_2022.pdf",
+        //     año: 2022,
+        //     titulo: "Hoja de Miercoles 16 de Febrero, 2022",
+        //     mes: "Febrero",
+        //     fecha: 16,
+        //     link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-16_febrero_2022.pdf",
         // },
+        // Proxima Hoja de Miercoles
         {
-          año: 2022,
-          titulo: "Hoja de Miercoles 26 de Enero, 2022",
-          mes: "Enero",
-          fecha: 26,
-          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-26_enero_2022.pdf",
+            año: 2022,
+            titulo: "Hoja de Miercoles 09 de Febrero, 2022",
+            mes: "Febrero",
+            fecha: 9,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-09_febrero_2022.pdf",
         },
-
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
     Informacion: [

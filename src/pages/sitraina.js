@@ -10,38 +10,6 @@ const Sitraina = (props) => {
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
-  const Secciones_Links = props.data.Informacion.map((item, position) => {
-    return (
-      <>
-        <div key={position} className="col-xl-3 col-md-4 mb-4">
-          <Link to={item.path}>
-            <div className="card border-left-warning shadow h-100 py-2">
-              <div className="card-body">
-                <div className="row no-gutters align-items-center">
-                  <div className="col mr-2">
-                    <div className="text-xs font-weight-bold text-info text-uppercase mb-1">
-                      {item.seccion}
-                    </div>
-                    <div className="row no-gutters align-items-center">
-                      <div className="col-auto">
-                        <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                          {item.descripcion}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-auto">
-                    <i className={item.icon}></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Link>
-        </div>
-      </>
-    );
-  });
-
   const HMReciente = props.data.HMActual.map((item, position) => {
     return (
       <>
@@ -268,14 +236,12 @@ const Sitraina = (props) => {
             <b>SITRAINA INFORMA</b>
           </h1>
           <h5 className="display-5">
-              <b>Programa - Martes 01 de Febrero 2022</b>
-            </h5>
-          {/* <h5 className="display-5"><b>Martes 01 de Febrero 2022 - Horario: 4 pm a 5pm</b></h5> */}
-          <h4 className="mt-3">
-            <b>Proyecto vida natural - Fomento de una etica ambiental en el INA</b>
-          </h4>
+            <b>Programa: Martes 08 de Febrero 2022 - Horario: 4 pm a 5pm</b></h5>
+          <h3 className="mt-3">
+            <b>Reglamento autónomo de servicios: Una introducción</b>
+          </h3>
           <h5>
-            con Sebastian Miranda Brenes - Docente de gestion ambiental, unidad regional huetar caribe
+            con Ricardo Jara Nuñez - Secretario General SITRAINA
           </h5>
           <div className="col-auto">
             <Link to="/EnVIVO">
@@ -290,72 +256,6 @@ const Sitraina = (props) => {
           </div>
         </div>
 
-        <div className="card border-left-danger shadow mb-4">
-          <a
-            href="#Utiles"
-            className="d-block card-header"
-            data-toggle="collapse"
-            role="button"
-            aria-expanded="true"
-            aria-controls="collapseCard"
-          >
-            <h4 className="m-0 font-weight-bold text-primary">
-              Venta de Utiles Escolares
-            </h4>
-            <small className="mt-2">
-              Un programa para ayudar a la economia de nuestras personas
-              afiliadas
-            </small>
-          </a>
-          <div className="collapse show" id="Utiles">
-            <div className="card-body">
-              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                <div className="row">
-                  <div className="col-md-4">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/utilesescolares.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/utilesescolares1.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/utilesescolares2.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* {HMReciente} */}
         <div className="alert alert-primary" role="alert">
           {HMReciente}
@@ -363,31 +263,6 @@ const Sitraina = (props) => {
             Visualice o descargue la hoja de miércoles más reciente.
           </strong>
         </div>
-
-        <div className="mt-4 mb-4">
-          <div className="card border-left-warning shadow h-100 py-2">
-            <div className="card-body">
-              <div className="row no-gutters align-items-center">
-                <div className="col mr-2">
-                  <div className="h4 font-weight-bold text-info text-uppercase mb-1">
-                    Página Principal
-                  </div>
-
-                  <div className="row no-gutters align-items-center">
-                    <div className="col-auto">
-                      <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                        Las siguientes opciones puede hacer uso de los campos
-                        con enlaces directos a sus respectivas paginas.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row">{Secciones_Links}</div>
 
         <div className="row">{Sitraina}</div>
 
