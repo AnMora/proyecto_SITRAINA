@@ -61,29 +61,19 @@ const Presentacion = (props) => {
         </header>
 
         <section className="container text-primary text-center">
-          <article className="col-12">
-            <h1 className="display-5 text-danger">
+            <article className="col-12">
+            <hr className="my-1" />
+            <h2 className="display-5 text-danger">
               <b>SITRAINA INFORMA</b>
-            </h1>
+            </h2>
             <h5 className="display-5">
-              <b>Programa: Martes 08 de Febrero 2022 - Horario: 4 pm a 5pm</b></h5>
+              <b>Programa: Martes 22 de Febrero 2022 - Horario: 4 pm a 5 pm</b></h5>
             <h3 className="display-5 text-danger">
-              <b>Reglamento autónomo de servicios: Una introducción</b>
+              <b>BUSSCO: análisis  de los primeros resultados de la primera ronda electoral</b>
             </h3>
             <h5>
-              <b>con Ricardo Jara Nuñez - secretario general SITRAINA</b>
+              <b>Con Jorge Coronado - Asesor del BUSSCO</b>
             </h5>
-
-
-            <h3 className="display-5 mt-3">
-              <b>Síguenos todos los martes a las 4:00 pm</b>
-            </h3>
-
-            <h3 className="display-5">
-              <b>¡Por un país con mayor justicia social!</b>
-            </h3>
-
-            {/* ======================== */}
 
             {/* <h5 className="mt-3">
               <div className="spinner-grow spinner-grow-sm text-danger mb-2" role="status">
@@ -92,7 +82,7 @@ const Presentacion = (props) => {
               <span className="mr-2 d-lg-inline">
                 <b>ENVIVO</b>
               </span>
-            </h5> */}
+            </h5> 
             <div className="col-auto">
               <Link to="/EnVIVO">
                 <a
@@ -103,9 +93,20 @@ const Presentacion = (props) => {
                   Ver Programa
                 </a>
               </Link>
-            </div>
+            </div> */}
 
-            <h5 className="mt-3">{Presentacion.Aviso2}</h5>
+            <h3 className="display-5 mt-3">
+              <b>Síguenos todos los martes a las 4:00 pm</b>
+            </h3>
+
+            <h3 className="display-5">
+              <b>¡Por un país con mayor justicia social!</b>
+            </h3>
+
+            {/* ======================== */}
+          </article>
+          <hr className="my-1" />
+          <h5 className="mt-3">{Presentacion.Aviso2}</h5>
             <div className="col-auto">
               <Link to="/sitraina">
                 <a
@@ -117,7 +118,6 @@ const Presentacion = (props) => {
                 </a>
               </Link>
             </div>
-          </article>
           <hr className="my-1" />
         </section>
 

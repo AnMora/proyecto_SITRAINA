@@ -10,18 +10,23 @@ const ENVIVO = (props) => {
       <div className="container-fluid">
         <div className="mt-4">
           <div className="alert alert-info" role="alert">
-            <h1 className="display-5">
+            <h2 className="display-5">
               <b>SITRAINA INFORMA</b>
-            </h1>
+            </h2>
             <h5 className="display-5">
-              <b>Programa: Martes 08 de Febrero 2022 - Horario: 4 pm a 5pm</b>
-            </h5>
-            <h3 className="mt-3">
-                <b>Reglamento autónomo de servicios: Una introducción</b>
+              <b>Programa: Martes 01 de Marzo 2022 - Horario: 4 pm a 5 pm</b></h5>
+            <h3 className="display-5">
+              <b>BUSSCO: Análisis  de los primeros resultados de la primera ronda electoral</b>
             </h3>
             <h5>
-                con Ricardo Jara Nuñez - Secretario General SITRAINA
+              Con Jorge Coronado - Asesor del BUSSCO
             </h5>
+            <p>
+              <b>Comuníquese con nuestro departamento de comunicación vía <a href="https://wa.me/50663400176/?text=www.sitraina.org:%20Deje%20su%20mensaje%20a%20continuación..." target="_blank">
+                <button type="button" className="btn btn-success">
+                Whatsapp</button>
+              </a> o al 6340 0176.</b>
+            </p>
           </div>
 
           {EnVivo === "" ? (

@@ -21,20 +21,20 @@ const DRegla = {
             path: "/sitraina/convenios",
             seccion: "Convenios"
         },
-        {
-            path: "/sitraina/contactenos",
-            seccion: "Contactenos"
-        }
+        // {
+        //     path: "/sitraina/contactenos",
+        //     seccion: "Contactenos"
+        // }
     ],
     multimedia: [
         {
             path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
-        // {
-        //     path: "",
-        //     seccion: "Audio/Video"
-        // }
+        {
+            path: "/sitraina/AudiosVideos",
+            seccion: "Audios/Videos"
+        }
     ],
     HReglamentos: [
         {

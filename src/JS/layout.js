@@ -39,6 +39,9 @@ import Convenios from "../pages/convenios";
 // Pagina sitraina/AlbumnesFotos
 import AlbumnesFotos from "../pages/fotosAlbumnes";
 
+// Pagina sitraina/AlbumnesFotos
+import AudiosVideos from "../pages/audiosVideos";
+
 // Import Estilos
 import "../CSS/general.css";
 
@@ -54,6 +57,7 @@ import DFisc from "./Utils/datafiscalia";
 import DConv from "./Utils/dataconvenios";
 
 import DFotAlbm from "./Utils/dataFotosAlbumnes";
+import DAudVid from "./Utils/dataAudiosVideos";
 
 class Layout extends Component {
   state = {
@@ -66,7 +70,8 @@ class Layout extends Component {
     pDataJDirectiva: DJDirectiva,
     pDataFiscalia: DFisc,
     pDataConvenios: DConv,
-    pDataAlbumnesFotos: DFotAlbm
+    pDataAlbumnesFotos: DFotAlbm,
+    pDataAudiosVideos: DAudVid
   };
 
   render() {
@@ -74,6 +79,18 @@ class Layout extends Component {
         <Router>
             <>
                 <Switch>
+                    <Route path="/sitraina/AudiosVideos">
+                        <div id="wrapper">
+                            <Navbar data={this.state.pDataAudiosVideos} />
+                            <main id="content-wrapper" className="d-flex flex-column">
+                                <div className="content">
+                                    <Header data={this.state.pDataPresentacion} />
+                                    <AudiosVideos data={this.state.pDataAudiosVideos} />
+                                </div>
+                            <Footer data={this.state.pDataPresentacion} />
+                            </main>
+                        </div>
+                    </Route>
                     <Route path="/sitraina/AlbumnesFotos">
                         <div id="wrapper">
                             <Navbar data={this.state.pDataAlbumnesFotos} />

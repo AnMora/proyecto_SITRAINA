@@ -31,10 +31,10 @@ const DCont = {
             path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
-        // {
-        //     path: "",
-        //     seccion: "Audio/Video"
-        // }
+        {
+            path: "/sitraina/AudiosVideos",
+            seccion: "Audios/Videos"
+        }
     ],
     Contactenos: [
         {

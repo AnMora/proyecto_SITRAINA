@@ -36,27 +36,27 @@ const Contacto = (props) => {
     return (
         <>
             <div className="container-fluid">
-                <div className="mt-4">
-                        <div className="mb-4">
-                            <div className="card border-bottom-info shadow h-100 py-2">
-                                <div className="card-body">
-                                    <div className="row no-gutters text-center text-primary align-items-center">
-                                        <div className="col mr-2">
-                                            <img className="logoPresentacion" src={logo} alt="SITRAINA" data-tip data-for="vaio para tooltip"/>
-                                            <div className="h4 font-weight-bold text-info text-uppercase mb-1">
-                                                {Contacto.lema}
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="row">
-                                        {Medios_Comunicacion}
+                <div className="mt-4 mb-4">
+                    <div className="card border-bottom-info shadow h-100 py-2">
+                        <div className="card-body">
+                            <div className="row no-gutters text-center text-primary align-items-center">
+                                <div className="col mr-2">
+                                    <img className="logoPresentacion" src={logo} alt="SITRAINA" data-tip data-for="vaio para tooltip"/>
+                                    <div className="h4 font-weight-bold text-info text-uppercase mb-1">
+                                        {Contacto.lema}
                                     </div>
                                 </div>
                             </div>
+                            <div className="row">
+                                {Medios_Comunicacion}
+                            </div>
                         </div>
-                    <ScrollToTop />
+                    </div>
                 </div>
-            </div>    
+            </div>
+
+            
+            <ScrollToTop />
         </>
     )
 }

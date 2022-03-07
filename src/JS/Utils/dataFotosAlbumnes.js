@@ -25,16 +25,16 @@ const DFotAlbm = {
             path: "/sitraina/convenios",
             seccion: "Convenios"
         },
-        {
-            path: "/sitraina/contactenos",
-            seccion: "Contactenos"
-        }
+        // {
+        //     path: "/sitraina/contactenos",
+        //     seccion: "Contactenos"
+        // }
     ],
     multimedia: [
-        // {
-        //     path: "",
-        //     seccion: "Audio/Video"
-        // }
+        {
+            path: "/sitraina/AudiosVideos",
+            seccion: "Audios/Videos"
+        }
     ],
     HAlbumnesFotos: [
         {

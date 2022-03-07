@@ -163,38 +163,34 @@ const Navbar = (props) => {
             </ReactTooltip>
 
             {Link_paginas}
-
-            {estasEn === "Albumnes/Fotos" ? "" : (
-              <>
-                <li className="nav-item" data-tip data-for="Multimedia">
-                  <a
-                    href="##"
-                    className="nav-link collapsed icon"
-                    data-toggle="collapse"
-                    data-target="#collapseGallery"
-                    aria-expanded="true"
-                    aria-controls="collapseGallery"
-                  >
-                    <i className="fas fa-fw fa-photo-video"></i>
-                    <span>Multimedia</span>
-                  </a>
-                  <div
-                    id="collapseGallery"
-                    className="collapse"
-                    aria-labelledby="headingPages"
-                    data-parent="#accordionSidebar"
-                  >
-                    <div className="bg-white py-2 collapse-inner rounded">
-                      <h6 className="collapse-header">Galerias:</h6>
-                      {Link_multimedia}
-                    </div>
-                  </div>
-                </li>
-                {/* <ReactTooltip id="Multimedia" place="right" type="dark" effect="solid">
-                  Archivos (Fotos/Audios/Videos) de SITRAINA
-                </ReactTooltip> */}
-              </>
-            )}
+            
+            <li className="nav-item" data-tip data-for="Multimedia">
+              <a
+                href="##"
+                className="nav-link collapsed icon"
+                data-toggle="collapse"
+                data-target="#collapseGallery"
+                aria-expanded="true"
+                aria-controls="collapseGallery"
+              >
+                <i className="fas fa-fw fa-photo-video"></i>
+                <span>Multimedia</span>
+              </a>
+              <div
+                id="collapseGallery"
+                className="collapse"
+                aria-labelledby="headingPages"
+                data-parent="#accordionSidebar"
+              >
+                <div className="bg-white py-2 collapse-inner rounded">
+                  <h6 className="collapse-header">Galerias:</h6>
+                  {Link_multimedia}
+                </div>
+              </div>
+            </li>
+            {/* <ReactTooltip id="Multimedia" place="right" type="dark" effect="solid">
+              Archivos (Fotos/Audios/Videos) de SITRAINA
+            </ReactTooltip> */}
 
             <hr className="sidebar-divider" />
 

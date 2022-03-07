@@ -25,36 +25,43 @@ const DPP = {
             path: "/sitraina/convenios",
             seccion: "Convenios"
         },
-        {
-            path: "/sitraina/contactenos",
-            seccion: "Contactenos"
-        }
+        // {
+        //     path: "/sitraina/contactenos",
+        //     seccion: "Contactenos"
+        // }
     ],
     multimedia: [
         {
             path: "/sitraina/AlbumnesFotos",
             seccion: "Albumnes/Fotos"
         },
-        // {
-        //     path: "",
-        //     seccion: "Audio/Video"
-        // }
+        {
+            path: "/sitraina/AudiosVideos",
+            seccion: "Audios/Videos"
+        }
     ],
     HMActual: [
         // {
         //     año: 2022,
-        //     titulo: "Hoja de Miercoles 16 de Febrero, 2022",
-        //     mes: "Febrero",
-        //     fecha: 16,
-        //     link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-16_febrero_2022.pdf",
+        //     titulo: "Hoja de Miercoles 09 de Marzo, 2022",
+        //     mes: "Marzo",
+        //     fecha: 9,
+        //     link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-09_marzo_2022.pdf",
         // },
         // Proxima Hoja de Miercoles
         {
             año: 2022,
-            titulo: "Hoja de Miercoles 09 de Febrero, 2022",
+            titulo: "Hoja de Miercoles 02 de Marzo, 2022",
+            mes: "Marzo",
+            fecha: 2,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-02_marzo_2022.pdf",
+        },
+        {
+            año: 2022,
+            titulo: "Hoja de Lunes 28 de Febrero, 2022 - Edicion Especial",
             mes: "Febrero",
-            fecha: 9,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-09_febrero_2022.pdf",
+            fecha: 28,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-28_febrero_2022-Edicion_Especial.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
@@ -86,42 +93,42 @@ const DPP = {
     ],
     Sitraina: [
         {   
-            Pregunta: "Que es SITRAINA?",
+            Pregunta: "¿Qué es SITRAINA?",
             Respuesta: "Es la Organización que lucha por el bienestar de los trabajadores y trabajadoras del INA.",
         },
         {
-            Pregunta: "Cual es su objetivo?",
-            Respuesta: "Nuestro objetivo a corto plazo son todos aquellos que se deriven de la problemática del trabajo de sus afiliados, asesoría jurídica, capacitación, solidaridad, servicios, mejoras salariales y dignidad de trabajo."
+            Pregunta: "¿Cuál es su objetivo?",
+            Respuesta: "Nuestro objetivo a corto plazo es todos aquellos que se deriven de la problemática del trabajo de sus afiliados, asesoría jurídica, capacitación, solidaridad, servicios, mejoras salariales y dignidad de trabajo."
         },
         {
-            Pregunta: "Cuando fue fundado?",
+            Pregunta: "¿Cuándo fue fundado?",
             Respuesta: "Fue fundado en el mes de abril de 1979 como resultado de la unión de dos sindicatos que existían en ese entonces, el SEINA (Sindicato de Empleados del INA) y el SIT (Sindicato de Instructores y Técnicos).",
         },
         {
-            Pregunta: "Como se mantiene?",
-            Respuesta: "Económicamente nuestro Sindicato subsiste básicamente con el aporte mensual de sus afiliados(as) que en la actualidad esta fijado en 1% del salario devengado, vale decir que cada afiliado aporta un colón por cada cien colones de salario."
+            Pregunta: "¿Como se mantiene?",
+            Respuesta: "Económicamente nuestro Sindicato subsiste básicamente con el aporte mensual de sus afiliados(as) que en la actualidad está fijado en 1% del salario devengado, vale decir que cada afiliado aporta un colón por cada cien colones de salario."
         },
         {
-            Pregunta: "Que sectores abarca?",
+            Pregunta: "¿Qué sectores abarca?",
             Respuesta: "Nuestro sindicato cubre en la actualidad a todos los sectores de la Institución: Asistentes Administrativos, Trabajadores Operativos, Profesionales y Formadores para el trabajo, por lo que podemos señalar que el mismo es representativo de los Trabajadores y Trabajadoras del INA.",
         }
     ],
     Administracion: [
         {
-            Pregunta: "Como esta administrado SITRAINA?",
-            Respuesta1: "Como organización democrática, la máxima autoridad del sindicato, es la Asambla General, la cual se reúne en forma ordinaria una vez al año, el último viernes del mes de abril.",
+            Pregunta: "¿Como esta administrado SITRAINA?",
+            Respuesta1: "Como organización democrática, la máxima autoridad del sindicato, es la Asamblea General, la cual se reúne en forma ordinaria una vez al año, el último viernes del mes de abril.",
             Respuesta2: "La dirección del sindicato, la ejerce la Junta Directiva, electa democráticamente por la Asamblea General.",
             Respuesta3: "Actualmente la Junta Directiva está integrada por ocho miembros titulares y dos suplentes, los cuales sesionan en forma ordinaria una vez a la semana."
         }
     ],
     Beneficios: [
         {
-            Pregunta: "Cuáles son algunos de los beneficios?",
-            Respuesta: "Además de los que otorga el Estatuto, SITRAINA cuenta con un Departamento de Asesoría Jurídica encargado en forma especial, de la defensa de sus afiliados. También disfrutamos de  Clínicas Odontológicas, las cuales están al servicio de los afiliados y su grupo familiar, con todos los tratamientos  garantizados y  financiamiento sin intereses, hasta por 2 años de plazo. Nuestros afiliados (as) cuentan en forma anual, con el programa de venta de útiles   escolares, a precio de costo. Pero por sobre todos éstos servicios, les brindamos la seguridad de que sus intereses estarán fielmente resguardados."
+            Pregunta: "¿Cuáles son algunos de los beneficios?",
+            Respuesta: "Además de los que otorga el Estatuto, SITRAINA cuenta con un Departamento de Asesoría Jurídica encargado en forma especial, de la defensa de sus afiliados. También disfrutamos de  Clínicas Odontológicas, las cuales están al servicio de los afiliados y su grupo familiar, con todos los tratamientos  garantizados y  financiamiento sin intereses, hasta por 2 años de plazo. Nuestros afiliados (as) cuentan en forma anual, con el programa de venta de útiles   escolares, a precio de costo. Pero por sobre todos estos servicios, les brindamos la seguridad de que sus intereses estarán fielmente resguardados."
         },
         {
-            Pregunta: "Como afiliarse?",
-            Respuesta: "Se debe llenar la solicitud adjunta, enviarla a las oficinas del Sindicato, y contribuir con el 1%  de su salario, en forma mensual, como cuota de afiliación. Debe de ser trabajador (a) activo o pensionado (a) de la Institución, bajo cualesquiera de sus nombramientos, e independientemente del tiempo que tenga de laborar."
+            Pregunta: "¿Como afiliarse?",
+            Respuesta: "Se debe llenar la solicitud adjunta, enviarla a las oficinas del Sindicato, y contribuir con el 1% de su salario, en forma mensual, como cuota de afiliación. Debe de ser trabajador (a) activo o pensionado (a) de la Institución, bajo cualesquiera de sus nombramientos, e independientemente del tiempo que tenga de laborar."
         }
     ],
     Logros: [

@@ -232,27 +232,79 @@ const Sitraina = (props) => {
     <div className="container-fluid">
       <div className="mt-4">
         <div className="alert alert-info" role="alert">
-          <h1 className="display-5">
+          <h2 className="display-5">
             <b>SITRAINA INFORMA</b>
-          </h1>
+          </h2>
           <h5 className="display-5">
-            <b>Programa: Martes 08 de Febrero 2022 - Horario: 4 pm a 5pm</b></h5>
-          <h3 className="mt-3">
-            <b>Reglamento autónomo de servicios: Una introducción</b>
+            <b>Programa: Martes 01 de Marzo 2022 - Horario: 4 pm a 5 pm</b></h5>
+          <h3 className="display-5">
+            <b>BUSSCO: análisis  de los primeros resultados de la primera ronda electoral</b>
           </h3>
           <h5>
-            con Ricardo Jara Nuñez - Secretario General SITRAINA
+            <b>Con Jorge Coronado - Asesor del BUSSCO</b>
           </h5>
           <div className="col-auto">
             <Link to="/EnVIVO">
               <a
                 href="##"
-                className="text-light btn btn-primary mt-2 mb-2"
+                className="text-light btn btn-info mt-2 mb-2"
                 value="Ingresar"
               >
                 Ver Programa
               </a>
             </Link>
+          </div>
+        </div>
+
+        <div className="card border-left-warning shadow mb-4">
+          <a
+            href="#Utiles"
+            className="d-block card-header"
+            data-toggle="collapse"
+            role="button"
+            aria-expanded="true"
+            aria-controls="collapseCard"
+          >
+            <h4 className="m-0 font-weight-bold text-primary">
+              Régimen de empleo INA
+            </h4>
+            <small className="mt-2">
+              No tome una decisión apresurada... Tome una decisión informada
+            </small>
+          </a>
+          <div className="collapse show" id="Utiles">
+            <div className="card-body">
+              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                <div className="row">
+                  <div className="col-md-6">
+                    <div classname="card">
+                      <div classname="card-body">
+                        <img
+                          src="../../Documentos/informativas/decisiones1.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div classname="card">
+                      <div classname="card-body">
+                        <img
+                          src="../../Documentos/informativas/decisiones2.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
