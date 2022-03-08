@@ -236,12 +236,12 @@ const Sitraina = (props) => {
             <b>SITRAINA INFORMA</b>
           </h2>
           <h5 className="display-5">
-            <b>Programa: Martes 01 de Marzo 2022 - Horario: 4 pm a 5 pm</b></h5>
+            <b>Programa: Martes 08 de Marzo 2022 - Horario: 4 pm</b></h5>
           <h3 className="display-5">
-            <b>BUSSCO: análisis  de los primeros resultados de la primera ronda electoral</b>
+            <b>PROGRAMA ESPECIAL de SITRAINA INFORMA</b>
           </h3>
           <h5>
-            <b>Con Jorge Coronado - Asesor del BUSSCO</b>
+            Conversatorio - El papel de la mujer en la política y los movimientos sociales
           </h5>
           <div className="col-auto">
             <Link to="/EnVIVO">
@@ -256,7 +256,7 @@ const Sitraina = (props) => {
           </div>
         </div>
 
-        <div className="card border-left-warning shadow mb-4">
+        <div className="card border-left-info shadow mb-4">
           <a
             href="#Utiles"
             className="d-block card-header"
@@ -266,21 +266,21 @@ const Sitraina = (props) => {
             aria-controls="collapseCard"
           >
             <h4 className="m-0 font-weight-bold text-primary">
-              Régimen de empleo INA
+              Programa Especial de SITRAINA INFORMA
             </h4>
             <small className="mt-2">
-              No tome una decisión apresurada... Tome una decisión informada
+            SITRAINA celebra el Día Internacional de la Mujer con un conversatorio sobre "El papel de la mujer en la política y los movimientos sociales". Tendremos un panel de lujo, como se aprecia en el afiche de la actividad a continuación. Síguenos EN VIVO martes 8 de marzo a las 4:00 pm.
             </small>
           </a>
           <div className="collapse show" id="Utiles">
             <div className="card-body">
               <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                <div className="row">
-                  <div className="col-md-6">
+                {/* <div className="row">
+                  <div className="col-md-12"> */}
                     <div classname="card">
                       <div classname="card-body">
                         <img
-                          src="../../Documentos/informativas/decisiones1.jpeg"
+                          src="../../Documentos/informativas/Programa_especial_sitraina_informa.jpeg"
                           className="rounded-lg img-thumbnail"
                           data-toggle="modal"
                           data-target=".bd-example-modal-lg"
@@ -288,21 +288,8 @@ const Sitraina = (props) => {
                         />
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/decisiones2.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  {/* </div>
+                </div> */}
               </div>
             </div>
           </div>

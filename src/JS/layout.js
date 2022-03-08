@@ -19,7 +19,7 @@ import ENVIVO from "../pages/transmision";
 import Footer from './componentes/footer';
 
 // Pagina sitraina/contactenos
-import Contacto from "../pages/contactenos";
+// import Contacto from "../pages/contactenos";
 
 // Pagina sitraina/hojamiercoles
 import HojaMiercoles from "../pages/hojamiercoles";
@@ -49,7 +49,7 @@ import "../CSS/general.css";
 import EVV from "./Utils/datatransmision";
 import DPres from './Utils/datapresentacion';
 import DPP from './Utils/dataprincipal';
-import DCont from './Utils/datacontactenos';
+// import DCont from './Utils/datacontactenos';
 import DHmiercoles from "./Utils/datahojamiercoles";
 import DRegla from "./Utils/datareglamentos";
 import DJDirectiva from "./Utils/dataJuntaDirectiva";
@@ -64,7 +64,7 @@ class Layout extends Component {
     pDataPresentacion: DPres,
     pDataTranmisiones: EVV,
     pDataPaginaPrincipal: DPP,
-    pDataContactenos: DCont,
+    // pDataContactenos: DCont,
     pDataHmiercoles: DHmiercoles,
     pDataReglamentos: DRegla,
     pDataJDirectiva: DJDirectiva,
@@ -163,7 +163,7 @@ class Layout extends Component {
                             </main>
                         </div>
                     </Route>
-                    <Route path="/sitraina/contactenos">
+                    {/* <Route path="/sitraina/contactenos">
                         <div id="wrapper">
                             <Navbar data={this.state.pDataContactenos} />
                             <main id="content-wrapper" className="d-flex flex-column">
@@ -172,7 +172,7 @@ class Layout extends Component {
                                 <Footer data={this.state.pDataPresentacion} />
                             </main>
                         </div>
-                    </Route>
+                    </Route> */}
                     <Route path="/EnVIVO">
                         <div id="wrapper">
                             <Navbar data={this.state.pDataTranmisiones} />

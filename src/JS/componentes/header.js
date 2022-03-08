@@ -2,7 +2,6 @@ import React from "react";
 import $ from "jquery";
 import { Link } from "react-router-dom";
 import ReactTooltip from "react-tooltip";
-import logo from "../../multimedia/icono/SITRAINA.png";
 
 const Header = (props) => {
   const handleMenu = (e) => {
@@ -29,7 +28,7 @@ const Header = (props) => {
 
         {/* ENVIVO ////////////////////////////////////////////////// */}
 
-          {/* <li className="nav-item dropdown no-arrow" data-tip data-for="Accesibilidad">
+          <li className="nav-item dropdown no-arrow" data-tip data-for="Accesibilidad">
             <Link to="/EnVIVO">
               <a className="nav-link dropdown-toggle" href="##" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div className="spinner-grow spinner-grow-sm text-danger" role="status">
@@ -50,7 +49,7 @@ const Header = (props) => {
             Programa de SITRAINA transmision EN VIVO
           </ReactTooltip>
 
-          <div className="topbar-divider d-none d-sm-block"></div> */}
+          <div className="topbar-divider d-none d-sm-block"></div>
 
           {/* ENVIVO ////////////////////////////////////////////////// */}
 
@@ -69,7 +68,7 @@ const Header = (props) => {
               </span>
               <img
                 className="img-profile rounded-circle"
-                src={logo}
+                src="../../icon/SITRAINA.png"
                 alt="Fines ilustrativos"
               />
             </a>

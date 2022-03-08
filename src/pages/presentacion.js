@@ -1,7 +1,6 @@
 import React from "react";
 import ReactTooltip from "react-tooltip";
 import { Link } from "react-router-dom";
-import logo from "../multimedia/icono/SITRAINA.png";
 
 const Presentacion = (props) => {
   const Presentacion = props.data.Presentacion[0];
@@ -40,7 +39,7 @@ const Presentacion = (props) => {
           <div className="container text-center text-primary">
             <img
               className="logoPresentacion"
-              src={logo}
+              src="../../icon/SITRAINA.png"
               alt="SITRAINA"
               data-tip
               data-for={Presentacion.Institucion}
@@ -67,15 +66,15 @@ const Presentacion = (props) => {
               <b>SITRAINA INFORMA</b>
             </h2>
             <h5 className="display-5">
-              <b>Programa: Martes 22 de Febrero 2022 - Horario: 4 pm a 5 pm</b></h5>
+              <b>Programa: Martes 08 de Marzo 2022 - Horario: 4 pm</b></h5>
             <h3 className="display-5 text-danger">
-              <b>BUSSCO: análisis  de los primeros resultados de la primera ronda electoral</b>
+              <b>PROGRAMA ESPECIAL de SITRAINA INFORMA</b>
             </h3>
             <h5>
-              <b>Con Jorge Coronado - Asesor del BUSSCO</b>
+              <b>Conversatorio - El papel de la mujer en la política y los movimientos sociales</b>
             </h5>
 
-            {/* <h5 className="mt-3">
+            <h5 className="mt-3">
               <div className="spinner-grow spinner-grow-sm text-danger mb-2" role="status">
                 <span className="sr-only">Loading...</span>
               </div>
@@ -93,7 +92,7 @@ const Presentacion = (props) => {
                   Ver Programa
                 </a>
               </Link>
-            </div> */}
+            </div>
 
             <h3 className="display-5 mt-3">
               <b>Síguenos todos los martes a las 4:00 pm</b>

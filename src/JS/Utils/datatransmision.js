@@ -16,7 +16,7 @@ const EVV = {
         //     seccion: "Audio/Video"
         // }
     ],
-    transmision: "https://www.facebook.com/SitrainaCR/videos/525888465544631"
+    transmision: "https://www.facebook.com/SitrainaCR/videos/2213791755442213"
 }
 
 export default EVV
