@@ -40,6 +40,13 @@ const DPP = {
             seccion: "Audios/Videos"
         }
     ],
+    InfoAnuales: [
+        {
+            reglamento: "INFORME ANUAL Fiscalía SITRAINA 2020",
+            descripcion: "Este es el primer  Informe que presenta la Fiscalía 2019-2021, a la afiliación. Tiene como imperativo rendir cuentas, lo que se hace necesario  considerando el tiempo transcurrido desde la Asamblea 2019 hasta la fecha.",
+            link: "../../Documentos/Informes Anuales/INFORME_ANUAL2020.pdf",
+        },
+    ],
     HMActual: [
         // {
         //     año: 2022,
@@ -51,17 +58,10 @@ const DPP = {
         // Proxima Hoja de Miercoles
         {
             año: 2022,
-            titulo: "Hoja de Miercoles 02 de Marzo, 2022",
+            titulo: "Hoja de Miercoles 09 de Marzo, 2022",
             mes: "Marzo",
-            fecha: 2,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-02_marzo_2022.pdf",
-        },
-        {
-            año: 2022,
-            titulo: "Hoja de Lunes 28 de Febrero, 2022 - Edicion Especial",
-            mes: "Febrero",
-            fecha: 28,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-28_febrero_2022-Edicion_Especial.pdf",
+            fecha: 9,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-09_marzo_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js

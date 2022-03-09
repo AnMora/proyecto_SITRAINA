@@ -49,6 +49,45 @@ const Sitraina = (props) => {
     );
   });
 
+  const InfAnual = props.data.InfoAnuales.map((item, position) => {
+    return (
+      <>
+        <a
+          key={position}
+          href={item.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {/* <div className="container-fluid"> */}
+          <div className="mb-3 mt-3">
+            <div className="card border-left-info shadow h-100 py-2">
+              <div className="card-body">
+                <div className="row no-gutters align-items-center">
+                  <div className="col mr-2">
+                    <div className="font-weight-bold text-info text-uppercase mb-1">
+                        {item.reglamento}
+                    </div>
+                    <div className="row no-gutters align-items-center">
+                        <div className="col-auto">
+                        <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                            {item.descripcion}
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="col-auto">
+                    <i className="fas fa-download fa-2x text-gray-300"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* </div> */}
+          </div>
+        </a>
+      </>
+    );
+  });
+
   const Sitraina = props.data.Sitraina.map((item, position) => {
     if (position === 0) {
       return (
@@ -256,6 +295,21 @@ const Sitraina = (props) => {
           </div>
         </div>
 
+        {/* {HMReciente} */}
+        <div className="alert alert-primary" role="alert">
+          {HMReciente}
+          <strong>
+            Visualice o descargue la hoja de miércoles más reciente.
+          </strong>
+        </div>
+        {/* {InfoAnuales} */}
+        <div className="alert alert-warning" role="alert">
+          {InfAnual}
+          <strong>
+            Visualice o descargue el INFORME ANUAL Fiscalía SITRAINA.
+          </strong>
+        </div>
+
         <div className="card border-left-info shadow mb-4">
           <a
             href="#Utiles"
@@ -293,14 +347,6 @@ const Sitraina = (props) => {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* {HMReciente} */}
-        <div className="alert alert-primary" role="alert">
-          {HMReciente}
-          <strong>
-            Visualice o descargue la hoja de miércoles más reciente.
-          </strong>
         </div>
 
         <div className="row">{Sitraina}</div>
