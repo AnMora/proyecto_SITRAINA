@@ -80,6 +80,8 @@ const Presentacion = (props) => {
               </b>
             </h5>
 
+            {/* ENVIVO ////////////////////////////////////////////////// */}
+
             {/* <h5 className="mt-3">
               <div className="spinner-grow spinner-grow-sm text-danger mb-2" role="status">
                 <span className="sr-only">Loading...</span>
@@ -99,6 +101,8 @@ const Presentacion = (props) => {
                 </a>
               </Link>
             </div> */}
+
+            {/* ENVIVO ////////////////////////////////////////////////// */}
 
             <h3 className="display-5 mt-3">
               <b>Síguenos todos los martes a las 4:00 pm</b>
