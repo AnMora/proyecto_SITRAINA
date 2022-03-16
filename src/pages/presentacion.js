@@ -66,12 +66,18 @@ const Presentacion = (props) => {
               <b>SITRAINA INFORMA</b>
             </h2>
             <h5 className="display-5">
-              <b>Programa: Martes 08 de Marzo 2022 - Horario: 4 pm</b></h5>
+              <b>Programa: Martes 15 de Marzo 2022 - Horario: 4 pm</b></h5>
             <h3 className="display-5 text-danger">
-              <b>PROGRAMA ESPECIAL de SITRAINA INFORMA</b>
+              <b>Privatización de la educación técnica en América Latina: Honduras, Costa Rica y Chile</b>
             </h3>
             <h5>
-              <b>Conversatorio - El papel de la mujer en la política y los movimientos sociales</b>
+              <b>
+                Con Esteban Diaz - Instituto Nacional de Formación Profesional - Honduras
+                <br />
+                Con Ricardo Jara - Secretario General, SITRAINA - Costa Rica
+                <br />
+                Con Michael Humana - Sindicato Nacional de Trabajadoras y Trabajadores de la Educación - Chile
+              </b>
             </h5>
 
             {/* <h5 className="mt-3">

@@ -48,20 +48,21 @@ const DPP = {
         },
     ],
     HMActual: [
+        // Proxima Hoja de Miercoles
         // {
         //     año: 2022,
-        //     titulo: "Hoja de Miercoles 09 de Marzo, 2022",
+        //     titulo: "Hoja de Miercoles 23 de Marzo, 2022",
         //     mes: "Marzo",
-        //     fecha: 9,
-        //     link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-09_marzo_2022.pdf",
+        //     fecha: 23,
+        //     link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-23_marzo_2022.pdf",
         // },
-        // Proxima Hoja de Miercoles
+        // Hoja de Miercoles Actual
         {
             año: 2022,
-            titulo: "Hoja de Miercoles 09 de Marzo, 2022",
+            titulo: "Hoja de Miercoles 16 de Marzo, 2022",
             mes: "Marzo",
-            fecha: 9,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-09_marzo_2022.pdf",
+            fecha: 16,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-16_marzo_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js

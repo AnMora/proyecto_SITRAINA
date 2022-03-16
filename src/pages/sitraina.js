@@ -275,12 +275,16 @@ const Sitraina = (props) => {
             <b>SITRAINA INFORMA</b>
           </h2>
           <h5 className="display-5">
-            <b>Programa: Martes 08 de Marzo 2022 - Horario: 4 pm</b></h5>
+            <b>Programa: Martes 15 de Marzo 2022 - Horario: 4 pm</b></h5>
           <h3 className="display-5">
-            <b>PROGRAMA ESPECIAL de SITRAINA INFORMA</b>
+            <b>Privatización de la educación técnica en América Latina: Honduras, Costa Rica y Chile</b>
           </h3>
           <h5>
-            Conversatorio - El papel de la mujer en la política y los movimientos sociales
+            Con Esteban Diaz - Instituto Nacional de Formación Profesional - Honduras
+            <br />
+            Con Ricardo Jara - Secretario General, SITRAINA - Costa Rica
+            <br />
+            Con Michael Humana - Sindicato Nacional de Trabajadoras y Trabajadores de la Educación - Chile
           </h5>
           <div className="col-auto">
             <Link to="/EnVIVO">
@@ -308,45 +312,6 @@ const Sitraina = (props) => {
           <strong>
             Visualice o descargue el INFORME ANUAL Fiscalía SITRAINA.
           </strong>
-        </div>
-
-        <div className="card border-left-info shadow mb-4">
-          <a
-            href="#Utiles"
-            className="d-block card-header"
-            data-toggle="collapse"
-            role="button"
-            aria-expanded="true"
-            aria-controls="collapseCard"
-          >
-            <h4 className="m-0 font-weight-bold text-primary">
-              Programa Especial de SITRAINA INFORMA
-            </h4>
-            <small className="mt-2">
-            SITRAINA celebra el Día Internacional de la Mujer con un conversatorio sobre "El papel de la mujer en la política y los movimientos sociales". Tendremos un panel de lujo, como se aprecia en el afiche de la actividad a continuación. Síguenos EN VIVO martes 8 de marzo a las 4:00 pm.
-            </small>
-          </a>
-          <div className="collapse show" id="Utiles">
-            <div className="card-body">
-              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                {/* <div className="row">
-                  <div className="col-md-12"> */}
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/Programa_especial_sitraina_informa.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  {/* </div>
-                </div> */}
-              </div>
-            </div>
-          </div>
         </div>
 
         <div className="row">{Sitraina}</div>

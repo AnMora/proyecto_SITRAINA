@@ -14,12 +14,12 @@ const ENVIVO = (props) => {
               <b>SITRAINA INFORMA</b>
             </h2>
             <h5 className="display-5">
-              <b>Programa: Martes 08 de Marzo 2022 - Horario: 4 pm</b></h5>
+              <b>Programa: Martes 15 de Marzo 2022 - Horario: 4 pm</b></h5>
             <h3 className="display-5">
-              <b>PROGRAMA ESPECIAL de SITRAINA INFORMA</b>
+              <b>Privatización de la educación técnica en América Latina: Honduras, Costa Rica y Chile</b>
             </h3>
             <h5>
-              Conversatorio - El papel de la mujer en la política y los movimientos sociales. SITRAINA celebra el Día Internacional de la Mujer con un conversatorio sobre "El papel de la mujer en la política y los movimientos sociales". Tendremos un panel de lujo, como se aprecia en el afiche de la actividad a continuación.
+              Para el Sindicato de Trabajadores/as del Instituto Nacional de Aprendizaje (SITRAINA, Costa Rica), es un honor invitarles a nuestro programa especial de SITRAINA INFORMA, titulado "Privatización de la educación técnica en América Latina: Honduras, Costa Rica y Chile", con la participación de Esteban Díaz, sindicalista del Instituto Nacional de Formación Profesional (Honduras), Ricardo Jara, secretario general de SITRAINA (Costa Rica) y Michael Humaña, presidente del Sindicato Nacional de Trabajadoras y Trabajadores de la Educación, Chile.
             </h5>
             <p>
               <b>Comuníquese con nuestro departamento de comunicación vía <a href="https://wa.me/50663400176/?text=www.sitraina.org:%20Deje%20su%20mensaje%20a%20continuación..." target="_blank">
