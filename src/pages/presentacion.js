@@ -66,23 +66,19 @@ const Presentacion = (props) => {
               <b>SITRAINA INFORMA</b>
             </h2>
             <h5 className="display-5">
-              <b>Programa: Martes 15 de Marzo 2022 - Horario: 4 pm</b></h5>
+              <b>Programa: Martes 22 de Marzo 2022 - Horario: 4 pm</b></h5>
             <h3 className="display-5 text-danger">
-              <b>Privatización de la educación técnica en América Latina: Honduras, Costa Rica y Chile</b>
+              <b>Situación Actual del INA</b>
             </h3>
             <h5>
               <b>
-                Con Esteban Diaz - Instituto Nacional de Formación Profesional - Honduras
-                <br />
-                Con Ricardo Jara - Secretario General, SITRAINA - Costa Rica
-                <br />
-                Con Michael Humana - Sindicato Nacional de Trabajadoras y Trabajadores de la Educación - Chile
+                Con Ricardo Jara - Secretario General, SITRAINA
               </b>
             </h5>
 
             {/* ENVIVO ////////////////////////////////////////////////// */}
 
-            {/* <h5 className="mt-3">
+            <h5 className="mt-3">
               <div className="spinner-grow spinner-grow-sm text-danger mb-2" role="status">
                 <span className="sr-only">Loading...</span>
               </div>
@@ -100,7 +96,7 @@ const Presentacion = (props) => {
                   Ver Programa
                 </a>
               </Link>
-            </div> */}
+            </div>
 
             {/* ENVIVO ////////////////////////////////////////////////// */}
 

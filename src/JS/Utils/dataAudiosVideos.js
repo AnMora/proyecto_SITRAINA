@@ -44,6 +44,14 @@ const DAudVid = {
     ],
     VideosYoutube: [
         {
+            titulo: "¿Cómo llevar un proceso de acoso laboral en el INA?",
+            descripcion: "Este programa fue emitido el 25 de enero de 2022 y en él interactúa nuestra abogada, la Licda. Melissa Segura Navarro: El acoso laboral es uno de los fenómenos que más afecta la calidad de vida de las personas trabajadoras. Por lo tanto, saber con claridad qué es acoso laboral y cómo lo puedo denunciar es fundamental para que las personas trabajadoras puedan defender sus derechos. Ante esto, SITRAINA inicia una campaña de No al Acoso Laboral en el INA. Sin embargo, el programa puede ser de ayuda para toda persona trabajadora.",
+            año: "2022",
+            mes: "Marzo",
+            fecha: "17",
+            link: "https://www.youtube.com/watch?v=tusX3cEc1JU",
+        },
+        {
             titulo: "REGLAMENTO AUTÓNOMO DE SERVICIOS: SEGUNDA PARTE",
             descripcion: "En este programa, compartimos con la abogada de SITRAINA, Melissa Segura, quien nos expone los detalle contextuales y legales del Reglamento Autónomo de Servicios.",
             año: "2022",

@@ -52,6 +52,14 @@ const DHmiercoles = {
       //     link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-23_marzo_2022.pdf",
       // },
       // Hoja de Miercoles Actual
+      // Hoja_de_Miercoles-21_marzo_2022-Edicion_Especial
+      {
+        año: 2022,
+        titulo: "Hoja de Lunes 21 de Marzo, 2022 - Edicion Especial",
+        mes: "Marzo",
+        fecha: 21,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-21_marzo_2022-Edicion_Especial.pdf",
+      },
       {
         año: 2022,
         titulo: "Hoja de Miercoles 16 de Marzo, 2022",

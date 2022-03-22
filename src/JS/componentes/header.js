@@ -15,7 +15,7 @@ const Header = (props) => {
 
   return (
     <>
-      <nav className="navbar navbar-expand navbar-primary text-primary bg-light topbar static-top shadow">
+      <nav className="navbar navbar-expand navbar-primary text-primary bg-white topbar static-top shadow">
         <button
           id="sidebarToggleTop"
           className="btn btn-outline-primary btn-link text-primary d-md-none icon"
@@ -28,7 +28,7 @@ const Header = (props) => {
 
         {/* ENVIVO ////////////////////////////////////////////////// */}
 
-          {/* <li className="nav-item dropdown no-arrow" data-tip data-for="Accesibilidad">
+          <li className="nav-item dropdown no-arrow" data-tip data-for="Accesibilidad">
             <Link to="/EnVIVO">
               <a className="nav-link dropdown-toggle" href="##" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div className="spinner-grow spinner-grow-sm text-danger" role="status">
@@ -49,7 +49,7 @@ const Header = (props) => {
             Programa de SITRAINA transmision EN VIVO
           </ReactTooltip>
 
-          <div className="topbar-divider d-none d-sm-block"></div> */}
+          <div className="topbar-divider d-none d-sm-block"></div>
 
           {/* ENVIVO ////////////////////////////////////////////////// */}
 

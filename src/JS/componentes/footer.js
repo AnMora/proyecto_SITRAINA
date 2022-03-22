@@ -53,7 +53,7 @@ const Footer = (props) => {
 
     return(
         <>
-            <footer className="sticky-footer text-primary bg-light static-bottom shadow">
+            <footer className="sticky-footer text-primary bg-white static-bottom shadow">
                 <div className="container">
                     <div className="container my-auto mb-4">
                         <div className="copyright my-auto text-primary text-center my-auto">
