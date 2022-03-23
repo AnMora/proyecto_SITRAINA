@@ -51,25 +51,25 @@ const DPP = {
         // Proxima Hoja de Miercoles
         // {
         //     año: 2022,
-        //     titulo: "Hoja de Miercoles 23 de Marzo, 2022",
+        //     titulo: "Hoja de Miercoles 30 de Marzo, 2022",
         //     mes: "Marzo",
-        //     fecha: 23,
-        //     link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-23_marzo_2022.pdf",
+        //     fecha: 30,
+        //     link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-30_marzo_2022.pdf",
         // },
         // Hoja de Miercoles Actual
         {
             año: 2022,
-            titulo: "Hoja de Lunes 21 de Marzo, 2022 - Edicion Especial",
+            titulo: "Hoja de Miercoles 23 de Marzo, 2022",
             mes: "Marzo",
-            fecha: 21,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-21_marzo_2022-Edicion_Especial.pdf",
+            fecha: 23,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-23_marzo_2022.pdf",
         },
         {
             año: 2022,
-            titulo: "Hoja de Miercoles 16 de Marzo, 2022",
+            titulo: "Hoja de Miercoles - Lunes 21 de Marzo, 2022 - Edicion Especial",
             mes: "Marzo",
-            fecha: 16,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-16_marzo_2022.pdf",
+            fecha: 21,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-21_marzo_2022-Edicion_Especial.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js

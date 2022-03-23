@@ -301,6 +301,49 @@ const Sitraina = (props) => {
 
         </div>
 
+        {/* Programa Especial */}
+
+        <div className="card border-left-danger shadow mb-4">
+          <a
+            href="#Informativas"
+            className="d-block card-header"
+            data-toggle="collapse"
+            role="button"
+            aria-expanded="true"
+            aria-controls="collapseCard"
+          >
+            <h4 className="m-0 font-weight-bold text-primary">
+              Escuela Sindical Leonel Vega les invita al documental:
+            </h4>
+            <h5 className="mt-2">
+              Servicio Civil, Neoliberalismo y Corrupción a la Tica
+            </h5>
+          </a>
+          <div className="collapse show" id="Informativas">
+            <div className="card-body">
+              <div className="mb-0 font-weight-bold text-gray-800">
+                <div className="row">
+                  <div className="col-12">
+                    <div classname="card">
+                      <div classname="card-body">
+                        <img
+                          src="../../Documentos/informativas/escuelasindical-26_marzo_2022.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Programa Especial */}
+
         {/* {HMReciente} */}
         <div className="alert alert-primary" role="alert">
           {HMReciente}
