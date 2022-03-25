@@ -15,7 +15,7 @@ const Header = (props) => {
 
   return (
     <>
-      <nav className="navbar navbar-expand navbar-primary text-primary bg-white topbar static-top shadow">
+      <nav className="navbar navbar-expand navbar-light text-white bg-primary topbar static-top shadow">
         <button
           id="sidebarToggleTop"
           className="btn btn-outline-primary btn-link text-primary d-md-none icon"

@@ -69,7 +69,7 @@ const Navbar = (props) => {
   return (
     <>
       <ul
-        className="navbar-nav bg-gray-900 sidebar sidebar-dark accordion"
+        className="navbar-nav bg-gray-700 sidebar sidebar-dark accordion"
         id="accordionSidebar"
       >
         {estasEn === "Pagina Principal" ? (

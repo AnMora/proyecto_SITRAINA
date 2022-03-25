@@ -10,7 +10,7 @@ const Footer = (props) => {
             <>
                 <a
                     key={position}
-                    className="btn btn-primary btn-circle m-1"
+                    className="btn btn-outline-light btn-circle m-1"
                     href={item.Link}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -53,7 +53,7 @@ const Footer = (props) => {
 
     return(
         <>
-            <footer className="sticky-footer text-primary bg-white static-bottom shadow">
+            <footer className="sticky-footer text-white bg-primary static-bottom shadow">
                 <div className="container">
                     <div className="container my-auto mb-4">
                         <div className="copyright my-auto text-primary text-center my-auto">
