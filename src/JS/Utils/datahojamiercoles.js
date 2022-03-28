@@ -54,7 +54,7 @@ const DHmiercoles = {
       // Hoja de Miercoles Actual
       {
           año: 2022,
-          titulo: "Hoja de Miercoles 24 de Marzo, 2022 - Edicion Especial",
+          titulo: "Hoja de Miercoles - Jueves 24 de Marzo, 2022 - Edicion Especial",
           mes: "Marzo",
           fecha: 24,
           link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-24_marzo_2022.pdf",
