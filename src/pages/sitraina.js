@@ -275,17 +275,17 @@ const Sitraina = (props) => {
             <b>SITRAINA INFORMA</b>
           </h2>
           <h5 className="display-5">
-            <b>Programa: Martes 22 de Marzo 2022 - Horario: 4 pm</b></h5>
+            <b>Programa: Martes 29 de Marzo 2022 - Horario: 4 pm</b></h5>
           <h3 className="display-5">
-            <b>Situación Actual del INA</b>
+            <b>El INA: Lo que fue, lo que es y lo que puede ser</b>
           </h3>
           <h5>
-            Con Ricardo Jara - Secretario General, SITRAINA
+            Con <b>Jorge Muñoz Araya</b>, <b>Ex-miembro de la Junta Directiva del INA</b>
           </h5>
 
           {/* Habilitar programa ////////////////////////////////////////////////// */}
 
-          <div className="col-auto">
+          {/* <div className="col-auto">
             <Link to="/EnVIVO">
               <a
                 href="##"
@@ -295,7 +295,7 @@ const Sitraina = (props) => {
                 Ver Programa
               </a>
             </Link>
-          </div>
+          </div> */}
 
           {/* Habilitar programa ////////////////////////////////////////////////// */}         
 
