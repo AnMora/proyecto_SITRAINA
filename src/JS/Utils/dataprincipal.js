@@ -51,32 +51,18 @@ const DPP = {
         // Proxima Hoja de Miercoles
         // {
         //     año: 2022,
-        //     titulo: "Hoja de Miercoles 30 de Marzo, 2022",
-        //     mes: "Marzo",
-        //     fecha: 30,
-        //     link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-30_marzo_2022.pdf",
+        //     titulo: "Hoja de Miercoles 06 de Abril, 2022",
+        //     mes: "Abril",
+        //     fecha: 6,
+        //     link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-06_abril_2022.pdf",
         // },
         // Hoja de Miercoles Actual
         {
             año: 2022,
-            titulo: "Hoja de Miercoles - Jueves 24 de Marzo, 2022 - Edicion Especial",
+            titulo: "Hoja de Miercoles 30 de Marzo, 2022",
             mes: "Marzo",
-            fecha: 24,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-24_marzo_2022.pdf",
-        },
-        {
-            año: 2022,
-            titulo: "Hoja de Miercoles 23 de Marzo, 2022",
-            mes: "Marzo",
-            fecha: 23,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-23_marzo_2022.pdf",
-        },
-        {
-            año: 2022,
-            titulo: "Hoja de Miercoles - Lunes 21 de Marzo, 2022 - Edicion Especial",
-            mes: "Marzo",
-            fecha: 21,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-21_marzo_2022-Edicion_Especial.pdf",
+            fecha: 30,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-30_marzo_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
