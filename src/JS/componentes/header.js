@@ -1,6 +1,6 @@
 import React from "react";
 import $ from "jquery";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ReactTooltip from "react-tooltip";
 
 const Header = (props) => {
@@ -18,7 +18,7 @@ const Header = (props) => {
       <nav className="navbar navbar-expand navbar-light text-white bg-primary topbar static-top shadow">
         <button
           id="sidebarToggleTop"
-          className="btn btn-outline-primary btn-link text-primary d-md-none icon"
+          className="btn btn-outline-light btn-link text-white d-md-none icon"
           onClick={(e) => handleMenu(e)}
         >
           <i className="fa fa-bars"></i>
