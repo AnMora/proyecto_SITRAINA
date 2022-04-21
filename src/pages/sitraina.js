@@ -275,7 +275,7 @@ const Sitraina = (props) => {
             <b>SITRAINA INFORMA</b>
           </h2>
           <h5 className="display-5">
-            <b>Programa: Miercoles 20 de Abril 2022 - Horario: 4 pm</b></h5>
+            <b>Programa: Viernes 22 de Abril 2022 - Horario: 5 pm</b></h5>
           <h3 className="display-5">
             <b>¿Qué esta pasando con la plata del INA?</b>
           </h3>
@@ -302,6 +302,58 @@ const Sitraina = (props) => {
         </div>
 
         {/* Programa Especial */}
+
+        <div className="card border-left-danger shadow mb-4">
+          <a
+            href="#Informativas"
+            className="d-block card-header"
+            data-toggle="collapse"
+            role="button"
+            aria-expanded="true"
+            aria-controls="collapseCard"
+          >
+            <h4 className="m-0 font-weight-bold text-primary">
+              SITRAINA convoca a:
+            </h4>
+            <h5 className="font-weight-bold mt-2">
+              DOMINGO 1 DE MAYO - Horario: 9:00 AM
+            </h5>
+          </a>
+          <div className="collapse show" id="Informativas">
+            <div className="card-body">
+              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                {/* <div className="row">
+                  <div className="col-md-12"> */}
+                    <div classname="card">
+                      <div classname="card-body">
+                        <img
+                          src="../../Documentos/informativas/INAcapaz1.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  {/* </div> */}
+                  {/* <div className="col-md-6">
+                    <div classname="card">
+                      <div classname="card-body">
+                        <img
+                          src="../../Documentos/informativas/Programa_especial_sitraina_informa1.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div> */}
+                {/* </div> */}
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* Programa Especial */}
 

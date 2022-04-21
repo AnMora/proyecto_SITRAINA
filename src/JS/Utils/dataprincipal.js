@@ -58,11 +58,11 @@ const DPP = {
         // },
         // Hoja de Miercoles Actual
         {
-          año: 2022,
-          titulo: "Hoja de Miercoles 06 de Abril, 2022",
-          mes: "Abril",
-          fecha: 6,
-          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-06_abril_2022.pdf",
+            año: 2022,
+            titulo: "Hoja de Miercoles 20 de Abril, 2022",
+            mes: "Abril",
+            fecha: 20,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-20_abril_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js

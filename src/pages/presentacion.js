@@ -66,12 +66,14 @@ const Presentacion = (props) => {
               <b>SITRAINA INFORMA</b>
             </h2>
             <h5 className="display-5">
-              <b>Programa: Miercoles 20 de Abril 2022 - Horario: 4 pm</b></h5>
+              <b>Programa: Viernes 22 de Abril 2022 - Horario: 5 pm</b></h5>
             <h3 className="display-5 text-danger">
               <b>¿Qué esta pasando con la plata del INA?</b>
             </h3>
             <h5>
               Con <b>Ricardo Jara - Secretario General</b>.
+              <br />
+              <b>SITRAINA</b> pedimos disculpas por los problemas técnicos que obstaculizaron la transmisión del programa el día miercoles 20. Debido a estos, nos vemos en la necesidad y la obligación de reprogramar la transmisión para el <b>viernes 22 de abril, a las 5 pm</b>. Saludos cordiales.
             </h5>
 
             {/* ENVIVO ////////////////////////////////////////////////// */}
