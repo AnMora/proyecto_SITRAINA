@@ -285,7 +285,7 @@ const Sitraina = (props) => {
 
           {/* Habilitar programa ////////////////////////////////////////////////// */}
 
-          {/* <div className="col-auto">
+          <div className="col-auto">
             <Link to="/EnVIVO">
               <a
                 href="##"
@@ -295,7 +295,7 @@ const Sitraina = (props) => {
                 Ver Programa
               </a>
             </Link>
-          </div> */}
+          </div>
 
           {/* Habilitar programa ////////////////////////////////////////////////// */}         
 
