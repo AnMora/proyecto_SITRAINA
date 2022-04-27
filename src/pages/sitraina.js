@@ -275,9 +275,9 @@ const Sitraina = (props) => {
             <b>SITRAINA INFORMA</b>
           </h2>
           <h5 className="display-5">
-            <b>Programa: Viernes 22 de Abril 2022 - Horario: 5 pm</b></h5>
+            <b>Programa: Miercoles 27 de Abril 2022 - Horario: 5 pm</b></h5>
           <h3 className="display-5">
-            <b>¿Qué esta pasando con la plata del INA?</b>
+            <b>Segunda Parte: ¿Qué esta pasando con la plata del INA?</b>
           </h3>
           <h5>
             Con <b>Ricardo Jara - Secretario General</b>
@@ -316,14 +316,16 @@ const Sitraina = (props) => {
               SITRAINA convoca a:
             </h4>
             <h5 className="font-weight-bold mt-2">
-              DOMINGO 1 DE MAYO - Horario: 9:00 AM
+              - VIERNES 29 DE ABRIL - Horario: 8:00 AM
+              <br/>
+              - DOMINGO 1 DE MAYO - Horario: 9:00 AM
             </h5>
           </a>
           <div className="collapse show" id="Informativas">
             <div className="card-body">
               <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                {/* <div className="row">
-                  <div className="col-md-12"> */}
+                <div className="row">
+                  <div className="col-md-6">
                     <div classname="card">
                       <div classname="card-body">
                         <img
@@ -335,8 +337,8 @@ const Sitraina = (props) => {
                         />
                       </div>
                     </div>
-                  {/* </div> */}
-                  {/* <div className="col-md-6">
+                  </div>
+                  <div className="col-md-6">
                     <div classname="card">
                       <div classname="card-body">
                         <img
@@ -348,8 +350,8 @@ const Sitraina = (props) => {
                         />
                       </div>
                     </div>
-                  </div> */}
-                {/* </div> */}
+                  </div>
+                </div>
               </div>
             </div>
           </div>

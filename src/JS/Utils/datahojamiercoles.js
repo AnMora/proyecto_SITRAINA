@@ -46,13 +46,19 @@ const DHmiercoles = {
       // Hoja de Miercoles proxima
       // {
       //     año: 2022,
-      //     titulo: "Hoja de Miercoles 20 de Abril, 2022",
+      //     titulo: "Hoja de Miercoles 04 de Abril, 2022",
       //     mes: "Abril",
-      //     fecha: 20,
-      //     link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-20_abril_2022.pdf",
+      //     fecha: 4,
+      //     link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-04_mayo_2022.pdf",
       // },
       // Hoja de Miercoles Actual
-      // Hoja de Miercoles proxima
+      {
+          año: 2022,
+          titulo: "Hoja de Miercoles 27 de Abril, 2022",
+          mes: "Abril",
+          fecha: 27,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-27_abril_2022.pdf",
+      },
       {
           año: 2022,
           titulo: "Hoja de Miercoles 20 de Abril, 2022",

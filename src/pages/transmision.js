@@ -14,17 +14,14 @@ const ENVIVO = (props) => {
               <b>SITRAINA INFORMA</b>
             </h2>
             <h5 className="display-5">
-              <b>Programa: Viernes 22 de Abril 2022 - Horario: 5 pm</b></h5>
+              <b>Programa: Miercoles 27 de Abril 2022 - Horario: 5 pm</b></h5>
             <h3 className="display-5">
-              <b>¿Qué esta pasando con la plata del INA?</b>
+              <b>Segunda Parte: ¿Qué esta pasando con la plata del INA?</b>
             </h3>
             <h5>
               Con <b>Ricardo Jara - Secretario General</b>.
-              <br />
-              <br />
-              <b>SITRAINA</b> pedimos disculpas por los problemas técnicos que obstaculizaron la transmisión del programa el día miercoles 20. Debido a estos, nos vemos en la necesidad y la obligación de reprogramar la transmisión para el <b>viernes 22 de abril, a las 5 pm</b>. Saludos cordiales.
-              <br />
-              Lo pueden ver en vivo o en diferido en nuestro sitio web o en nuestra página de <a href="https://www.facebook.com/SitrainaCR" target="_blank" rel="noopener noreferrer">
+              <br/>
+              Lo pueden ver en vivo en nuestro sitio web o en nuestra página de <a href="https://www.facebook.com/SitrainaCR" target="_blank" rel="noopener noreferrer">
                 <button type="button" className="btn btn-primary">
                 Facebook</button>
               </a>
