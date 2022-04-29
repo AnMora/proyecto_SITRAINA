@@ -231,35 +231,46 @@ const Sitraina = (props) => {
   return (
     <div className="container-fluid">
       <div className="mt-4">
-        <div className="alert alert-info" role="alert">
-          <h2 className="display-5">
-            <b>SITRAINA INFORMA</b>
-          </h2>
-          <h5 className="display-5">
-            <b>Programa: Viernes 22 de Abril 2022 - Horario: 5 pm</b></h5>
-          <h3 className="display-5">
-            <b>¿Qué esta pasando con la plata del INA?</b>
-          </h3>
-          <h5>
-            Con <b>Ricardo Jara - Secretario General</b>
-          </h5>
 
-          {/* Habilitar programa ////////////////////////////////////////////////// */}
-
-          <div className="col-auto">
-            <Link to="/EnVIVO">
-              <a
-                href="##"
-                className="text-light btn btn-info mt-2 mb-2"
-                value="Ingresar"
-              >
-                Ver Programa
-              </a>
-            </Link>
-          </div>
-
-          {/* Habilitar programa ////////////////////////////////////////////////// */}         
-
+        <div className="alert alert-primary" role="alert">
+          <Link to="/EnVIVO">
+            <a
+              href="##"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="mb-3 mt-3">
+                <div className="card border-left-info shadow h-100 py-2">
+                  <div className="card-body">
+                    <div className="row no-gutters align-items-center">
+                      <div className="col mr-2">
+                        <div className="h5 font-weight-bold text-info text-uppercase mb-1">
+                          SITRAINA INFORMA
+                        </div>
+                        <div className="row no-gutters align-items-center">
+                          <div className="col-auto">
+                            <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                              Programa: Viernes 22 de Abril 2022 - Horario: 5 pm
+                              <h3 className="display-5 text-info">
+                                <b>¿Qué esta pasando con la plata del INA?</b>
+                              </h3>
+                              Con <b>Ricardo Jara - Secretario General</b>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-auto">
+                        <i className="fas fa-play fa-2x text-gray-300"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </Link>
+          <strong>
+            Visualice el programa SITRAINA INFORMA dando clic encima del texto.
+          </strong>
         </div>
 
         {/* Programa Especial */}
