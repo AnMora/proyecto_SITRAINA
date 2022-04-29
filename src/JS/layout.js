@@ -27,6 +27,9 @@ import HojaMiercoles from "../pages/hojamiercoles";
 // Pagina sitraina/reglamentos
 import Reglamentos from "../pages/reglamentos";
 
+// Pagina sitraina/informes
+import InformesAnuales from "../pages/informes";
+
 // Pagina sitraina/juntadirectiva
 import JDirectiva from "../pages/juntaDirectiva";
 
@@ -51,6 +54,7 @@ import DPres from './Utils/datapresentacion';
 import DPP from './Utils/dataprincipal';
 // import DCont from './Utils/datacontactenos';
 import DHmiercoles from "./Utils/datahojamiercoles";
+import DInfoAnual from "./Utils/dataInformes";
 import DRegla from "./Utils/datareglamentos";
 import DJDirectiva from "./Utils/dataJuntaDirectiva";
 import DFisc from "./Utils/datafiscalia";
@@ -67,6 +71,7 @@ class Layout extends Component {
     // pDataContactenos: DCont,
     pDataHmiercoles: DHmiercoles,
     pDataReglamentos: DRegla,
+    pDataInfoAnual: DInfoAnual,
     pDataJDirectiva: DJDirectiva,
     pDataFiscalia: DFisc,
     pDataConvenios: DConv,
@@ -134,6 +139,18 @@ class Layout extends Component {
                                 <div className="content">
                                     <Header data={this.state.pDataPresentacion} />
                                     <JDirectiva data={this.state.pDataJDirectiva} />
+                                </div>
+                            <Footer data={this.state.pDataPresentacion} />
+                            </main>
+                        </div>
+                    </Route>
+                    <Route path="/sitraina/informes">
+                        <div id="wrapper">
+                            <Navbar data={this.state.pDataInfoAnual} />
+                            <main id="content-wrapper" className="d-flex flex-column">
+                                <div className="content">
+                                    <Header data={this.state.pDataPresentacion} />
+                                    <InformesAnuales data={this.state.pDataInfoAnual} />
                                 </div>
                             <Footer data={this.state.pDataPresentacion} />
                             </main>

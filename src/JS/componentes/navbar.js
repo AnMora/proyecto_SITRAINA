@@ -2,9 +2,7 @@ import React from "react";
 import $ from "jquery";
 import ReactTooltip from "react-tooltip";
 import { Link } from "react-router-dom";
-
 import Boleta from "../../Documentos/afiliacion/boleta_afiliacion_sitraina.pdf";
-// import logo from "../../multimedia/icono/SITRAINA.png";
 
 const Navbar = (props) => {
   const handleSide = (e) => {
@@ -69,7 +67,7 @@ const Navbar = (props) => {
   return (
     <>
       <ul
-        className="navbar-nav bg-gray-700 sidebar sidebar-dark accordion"
+        className="navbar-nav bg-gray-900 sidebar sidebar-dark accordion"
         id="accordionSidebar"
       >
         {estasEn === "Pagina Principal" ? (

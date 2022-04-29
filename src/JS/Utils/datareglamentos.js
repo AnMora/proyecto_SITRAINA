@@ -6,6 +6,10 @@ const DRegla = {
             seccion: "Hoja de Miercoles"
         },
         {
+            path: "/sitraina/informes",
+            seccion: "Informes"
+        },
+        {
             path: "/sitraina/juntadirectiva",
             seccion: "Junta Directiva"
         },

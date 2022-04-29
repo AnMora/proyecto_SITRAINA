@@ -10,6 +10,10 @@ const DFotAlbm = {
             seccion: "Reglamentos"
         },
         {
+            path: "/sitraina/informes",
+            seccion: "Informes"
+        },
+        {
             path: "/sitraina/juntadirectiva",
             seccion: "Junta Directiva"
         },

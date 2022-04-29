@@ -10,6 +10,10 @@ const DJDirectiva = {
             seccion: "Reglamentos"
         },
         {
+            path: "/sitraina/informes",
+            seccion: "Informes"
+        },
+        {
             path: "/sitraina/fiscalia",
             seccion: "Fiscalia"
         },

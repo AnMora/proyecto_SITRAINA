@@ -14,13 +14,18 @@ const ENVIVO = (props) => {
               <b>SITRAINA INFORMA</b>
             </h2>
             <h5 className="display-5">
-              <b>Programa: Miercoles 27 de Abril 2022 - Horario: 5 pm</b></h5>
+              <b>Programa: Viernes 22 de Abril 2022 - Horario: 5 pm</b>
+            </h5>
             <h3 className="display-5">
-              <b>Segunda Parte: ¿Qué esta pasando con la plata del INA?</b>
+              <b>¿Qué esta pasando con la plata del INA?</b>
+              <br /> 
             </h3>
-            <h5>
+            <h4>
               Con <b>Ricardo Jara - Secretario General</b>.
-              <br/>
+            </h4>
+            <h5>
+              <b>SITRAINA</b> pide disculpas por los problemas técnicos que obstaculizaron la transmisión del programa el día martes 19 de abril. Debido a estos, nos vemos en la necesidad y la obligación de reprogramar la transmisión para el viernes 22 de abril, a las 5 pm. Saludos cordiales
+              <br />
               Lo pueden ver en vivo en nuestro sitio web o en nuestra página de <a href="https://www.facebook.com/SitrainaCR" target="_blank" rel="noopener noreferrer">
                 <button type="button" className="btn btn-primary">
                 Facebook</button>

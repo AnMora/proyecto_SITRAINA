@@ -49,45 +49,6 @@ const Sitraina = (props) => {
     );
   });
 
-  const InfAnual = props.data.InfoAnuales.map((item, position) => {
-    return (
-      <>
-        <a
-          key={position}
-          href={item.link}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {/* <div className="container-fluid"> */}
-          <div className="mb-3 mt-3">
-            <div className="card border-left-info shadow h-100 py-2">
-              <div className="card-body">
-                <div className="row no-gutters align-items-center">
-                  <div className="col mr-2">
-                    <div className="font-weight-bold text-info text-uppercase mb-1">
-                        {item.reglamento}
-                    </div>
-                    <div className="row no-gutters align-items-center">
-                        <div className="col-auto">
-                        <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                            {item.descripcion}
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div className="col-auto">
-                    <i className="fas fa-download fa-2x text-gray-300"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* </div> */}
-          </div>
-        </a>
-      </>
-    );
-  });
-
   const Sitraina = props.data.Sitraina.map((item, position) => {
     if (position === 0) {
       return (
@@ -275,9 +236,9 @@ const Sitraina = (props) => {
             <b>SITRAINA INFORMA</b>
           </h2>
           <h5 className="display-5">
-            <b>Programa: Miercoles 27 de Abril 2022 - Horario: 5 pm</b></h5>
+            <b>Programa: Viernes 22 de Abril 2022 - Horario: 5 pm</b></h5>
           <h3 className="display-5">
-            <b>Segunda Parte: ¿Qué esta pasando con la plata del INA?</b>
+            <b>¿Qué esta pasando con la plata del INA?</b>
           </h3>
           <h5>
             Con <b>Ricardo Jara - Secretario General</b>
@@ -364,13 +325,6 @@ const Sitraina = (props) => {
           {HMReciente}
           <strong>
             Visualice o descargue la hoja de miércoles más reciente.
-          </strong>
-        </div>
-        {/* {InfoAnuales} */}
-        <div className="alert alert-warning" role="alert">
-          {InfAnual}
-          <strong>
-            Visualice o descargue el INFORME ANUAL Fiscalía SITRAINA.
           </strong>
         </div>
 
