@@ -254,7 +254,7 @@ const Sitraina = (props) => {
                               <h3 className="display-5 text-info">
                                 <strong>Segunda parte ¿Qué esta pasando con la plata del INA?</strong>
                               </h3>
-                              Con <strong>Ricardo Jara - Secretario General</strong>
+                              Con <strong>Ricardo Jara - Sindicalista SITRAINA</strong>
                             </div>
                           </div>
                         </div>

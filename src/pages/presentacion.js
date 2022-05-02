@@ -71,7 +71,7 @@ const Presentacion = (props) => {
               <b>Segunda Parte ¿Qué esta pasando con la plata del INA?</b>
             </h3>
             <h5>
-              Con <b>Ricardo Jara - Secretario General</b>.
+              Con <b>Ricardo Jara - Sindicalista SITRAINA</b>.
             </h5>
 
             {/* ENVIVO ////////////////////////////////////////////////// */}
