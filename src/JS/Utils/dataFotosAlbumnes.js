@@ -46,6 +46,58 @@ const DFotAlbm = {
             lema: "Una galería de imágenes es un recurso muy útil cuando necesitas mostrar una serie de fotos en una página o artículo de tu sitio web. Te permite agruparlas y mostrarlas de una forma más profesional.",
         }
     ],
+    SITRAINA_01_Mayo_2022: [
+        {
+            titulo: "SITRAINA - Manifestacion del 1 de mayo",
+            img: "../../multimedia/imagenes/Album_manifestacion_01_mayo/manifestacion1.jpeg",
+            descripcion: "Día Internacional de la Persona Trabajadora. EL INA SÍ ES CAPAZ"
+        },
+        {
+            titulo: "SITRAINA - Manifestacion del 1 de mayo",
+            img: "../../multimedia/imagenes/Album_manifestacion_01_mayo/manifestacion2.jpeg",
+            descripcion: "Día Internacional de la Persona Trabajadora. EL INA SÍ ES CAPAZ"
+        },
+        {
+            titulo: "SITRAINA - Manifestacion del 1 de mayo",
+            img: "../../multimedia/imagenes/Album_manifestacion_01_mayo/manifestacion3.jpeg",
+            descripcion: "Día Internacional de la Persona Trabajadora. EL INA SÍ ES CAPAZ"
+        },
+        {
+            titulo: "SITRAINA - Manifestacion del 1 de mayo",
+            img: "../../multimedia/imagenes/Album_manifestacion_01_mayo/manifestacion4.jpeg",
+            descripcion: "Día Internacional de la Persona Trabajadora. EL INA SÍ ES CAPAZ"
+        },
+        {
+            titulo: "SITRAINA - Manifestacion del 1 de mayo",
+            img: "../../multimedia/imagenes/Album_manifestacion_01_mayo/manifestacion5.jpeg",
+            descripcion: "Día Internacional de la Persona Trabajadora. EL INA SÍ ES CAPAZ"
+        },
+        {
+            titulo: "SITRAINA - Manifestacion del 1 de mayo",
+            img: "../../multimedia/imagenes/Album_manifestacion_01_mayo/manifestacion6.jpeg",
+            descripcion: "Día Internacional de la Persona Trabajadora. EL INA SÍ ES CAPAZ"
+        },
+        {
+            titulo: "SITRAINA - Manifestacion del 1 de mayo",
+            img: "../../multimedia/imagenes/Album_manifestacion_01_mayo/manifestacion7.jpeg",
+            descripcion: "Día Internacional de la Persona Trabajadora. EL INA SÍ ES CAPAZ"
+        },
+        {
+            titulo: "SITRAINA - Manifestacion del 1 de mayo",
+            img: "../../multimedia/imagenes/Album_manifestacion_01_mayo/manifestacion8.jpeg",
+            descripcion: "Día Internacional de la Persona Trabajadora. EL INA SÍ ES CAPAZ"
+        },
+        {
+            titulo: "SITRAINA - Manifestacion del 1 de mayo",
+            img: "../../multimedia/imagenes/Album_manifestacion_01_mayo/manifestacion9.jpeg",
+            descripcion: "Día Internacional de la Persona Trabajadora. EL INA SÍ ES CAPAZ"
+        },
+        {
+            titulo: "SITRAINA - Manifestacion del 1 de mayo",
+            img: "../../multimedia/imagenes/Album_manifestacion_01_mayo/manifestacion10.jpeg",
+            descripcion: "Día Internacional de la Persona Trabajadora. EL INA SÍ ES CAPAZ"
+        },
+    ],    
     Gira_TLSSN: [
         {
             titulo: "Regional de Turrialba",

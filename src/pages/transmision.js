@@ -9,35 +9,43 @@ const ENVIVO = (props) => {
     <>
       <div className="container-fluid">
         <div className="mt-4">
-          <div className="alert alert-info" role="alert">
-            <h2 className="display-5">
-              <b>SITRAINA INFORMA</b>
-            </h2>
-            <h5 className="display-5">
-              <b>Programa: Viernes 22 de Abril 2022 - Horario: 5 pm</b>
-            </h5>
-            <h3 className="display-5">
-              <b>¿Qué esta pasando con la plata del INA?</b>
-              <br /> 
-            </h3>
-            <h4>
-              Con <b>Ricardo Jara - Secretario General</b>.
-            </h4>
-            <h5>
-              <b>SITRAINA</b> pide disculpas por los problemas técnicos que obstaculizaron la transmisión del programa el día martes 19 de abril. Debido a estos, nos vemos en la necesidad y la obligación de reprogramar la transmisión para el viernes 22 de abril, a las 5 pm. Saludos cordiales
-              <br />
-              Lo pueden ver en vivo en nuestro sitio web o en nuestra página de <a href="https://www.facebook.com/SitrainaCR" target="_blank" rel="noopener noreferrer">
-                <button type="button" className="btn btn-primary">
-                Facebook</button>
-              </a>
-            </h5>
-            <p>
-              <b>Comuníquese con nuestro departamento de comunicación vía <a href="https://wa.me/50663400176/?text=www.sitraina.org:%20Deje%20su%20mensaje%20a%20continuación..." target="_blank" rel="noopener noreferrer">
-                <button type="button" className="btn btn-success">
-                Whatsapp</button>
-              </a> o al 6340 0176.</b>
-            </p>
-          </div>
+
+          <div className="alert alert-primary" role="alert">
+              <div className="mb-3 mt-3">
+                <div className="card border-left-info shadow h-100 py-2">
+                  <div className="card-body">
+                    <div className="row no-gutters align-items-center">
+                      <div className="col mr-2">
+                        <div className="h5 font-weight-bold text-info text-uppercase mb-1">
+                          SITRAINA INFORMA
+                        </div>
+                        <div className="row no-gutters align-items-center">
+                          <div className="col-auto">
+                            <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                              Programa: Martes 03 de Mayo 2022 - Horario: 5 pm
+                              <h3 className="display-5 text-info">
+                                <strong>Segunda parte ¿Qué esta pasando con la plata del INA?</strong>
+                              </h3>
+                              Con <strong>Ricardo Jara - Secretario General</strong>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-auto">
+                        <button type="button" className="mt-2 btn btn-primary">Facebook</button>
+                        <br />
+                        <button type="button" className="mt-2 btn btn-success">Whatsapp</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <strong>
+            Lo pueden ver en vivo en nuestro sitio web o en nuestra página.
+            <br />
+            Comuníquese con nuestro departamento de comunicación.
+          </strong>
+        </div>
 
           {EnVivo === "" ? (
             ""

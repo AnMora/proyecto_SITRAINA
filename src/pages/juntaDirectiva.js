@@ -473,13 +473,68 @@ const JDirectiva = (props) => {
         )
     })
 
+    // Conflictos
+    const Deb_suplencia = props.data.suplencia[0].deberes.map((item,position) => {
+        return(
+            <>
+                <li key={position} className="list-group-item text-center"><b className="mb-0 mr-3 font-weight-bold text-gray-800">{item.atribucion}</b></li>
+            </>
+        )
+    })
+    const Suplencias = props.data.suplencia.map((item,position) => {
+        return (
+            <>
+                <a key={position} href="##" rel="noopener noreferrer">
+                    <div className="container-fluid">
+                        <div className="mb-3 mt-3">
+                            <div className="card border-left-warning shadow h-100 py-2">
+                                <div className="card-body">
+                                    <div className="row no-gutters align-items-center">
+                                        <div className="col-auto col-md-2">
+                                            <img style={{ width: "120px" }} className="d-flex align-self-center m-3" src={logo} alt="Fines ilustrativos" />
+                                        </div>
+                                        <div className="col-auto col-md-10">
+                                            <div className="font-weight-bold text-info text-uppercase mb-1">
+                                                <span className="h4 font-weight-bold text-info text-uppercase mb-1">{item.representante}</span>
+                                                <br />
+                                                <span className="font-weight-bold text-primary">{item.cargo}</span>
+                                            </div>
+                                            <div className="row no-gutters align-items-center">
+                                                <div className="col-auto">
+                                                    <div className="mt-3 font-weight-bold text-info text-uppercase mb-1">Correo Electronico: </div>
+                                                    <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                                                        {item.contactar}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {/* atribuciones */}
+                                        <div className="card-body">
+                                            <div className="mb-0 mr-3 mb-3 font-weight-bold text-info text-uppercase">Deberes o atribuciones:</div>
+                                            <ul className="list-group">
+                                                {Deb_suplencia}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </>
+        )
+    })
+
     // SGeneral
     // SAdjunto
     // FAdministracion
     // ACorrespondecia
     // APropaganda
     // CSociales
-    // 
+    // Educacion
+    // La Mujer
+    // Conflictos
+    // Suplencia
 
     return (
         <>
@@ -530,7 +585,7 @@ const JDirectiva = (props) => {
                         aria-expanded="true"
                         aria-controls="collapseCard"
                     >
-                        <h4 className="m-0 font-weight-bold text-primary">Secretario Adjunto</h4>
+                        <h4 className="m-0 font-weight-bold text-primary">Secretaria General Adjunta</h4>
                     </a>
                     <div className="collapse show" id="SecretarioAdjunto">
                         {SAdjunto}
@@ -646,6 +701,22 @@ const JDirectiva = (props) => {
                     </a>
                     <div className="collapse show" id="Conflictos">
                         {Conflicto}
+                    </div>
+                </div>
+                {/* Suplencias */}
+                <div className="card border-bottom-info shadow mb-4">
+                    <a
+                        href="#Suplencias"
+                        className="d-block card-header"
+                        data-toggle="collapse"
+                        role="button"
+                        aria-expanded="true"
+                        aria-controls="collapseCard"
+                    >
+                        <h4 className="m-0 font-weight-bold text-primary">Suplencias</h4>
+                    </a>
+                    <div className="collapse show" id="Suplencias">
+                        {Suplencias}
                     </div>
                 </div>
                 <ScrollToTop />

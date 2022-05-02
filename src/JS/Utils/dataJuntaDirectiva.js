@@ -17,18 +17,10 @@ const DJDirectiva = {
             path: "/sitraina/fiscalia",
             seccion: "Fiscalia"
         },
-        // {
-        //     path: "",
-        //     seccion: "Seccionales"
-        // },
         {
             path: "/sitraina/convenios",
             seccion: "Convenios"
         },
-        // {
-        //     path: "/sitraina/contactenos",
-        //     seccion: "Contactenos"
-        // }
     ],
     multimedia: [
         {
@@ -48,8 +40,8 @@ const DJDirectiva = {
     ],
     secretario_general: [
         {
-            representante: "Ricardo Jara Nuñez",
-            contactar: "rjaranunez@ina.ac.cr",
+            representante: "Claudio Alvarado Alvarado",
+            contactar: "calvaradoalvarado@ina.ac.cr",
             cargo: "Secretario General",
             deberes: [
                 {
@@ -86,7 +78,7 @@ const DJDirectiva = {
         {
             representante: "Marianela Delgado Quesada",
             contactar: "mdelgadoquesada@ina.ac.cr",
-            cargo: "Secretaría Adjunta",
+            cargo: "Secretaría General Adjunta",
             deberes: [
                 {
                     atribucion: "Asistir puntualmente a las sesiones de la Junta Directiva y Asamblea General."
@@ -114,8 +106,8 @@ const DJDirectiva = {
     ],
     finanzas_administracion: [
         {
-            representante: "Jeffrey Chavarría Jiménez",
-            contactar: "jeffrey.profe@gmail.com",
+            representante: "Henry Moya Picado",
+            contactar: "hmoyapicado@gmail.com",
             cargo: "Secretarío de Finanzas y Administración",
             deberes: [
                 {
@@ -156,8 +148,8 @@ const DJDirectiva = {
     ],
     actas_correspondencia: [
         {
-          representante: "Soledad Zamora Cordero",
-          contactar: "szamoracordero@ina.ac.cr",
+          representante: "Martha Picado Ajoy",
+          contactar: "mpicadoajoy@ina.ac.cr",
           cargo: "Secretaria de Actas y Correspondencia",
           deberes: [
             {
@@ -183,9 +175,9 @@ const DJDirectiva = {
     ],
     afiliacion_propaganda: [
         {
-            representante: "Andrés Moreno Vargas",
-            contactar: "amorenovargas@ina.ac.cr",
-            cargo: "Secretarío de Afiliación y Propaganda",
+            representante: "Milagro Miranda Ramírez",
+            contactar: "mmirandaramirez@ina.ac.cr",
+            cargo: "Secretaría de Afiliación y Propaganda",
             deberes: [
                 {
                     atribucion: "Informar a lo interno y externo de todas las actividades del sindicato."
@@ -216,8 +208,8 @@ const DJDirectiva = {
     ],
     culturales_sociales: [
         {
-            representante: "José Miguel Alfaro Carranza",
-            contactar: "jalfarocarranza@ina.ac.cr",
+            representante: "Bernardo Calvo Valverde",
+            contactar: "bcalvovalverde@ina.ac.cr",
             cargo: "Secretarío de Asuntos Culturales y Sociales",
             deberes: [
                 {
@@ -234,8 +226,8 @@ const DJDirectiva = {
     ],
     educacion: [
         {
-            representante: "Marta Picado Ajoy",
-            contactar: "mpicadoajoy@ina.ac.cr",
+            representante: "Keylor López Rodríguez",
+            contactar: "klopezrodriguez@ina.ac.cr",
             cargo: "Secretaría de Educación",
             deberes: [
                 {
@@ -279,8 +271,8 @@ const DJDirectiva = {
     ],
     La_mujer: [
         {
-            representante: "Tatiana Retana Chacón",
-            contactar: "tretanachacon@ina.ac.cr",
+            representante: "María Oriley Brown",
+            contactar: "morileybrown@ina.ac.cr",
             cargo: "Secretaría Asuntos de la Mujer",
             deberes: [
                 {
@@ -318,9 +310,9 @@ const DJDirectiva = {
     ],
     conflictos: [
         {
-            representante: "Alejandra Angulo Barquero",
-            contactar: "aangulobarquero@ina.ac.cr",
-            cargo: "Secretaría Asuntos de Conflictos",
+            representante: "Ricardo Jara Núñez",
+            contactar: "rjaranunez@ina.ac.cr",
+            cargo: "Secretarío Asuntos de Conflictos",
             deberes: [
                 {
                     atribucion: "Asistir puntualmente a todas las sesiones de la Junta Directiva y Asamblea General."
@@ -361,28 +353,28 @@ const DJDirectiva = {
             ]
         }
     ],
-    // suplencia: [
-    //     {
-    //         representante: "Andrés Moreno Vargas",
-    //         contactar: "amorenovargas@ina.ac.cr",
-    //         cargo: "Primer Suplencia",
-    //         deberes: [
-    //           {
-    //               atribucion: "La suplencia tendrá como función la de ocupar la primera vacante que se presente entre los miembros titulares de la Junta Directiva, y la de cumplir las atribuciones y deberes del cargo."
-    //           }
-    //         ]
-    //       },
-    //       {
-    //         representante: "José Miguel Alfaro Carranza",
-    //         contactar: "jalfarocarranza@ina.ac.cr",
-    //         cargo: "Segunda Suplencia",
-    //         deberes: [
-    //           {
-    //               atribucion: "La suplencia tendrá como función la de ocupar la primera vacante que se presente entre los miembros titulares de la Junta Directiva, y la de cumplir las atribuciones y deberes del cargo."
-    //           }
-    //         ]
-    //       }
-    // ]
+    suplencia: [
+        {
+            representante: "Andrés Moreno Vargas",
+            contactar: "amorenovargas@ina.ac.cr",
+            cargo: "Primer Suplencia",
+            deberes: [
+              {
+                  atribucion: "La suplencia tendrá como función la de ocupar la primera vacante que se presente entre los miembros titulares de la Junta Directiva, y la de cumplir las atribuciones y deberes del cargo."
+              }
+            ]
+          },
+          {
+            representante: "Aisha Blackwood Barret",
+            contactar: "ablackwoodbarret@ina.ac.cr",
+            cargo: "Segunda Suplencia",
+            deberes: [
+              {
+                  atribucion: "La suplencia tendrá como función la de ocupar la primera vacante que se presente entre los miembros titulares de la Junta Directiva, y la de cumplir las atribuciones y deberes del cargo."
+              }
+            ]
+          }
+    ]
 }
 
 export default DJDirectiva

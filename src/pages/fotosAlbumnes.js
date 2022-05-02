@@ -17,6 +17,21 @@ const AlbumnesFotos = (props) => {
         // setModel(true);
     };
 
+    const Manifestacion01mayo = props.data.SITRAINA_01_Mayo_2022.map((item,position) => {
+        return (
+            <>
+                <div key={position} className="col-xl-2 col-md-4 pics" onClick={() => getImg(item.img, item.titulo, item.descripcion)}>
+                    <div className="m-2">
+                        <img src={item.img} className='rounded-lg img-thumbnail'
+                        data-toggle="modal"
+                        data-target=".bd-example-modal-lg"
+                        alt="SITRAINA" />
+                    </div>
+                </div>
+            </>
+        )
+    })
+
     const AlbumRandom = props.data.Album_Random.map((item,position) => {
         return (
             <>
@@ -115,6 +130,26 @@ const AlbumnesFotos = (props) => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Manifestacion01mayo */}
+
+                <div className="card border-bottom-info shadow mb-4">
+                    <a
+                        href="#Manifestacion01mayo"
+                        className="d-block card-header"
+                        data-toggle="collapse"
+                        role="button"
+                        aria-expanded="true"
+                        aria-controls="collapseCard"
+                    >
+                        <h5 className="m-0 font-weight-bold text-primary">Manifestacion 01 de Mayo - EL INA SÍ ES CAPAZ</h5>
+                    </a>
+                    <div className="collapse show" id="Manifestacion01mayo">
+                        <div className="row">
+                            {Manifestacion01mayo}
                         </div>
                     </div>
                 </div>

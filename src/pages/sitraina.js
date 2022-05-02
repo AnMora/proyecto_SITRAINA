@@ -250,11 +250,11 @@ const Sitraina = (props) => {
                         <div className="row no-gutters align-items-center">
                           <div className="col-auto">
                             <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                              Programa: Viernes 22 de Abril 2022 - Horario: 5 pm
+                              Programa: Martes 03 de Mayo 2022 - Horario: 5 pm
                               <h3 className="display-5 text-info">
-                                <b>¿Qué esta pasando con la plata del INA?</b>
+                                <strong>Segunda parte ¿Qué esta pasando con la plata del INA?</strong>
                               </h3>
-                              Con <b>Ricardo Jara - Secretario General</b>
+                              Con <strong>Ricardo Jara - Secretario General</strong>
                             </div>
                           </div>
                         </div>
@@ -275,51 +275,38 @@ const Sitraina = (props) => {
 
         {/* Programa Especial */}
 
-        <div className="card border-left-danger shadow mb-4">
-          <a
-            href="#Informativas"
-            className="d-block card-header"
-            data-toggle="collapse"
-            role="button"
-            aria-expanded="true"
-            aria-controls="collapseCard"
-          >
-            <h4 className="m-0 font-weight-bold text-primary">
-              SITRAINA convoca a:
-            </h4>
-            <h5 className="font-weight-bold mt-2">
-              - VIERNES 29 DE ABRIL - Horario: 8:00 AM
-              <br/>
-              - DOMINGO 1 DE MAYO - Horario: 9:00 AM
-            </h5>
-          </a>
-          <div className="collapse show" id="Informativas">
-            <div className="card-body">
-              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                <div className="row">
-                  <div className="col-md-6">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/INAcapaz1.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/Programa_especial_sitraina_informa1.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
+        <div className="alert alert-danger" role="alert">
+          <div className="card border-left-danger shadow">
+            <a
+              href="#Informativas"
+              className="d-block card-header"
+              data-toggle="collapse"
+              role="button"
+              aria-expanded="true"
+              aria-controls="collapseCard"
+            >
+              <h4 className="m-0 font-weight-bold text-danger">
+                SITRAINA informa de la manifestacion del 1 de mayo:
+              </h4>
+              <div className="mt-2 mb-0 mr-3 font-weight-bold text-gray-800">
+                El día de ayer celebramos en las calles de San José, el 1 de mayo, Día Internacional de la Persona Trabajadora. Del INA participamos docentes, estudiantes y personas administrativas. Nuestra consigna fue <strong className="text-danger">EL INA SÍ ES CAPAZ</strong> y desde ella solicitamos un INA con una visión humanística y social en su Administración. No queremos un INA que sea desmantelado, tercerizado y privatizado por los intereses neoliberales de los principales grupos económicos de este país. Esta es una lucha continua: súmese si quiere a nuestra institución.
+              </div>
+            </a>
+            <div className="collapse show" id="Informativas">
+              <div className="card-body">
+                <div className="mb-0 font-weight-bold text-gray-800">
+                  <div className="row">
+                    <div className="col-12 col-md-12 col-lg-12">
+                      <div classname="card">
+                        <div classname="card-body">
+                          <img
+                            src="../../Documentos/informativas/INAcapaz1.jpeg"
+                            className="rounded-lg img-thumbnail"
+                            data-toggle="modal"
+                            data-target=".bd-example-modal-lg"
+                            alt="SITRAINACR"
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>

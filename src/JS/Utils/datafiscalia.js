@@ -66,8 +66,8 @@ const DFisc = {
     ],
     fiscalia_general: [
         {
-            representante: "Guadalupe Mora Araya",
-            contactar: "gmoraaraya@ina.ac.cr",
+            representante: "Soledad Zamora Cordero",
+            contactar: "szamoracordero@ina.ac.cr",
             cargo: "Fiscal General",
             deberes: [
                 {
