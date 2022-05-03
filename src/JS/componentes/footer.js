@@ -10,7 +10,7 @@ const Footer = (props) => {
             <>
                 <a
                     key={position}
-                    className="btn btn-outline-light btn-circle m-1"
+                    className="btn btn-lg btn-outline-info btn-circle m-1"
                     href={item.Link}
                     target="_blank"
                     rel="noopener noreferrer"

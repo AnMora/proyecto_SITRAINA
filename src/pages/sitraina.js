@@ -250,7 +250,7 @@ const Sitraina = (props) => {
                         <div className="row no-gutters align-items-center">
                           <div className="col-auto">
                             <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                              Programa: Martes 03 de Mayo 2022 - Horario: 5 pm
+                              Programa: Miercoles 04 de Mayo 2022 - Horario: 5 pm
                               <h3 className="display-5 text-info">
                                 <strong>Segunda parte ¿Qué esta pasando con la plata del INA?</strong>
                               </h3>

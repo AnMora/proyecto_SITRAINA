@@ -11,7 +11,7 @@ const Presentacion = (props) => {
       <>
         <a
           key={position}
-          className="btn btn-primary btn-circle m-1"
+          className="btn btn-lg btn-primary btn-circle m-1"
           href={item.Link}
           target="_blank"
           rel="noopener noreferrer"
@@ -60,13 +60,13 @@ const Presentacion = (props) => {
         </header>
 
         <section className="container text-primary text-center">
-            <article className="col-12">
+          <article className="col-12">
             <hr className="my-1" />
             <h2 className="display-5 text-danger">
               <b>SITRAINA INFORMA</b>
             </h2>
             <h5 className="display-5">
-              <b>Programa: Martes 03 de Mayo 2022 - Horario: 5 pm</b></h5>
+              <b>Programa: Miercoles 04 de Mayo 2022 - Horario: 5 pm</b></h5>
             <h3 className="display-5 text-danger">
               <b>Segunda Parte ¿Qué esta pasando con la plata del INA?</b>
             </h3>
