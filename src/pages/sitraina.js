@@ -232,7 +232,7 @@ const Sitraina = (props) => {
     <div className="container-fluid">
       <div className="mt-4">
 
-        <div className="alert alert-primary" role="alert">
+        {/* <div className="alert alert-primary" role="alert">
           <Link to="/EnVIVO">
             <a
               href="##"
@@ -271,7 +271,7 @@ const Sitraina = (props) => {
           <strong>
             Visualice el programa SITRAINA INFORMA dando clic encima del texto.
           </strong>
-        </div>
+        </div> */}
 
         {/* Programa Especial */}
 

@@ -22,14 +22,14 @@ const ENVIVO = (props) => {
                         <div className="row no-gutters align-items-center">
                           <div className="col-auto">
                             <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                              Programa: Miercoles 04 de Mayo 2022 - Horario: 5 pm
+                              Programa: Martes XX de Mayo 2022 - Horario: 5 pm
                               <h3 className="display-5 text-info">
-                                <strong>Segunda parte ¿Qué esta pasando con la plata del INA?</strong>
+                                <strong>Sin programa</strong>
                               </h3>
-                              Con <strong>Ricardo Jara - Sindicalista SITRAINA</strong>
-                              <div className="mt-1 mb-0 mr-3 font-weight-bold text-gray-800">
+                              Con <strong>Invitado - Cargo de Importancia</strong>
+                              {/* <div className="mt-1 mb-0 mr-3 font-weight-bold text-gray-800">
                                 <strong>SITRAINA</strong> pide disculpas por los problemas técnicos que obstaculizaron la transmisión del programa el día de hoy. Debido a estos, nos vemos en la necesidad y la obligación de reprogramar la transmisión para el Miercoles 04 de mayo, a las 5 pm. Saludos cordiales.
-                              </div>
+                              </div> */}
                             </div>
                           </div>
                         </div>

@@ -61,7 +61,7 @@ const Presentacion = (props) => {
 
         <section className="container text-primary text-center">
           <article className="col-12">
-            <hr className="my-1" />
+            {/* <hr className="my-1" />
             <h2 className="display-5 text-danger">
               <b>SITRAINA INFORMA</b>
             </h2>
@@ -71,8 +71,8 @@ const Presentacion = (props) => {
               <b>Segunda Parte ¿Qué esta pasando con la plata del INA?</b>
             </h3>
             <h5>
-              Con <b>Ricardo Jara - Sindicalista SITRAINA</b>.
-            </h5>
+              Con <b>Ricardo Jara - Sindicalista SITRAINA</b>. 
+            </h5> */}
 
             {/* ENVIVO ////////////////////////////////////////////////// */}
 
@@ -97,8 +97,10 @@ const Presentacion = (props) => {
             </div> */}
 
             {/* ENVIVO ////////////////////////////////////////////////// */}
-
-            <h3 className="display-5 mt-3">
+            <h2 className="display-5 text-danger">
+              <b>SITRAINA INFORMA</b>
+            </h2>
+            <h3 className="display-5">
               <b>Síguenos todos los martes a las 4:00 pm</b>
             </h3>
 
