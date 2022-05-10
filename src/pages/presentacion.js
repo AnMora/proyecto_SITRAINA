@@ -6,6 +6,24 @@ const Presentacion = (props) => {
   const Presentacion = props.data.Presentacion[0];
   const Footer = props.data.PiePagina[0];
 
+  const SI_Programa = props.data.SITRAINAINFORMA.map((item, position) => {
+    return (
+      <>
+        <h2 key={position} className="display-5 text-danger">
+              <strong>{item.titulo}</strong>
+        </h2>
+        <h5 className="display-5">
+          <strong>{item.dia}</strong></h5>
+        <h3 className="display-5 text-danger">
+          <strong>{item.tema}</strong>
+        </h3>
+        <h5>
+          Con <strong>{item.con}</strong>.
+        </h5>
+      </>
+    )
+  })
+
   const Footer_icons = props.data.PiePagina[0].iconos.map((item, position) => {
     return (
       <>
@@ -53,7 +71,7 @@ const Presentacion = (props) => {
               {Presentacion.NombreCompleto}
             </ReactTooltip>
             <h1>
-              <b>{Presentacion.Institucion}</b>
+              <strong>{Presentacion.Institucion}</strong>
             </h1>
             <h3>{Presentacion.Lema}</h3>
           </div>
@@ -61,18 +79,8 @@ const Presentacion = (props) => {
 
         <section className="container text-primary text-center">
           <article className="col-12">
-            {/* <hr className="my-1" />
-            <h2 className="display-5 text-danger">
-              <b>SITRAINA INFORMA</b>
-            </h2>
-            <h5 className="display-5">
-              <b>Programa: Miercoles 04 de Mayo 2022 - Horario: 5 pm</b></h5>
-            <h3 className="display-5 text-danger">
-              <b>Segunda Parte ¿Qué esta pasando con la plata del INA?</b>
-            </h3>
-            <h5>
-              Con <b>Ricardo Jara - Sindicalista SITRAINA</b>. 
-            </h5> */}
+            <hr className="my-1" />
+            {SI_Programa}
 
             {/* ENVIVO ////////////////////////////////////////////////// */}
 
@@ -81,7 +89,7 @@ const Presentacion = (props) => {
                 <span className="sr-only">Loading...</span>
               </div>
               <span className="mr-2 d-lg-inline">
-                <b>ENVIVO</b>
+                <strong>ENVIVO</strong>
               </span>
             </h5> 
             <div className="col-auto">
@@ -97,15 +105,12 @@ const Presentacion = (props) => {
             </div> */}
 
             {/* ENVIVO ////////////////////////////////////////////////// */}
-            <h2 className="display-5 text-danger">
-              <b>SITRAINA INFORMA</b>
-            </h2>
             <h3 className="display-5">
-              <b>Síguenos todos los martes a las 4:00 pm</b>
+              <strong>Síguenos todos los martes a las 5:00 pm</strong>
             </h3>
 
             <h3 className="display-5">
-              <b>¡Por un país con mayor justicia social!</b>
+              <strong>¡Por un país con mayor justicia social!</strong>
             </h3>
 
             {/* ======================== */}
@@ -131,7 +136,7 @@ const Presentacion = (props) => {
             <div className="copyright my-auto">{Footer_icons}</div>
           </div>
           <h4 class="text-primary mt-2">
-            <b>{Footer.Derechos}</b>
+            <strong>{Footer.Derechos}</strong>
           </h4>
         </footer>
       </div>

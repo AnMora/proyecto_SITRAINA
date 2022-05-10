@@ -16,7 +16,17 @@ const EVV = {
         //     seccion: "Audio/Video"
         // }
     ],
-    transmision: ""
+    SITRAINAINFORMA: [
+        {
+            titulo: "SITRAINA INFORMA",
+            dia: "Programa: Martes 10 de Mayo 2022 - Horario: 5 pm",
+            tema: "Presentación Secretaria General del SITRAINA 2022 - 2024",
+            con: "Claudio Alvarado - Secretario General SITRAINA",
+        }
+    ],
+    Extra1: "Lo pueden ver en vivo en nuestro sitio web o en nuestra página de Facebook.",
+    Extra2: "Comuníquese con nuestro departamento de comunicación.",
+    Transmision: ""
 }
 
-export default EVV
+export default EVV;

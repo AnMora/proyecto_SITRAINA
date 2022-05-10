@@ -10,6 +10,38 @@ const Sitraina = (props) => {
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
+  const SI_alert = props.data.Extra;
+
+  const SI_Programa = props.data.SITRAINAINFORMA.map((item, position) => {
+    return (
+      <>
+        <div key={position} className="card-body">
+          <div className="row no-gutters align-items-center">
+            <div className="col mr-2">
+              <div className="h5 font-weight-bold text-info text-uppercase mb-1">
+                {item.titulo}
+              </div>
+              <div className="row no-gutters align-items-center">
+                <div className="col-auto">
+                  <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                    {item.dia}
+                    <h3 className="display-5 text-info">
+                      <strong>{item.tema}</strong>
+                    </h3>
+                    Con <strong>{item.con}</strong>.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-auto">
+              <i className="fas fa-play fa-2x text-gray-300"></i>
+            </div>
+          </div>
+        </div>
+      </>
+    )
+  })
+
   const HMReciente = props.data.HMActual.map((item, position) => {
     return (
       <>
@@ -139,9 +171,9 @@ const Sitraina = (props) => {
     return (
       <>
         <li key={position} className="list-group-item text-center">
-          <b className="mb-0 mr-3 font-weight-bold text-gray-800">
+          <strong className="mb-0 mr-3 font-weight-bold text-gray-800">
             {item.logro}
-          </b>
+          </strong>
         </li>
       </>
     );
@@ -232,7 +264,7 @@ const Sitraina = (props) => {
     <div className="container-fluid">
       <div className="mt-4">
 
-        {/* <div className="alert alert-primary" role="alert">
+        <div className="alert alert-primary" role="alert">
           <Link to="/EnVIVO">
             <a
               href="##"
@@ -241,81 +273,17 @@ const Sitraina = (props) => {
             >
               <div className="mb-3 mt-3">
                 <div className="card border-left-info shadow h-100 py-2">
-                  <div className="card-body">
-                    <div className="row no-gutters align-items-center">
-                      <div className="col mr-2">
-                        <div className="h5 font-weight-bold text-info text-uppercase mb-1">
-                          SITRAINA INFORMA
-                        </div>
-                        <div className="row no-gutters align-items-center">
-                          <div className="col-auto">
-                            <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                              Programa: Miercoles 04 de Mayo 2022 - Horario: 5 pm
-                              <h3 className="display-5 text-info">
-                                <strong>Segunda parte ¿Qué esta pasando con la plata del INA?</strong>
-                              </h3>
-                              Con <strong>Ricardo Jara - Sindicalista SITRAINA</strong>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-auto">
-                        <i className="fas fa-play fa-2x text-gray-300"></i>
-                      </div>
-                    </div>
-                  </div>
+                  {SI_Programa}
                 </div>
               </div>
             </a>
           </Link>
           <strong>
-            Visualice el programa SITRAINA INFORMA dando clic encima del texto.
+            {SI_alert}
           </strong>
-        </div> */}
-
-        {/* Programa Especial */}
-
-        <div className="alert alert-danger" role="alert">
-          <div className="card border-left-danger shadow">
-            <a
-              href="#Informativas"
-              className="d-block card-header"
-              data-toggle="collapse"
-              role="button"
-              aria-expanded="true"
-              aria-controls="collapseCard"
-            >
-              <h4 className="m-0 font-weight-bold text-danger">
-                SITRAINA informa de la manifestacion del 1 de mayo:
-              </h4>
-              <div className="mt-2 mb-0 mr-3 font-weight-bold text-gray-800">
-                El día de ayer celebramos en las calles de San José, el 1 de mayo, Día Internacional de la Persona Trabajadora. Del INA participamos docentes, estudiantes y personas administrativas. Nuestra consigna fue <strong className="text-danger">EL INA SÍ ES CAPAZ</strong> y desde ella solicitamos un INA con una visión humanística y social en su Administración. No queremos un INA que sea desmantelado, tercerizado y privatizado por los intereses neoliberales de los principales grupos económicos de este país. Esta es una lucha continua: súmese si quiere a nuestra institución.
-              </div>
-            </a>
-            <div className="collapse show" id="Informativas">
-              <div className="card-body">
-                <div className="mb-0 font-weight-bold text-gray-800">
-                  <div className="row">
-                    <div className="col-12 col-md-12 col-lg-12">
-                      <div classname="card">
-                        <div classname="card-body">
-                          <img
-                            src="../../Documentos/informativas/INAcapaz1.jpeg"
-                            className="rounded-lg img-thumbnail"
-                            data-toggle="modal"
-                            data-target=".bd-example-modal-lg"
-                            alt="SITRAINACR"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
+        {/* Programa Especial */}
         {/* Programa Especial */}
 
         {/* {HMReciente} */}

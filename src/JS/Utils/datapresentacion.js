@@ -8,6 +8,14 @@ const DPres = {
             Aviso2: "La siguiente opción sera para ingresar a el sitio web",
         }
     ],
+    SITRAINAINFORMA: [
+        {
+            titulo: "SITRAINA INFORMA",
+            dia: "Programa: Martes 10 de Mayo 2022 - Horario: 5 pm",
+            tema: "Presentación Secretaria General del SITRAINA 2022 - 2024",
+            con: "Claudio Alvarado - Secretario General SITRAINA",
+        }
+    ],
     PiePagina: [
         {
             Derechos: "Copyright © TODOS LOS DERECHOS RESERVADOS - SITRAINA 2022",

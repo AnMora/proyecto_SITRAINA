@@ -44,6 +44,15 @@ const DPP = {
             seccion: "Audios/Videos"
         }
     ],
+    SITRAINAINFORMA: [
+        {
+            titulo: "SITRAINA INFORMA",
+            dia: "Programa: Martes 10 de Mayo 2022 - Horario: 5 pm",
+            tema: "Presentación Secretaria General del SITRAINA 2022 - 2024",
+            con: "Claudio Alvarado - Secretario General SITRAINA",
+        }
+    ],
+    Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
     InfoAnuales: [
         {
             reglamento: "INFORME ANUAL Fiscalía SITRAINA 2020",
