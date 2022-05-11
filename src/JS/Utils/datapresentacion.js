@@ -11,9 +11,9 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 10 de Mayo 2022 - Horario: 5 pm",
-            tema: "Presentación Secretaria General del SITRAINA 2022 - 2024",
-            con: "Claudio Alvarado - Secretario General SITRAINA",
+            dia: "Programa: Martes 04 de Mayo 2021 - Repetición",
+            tema: "Educación Crítica e Interculturalidad",
+            con: "Juan Gómez Torres - Programa de Alfabetización Crítica",
         }
     ],
     PiePagina: [
