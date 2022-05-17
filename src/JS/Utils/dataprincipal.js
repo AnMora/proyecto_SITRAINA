@@ -47,9 +47,9 @@ const DPP = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 04 de Mayo 2021 - Repetición",
-            tema: "Educación Crítica e Interculturalidad",
-            con: "Juan Gómez Torres - Programa de Alfabetización Crítica",
+            dia: "Programa: Martes 17 de Mayo 2022",
+            tema: "Secretaría General del SITRAINA 2022 - 2024",
+            con: "Claudio Alvarado - Secretario General SITRAINA",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",

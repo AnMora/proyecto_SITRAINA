@@ -7,10 +7,10 @@ const EVV = {
         }
     ],
     multimedia: [
-        {
-            path: "/sitraina/AlbumnesFotos",
-            seccion: "Albumnes/Fotos"
-        },
+        // {
+        //     path: "/sitraina/AlbumnesFotos",
+        //     seccion: "Albumnes/Fotos"
+        // },
         // {
         //     path: "",
         //     seccion: "Audio/Video"
@@ -19,14 +19,14 @@ const EVV = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 04 de Mayo 2021 - Repetición",
-            tema: "Educación Crítica e Interculturalidad",
-            con: "Juan Gómez Torres - Programa de Alfabetización Crítica",
+            dia: "Programa: Martes 17 de Mayo 2022",
+            tema: "Secretaría General del SITRAINA 2022 - 2024",
+            con: "Claudio Alvarado - Secretario General SITRAINA",
         }
     ],
     Extra1: "Lo pueden ver en vivo en nuestro sitio web o en nuestra página de Facebook.",
     Extra2: "Comuníquese con nuestro departamento de comunicación.",
-    Transmision: "https://www.facebook.com/SitrainaCR/videos/961101127995301"
+    Transmision: ""
 }
 
 export default EVV;
