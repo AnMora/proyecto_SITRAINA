@@ -293,45 +293,6 @@ const Sitraina = (props) => {
 
         {/* Programa Especial */}
 
-        <div className="card border-left-danger shadow mb-4">
-          <a
-            href="#Informativas"
-            className="d-block card-header"
-            data-toggle="collapse"
-            role="button"
-            aria-expanded="true"
-            aria-controls="collapseCard"
-          >
-            <h4 className="m-0 font-weight-bold text-primary">
-              Semanario Universidad
-            </h4>
-            <small className="mt-2">
-              A partir del día de hoy, puede comprar el Semanario Universidad en el local de SITRAINA, por solo 500 colones
-            </small>
-          </a>
-          <div className="collapse show" id="Informativas">
-            <div className="card-body">
-              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                <div className="row">
-                  <div className="col col-12">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/semanario.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Programa Especial */}
 
         <div className="row">{Sitraina}</div>
