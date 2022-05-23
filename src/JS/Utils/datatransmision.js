@@ -19,14 +19,14 @@ const EVV = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 17 de Mayo 2022",
-            tema: "Secretaría General del SITRAINA 2022 - 2024",
+            dia: "Programa: Lunes 23 de Mayo 2022",
+            tema: "BUSSCO: Situación política y económica nacional",
             con: "Claudio Alvarado - Secretario General SITRAINA",
         }
     ],
     Extra1: "Lo pueden ver en vivo en nuestro sitio web o en nuestra página de Facebook.",
     Extra2: "Comuníquese con nuestro departamento de comunicación.",
-    Transmision: "https://www.youtube.com/watch?fbclid=IwAR0xbFFkVXRwL9MeD-3C7etkd1hM5xsVimWW1pp1xQBpw0Ce6xKpt1VWzwk&v=cpuPjVQG1UA&feature=youtu.be"
+    Transmision: "https://www.facebook.com/SitrainaCR/videos/390506436342250"
 }
 
 export default EVV;

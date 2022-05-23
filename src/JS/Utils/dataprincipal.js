@@ -47,8 +47,8 @@ const DPP = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 17 de Mayo 2022",
-            tema: "Secretaría General del SITRAINA 2022 - 2024",
+            dia: "Programa: Lunes 23 de Mayo 2022",
+            tema: "BUSSCO: Situación política y económica nacional",
             con: "Claudio Alvarado - Secretario General SITRAINA",
         }
     ],
