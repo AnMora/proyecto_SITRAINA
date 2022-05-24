@@ -11,9 +11,9 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Lunes 23 de Mayo 2022",
-            tema: "BUSSCO: Situación política y económica nacional",
-            con: "Claudio Alvarado - Secretario General SITRAINA",
+            dia: "Programa: Martes 24 de Mayo 2022",
+            tema: "Conozca las implicaciones de la regla fiscal en Costa Rica",
+            con: "Fernando Rodríguez - Escuela de Economía de la UNA",
         }
     ],
     PiePagina: [
