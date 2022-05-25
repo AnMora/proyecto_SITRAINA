@@ -303,48 +303,18 @@ const Sitraina = (props) => {
             aria-controls="collapseCard"
           >
             <h4 className="m-0 font-weight-bold text-primary">
-              BUSSCO: situación política y económica nacional
+              SITRAINA FELICITA
             </h4>
-            <small className="mt-2">
-            El día de hoy, SITRAINA se encuentra a la espera del inicio formal de la plenaria del BUSSCO, dónde discutiremos la situación política y económica nacional.
-            En la primera foto, @Claudio Alvarado Alvarado, Secretario General de SITRAINA y @Tyron Esna, Representante Sindical de la Junta Directiva de INA
-            </small>
           </a>
           <div className="collapse show" id="Informativas">
             <div className="card-body">
-              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+              <div className="mb-0 font-weight-bold text-gray-800">
                 <div className="row">
                   <div className="col-md-12">
                     <div classname="card">
                       <div classname="card-body">
                         <img
-                          src="../../Documentos/informativas/BUSSCO1.jpg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/BUSSCO2.jpg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/BUSSCO3.jpg"
+                          src="../../Documentos/informativas/felicitaciones.jpeg"
                           className="rounded-lg img-thumbnail"
                           data-toggle="modal"
                           data-target=".bd-example-modal-lg"

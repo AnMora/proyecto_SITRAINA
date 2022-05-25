@@ -50,6 +50,13 @@ const DHmiercoles = {
       // Hoja de Miercoles Actual
       {
         año: 2022,
+        titulo: "Hoja de Miercoles 25 de Mayo, 2022",
+        mes: "Mayo",
+        fecha: 25,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-25_mayo_2022.pdf",
+      },
+      {
+        año: 2022,
         titulo: "Hoja de Miercoles 19 de Mayo, 2022",
         mes: "Mayo",
         fecha: 19,

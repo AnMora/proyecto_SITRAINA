@@ -47,9 +47,9 @@ const DPP = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Lunes 23 de Mayo 2022",
-            tema: "BUSSCO: Situación política y económica nacional",
-            con: "Claudio Alvarado - Secretario General SITRAINA",
+            dia: "Programa: Martes 24 de Mayo 2022",
+            tema: "Conozca las implicaciones de la regla fiscal en Costa Rica",
+            con: "Fernando Rodríguez - Escuela de Economía de la UNA",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
@@ -64,10 +64,10 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2022,
-            titulo: "Hoja de Miercoles 19 de Mayo, 2022",
+            titulo: "Hoja de Miercoles 25 de Mayo, 2022",
             mes: "Mayo",
-            fecha: 19,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-19_mayo_2022.pdf",
+            fecha: 25,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-25_mayo_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
