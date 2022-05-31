@@ -11,9 +11,9 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 24 de Mayo 2022",
-            tema: "Conozca las implicaciones de la regla fiscal en Costa Rica",
-            con: "Fernando Rodríguez - Escuela de Economía de la UNA",
+            dia: "Programa: Martes 31 de Mayo 2022",
+            tema: "¿Qué es el servicio civil y cual es su función frente al neoliberalismo?",
+            con: "MEMORIA HISTORICA DEL CICLO DE CONFERENCIA: EL INA EN EL MARCO DE LA REFORMA DEL ESTADO(2019)",
         }
     ],
     PiePagina: [
