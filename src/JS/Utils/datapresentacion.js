@@ -10,10 +10,10 @@ const DPres = {
     ],
     SITRAINAINFORMA: [
         {
-            titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 31 de Mayo 2022",
-            tema: "¿Qué es el servicio civil y cual es su función frente al neoliberalismo?",
-            con: "MEMORIA HISTORICA DEL CICLO DE CONFERENCIA: EL INA EN EL MARCO DE LA REFORMA DEL ESTADO(2019)",
+            titulo: "SITRAINA INFORMA - REPETICION",
+            dia: "Programa: Martes 15 de Junio 2021",
+            tema: "Contexto Político Actual",
+            con: "Esteban Aguilar Ramírez - Profesor de filosofía política de la UNA",
         }
     ],
     PiePagina: [
