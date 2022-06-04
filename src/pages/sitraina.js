@@ -303,18 +303,21 @@ const Sitraina = (props) => {
             aria-controls="collapseCard"
           >
             <h4 className="m-0 font-weight-bold text-primary">
-              SITRAINA FELICITA
+              ESCLAVITUD EN COSTA RICA
             </h4>
+            <small className="mt-2">
+              ELIMINAR LA JORNADA DE 8 HORAS
+            </small>
           </a>
           <div className="collapse show" id="Informativas">
             <div className="card-body">
               <div className="mb-0 font-weight-bold text-gray-800">
-                <div className="row">
-                  <div className="col-md-12">
+                <div className="row no-gutters align-items-center offset-1">
+                  <div className="col-11">
                     <div classname="card">
                       <div classname="card-body">
                         <img
-                          src="../../Documentos/informativas/felicitaciones.jpeg"
+                          src="../../Documentos/informativas/esclavitud.jpeg"
                           className="rounded-lg img-thumbnail"
                           data-toggle="modal"
                           data-target=".bd-example-modal-lg"
