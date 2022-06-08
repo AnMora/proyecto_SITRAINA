@@ -47,8 +47,8 @@ const DPP = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA - REPETICION",
-            dia: "Programa: Martes 15 de Junio 2021",
-            tema: "Contexto Político Actual",
+            dia: "Programa: Martes 24 de Mayo 2022",
+            tema: "Conozca las implicaciones de la regla fiscal en Costa Rica",
             con: "Esteban Aguilar Ramírez - Profesor de filosofía política de la UNA",
         }
     ],
