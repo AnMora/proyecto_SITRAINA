@@ -10,10 +10,10 @@ const DPres = {
     ],
     SITRAINAINFORMA: [
         {
-            titulo: "SITRAINA INFORMA - REPETICION",
-            dia: "Programa: Martes 24 de Mayo 2022",
-            tema: "Conozca las implicaciones de la regla fiscal en Costa Rica",
-            con: "Esteban Aguilar Ramírez - Profesor de filosofía política de la UNA",
+            titulo: "SITRAINA INFORMA",
+            dia: "Programa: Martes 14 de Junio 2022",
+            tema: 'El engaño de Combo Fiscal, la Ley 9635 o Ley del "fortalecimiento" de las finanzas públicas',
+            con: "Esteban Paniagua - Comunicador de SITRAINA",
         }
     ],
     PiePagina: [
