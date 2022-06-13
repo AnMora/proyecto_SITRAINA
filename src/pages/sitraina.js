@@ -303,10 +303,10 @@ const Sitraina = (props) => {
             aria-controls="collapseCard"
           >
             <h4 className="m-0 font-weight-bold text-primary">
-              ESCLAVITUD EN COSTA RICA
+              EN PLENARIA DE BUSSCO
             </h4>
             <small className="mt-2">
-              ELIMINAR LA JORNADA DE 8 HORAS
+              Se aprueba plan de accion contra politicas neoliberales
             </small>
           </a>
           <div className="collapse show" id="Informativas">
@@ -317,7 +317,7 @@ const Sitraina = (props) => {
                     <div classname="card">
                       <div classname="card-body">
                         <img
-                          src="../../Documentos/informativas/esclavitud.jpeg"
+                          src="../../Documentos/informativas/plenaria.jpeg"
                           className="rounded-lg img-thumbnail"
                           data-toggle="modal"
                           data-target=".bd-example-modal-lg"

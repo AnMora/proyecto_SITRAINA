@@ -48,6 +48,14 @@ const DAudVid = {
     ],
     VideosYoutube: [
         {
+            titulo: "Porque el INA SÍ es Capaz",
+            descripcion: "Ante un modelo académico y conservador y una administración neoliberal del Estado que busca reducir la función pública al mínimo y erradicar los programas de justicia, equidad social e igualdad de oportunidades; desde la Filial de Inglés de SITRAINA demostramos como el INA SÍ es Capaz de adaptarse al cambio tecnológico en la enseñanza y responder a las necesidades de formación técnica de las clases más vulnerables de este país. Les invitamos a ver este pequeño reportaje hecho en CENECOS.",
+            año: "2022",
+            mes: "Junio",
+            fecha: "09",
+            link: "https://youtu.be/cTEjWnsH9hU",
+        },
+        {
             titulo: "¿Cómo llevar un proceso de acoso laboral en el INA?",
             descripcion: "Este programa fue emitido el 25 de enero de 2022 y en él interactúa nuestra abogada, la Licda. Melissa Segura Navarro: El acoso laboral es uno de los fenómenos que más afecta la calidad de vida de las personas trabajadoras. Por lo tanto, saber con claridad qué es acoso laboral y cómo lo puedo denunciar es fundamental para que las personas trabajadoras puedan defender sus derechos. Ante esto, SITRAINA inicia una campaña de No al Acoso Laboral en el INA. Sin embargo, el programa puede ser de ayuda para toda persona trabajadora.",
             año: "2022",
