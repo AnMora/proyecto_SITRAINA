@@ -10,10 +10,10 @@ const DPres = {
     ],
     SITRAINAINFORMA: [
         {
-            titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 14 de Junio 2022",
-            tema: 'El engaño de Combo Fiscal, la Ley 9635 o Ley del "fortalecimiento" de las finanzas públicas',
-            con: "Esteban Paniagua - Comunicador de SITRAINA",
+            titulo: "SITRAINA INFORMA - REPETICIÓN",
+            dia: "Programa: Martes 23 de Febrero 2021",
+            tema: 'Explica qué son las Fake News en el contexto de la política',
+            con: "Andrés Gallardo - Docente de Filosofía, UNA",
         }
     ],
     PiePagina: [

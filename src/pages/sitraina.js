@@ -303,31 +303,28 @@ const Sitraina = (props) => {
             aria-controls="collapseCard"
           >
             <h4 className="m-0 font-weight-bold text-primary">
-              EN PLENARIA DE BUSSCO
+            INA se ve con capacidad de asumir el servicio de revisión técnica vehicular
             </h4>
             <small className="mt-2">
-              Se aprueba plan de accion contra politicas neoliberales
+            Presidente de la institución respetará decisión del MOPT
             </small>
+            
           </a>
           <div className="collapse show" id="Informativas">
             <div className="card-body">
-              <div className="mb-0 font-weight-bold text-gray-800">
-                <div className="row no-gutters align-items-center offset-1">
-                  <div className="col-11">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/plenaria.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
+              <div className="text-center">
+                  <img className="img-fluid mt-3 mb-4 rounded-lg img-thumbnail" style={{width: "30rem"}} src="https://d1lofqbqbj927c.cloudfront.net/monumental/2022/06/Entrega_CentroFormacionProfesional_INA_SanRamon_April-09-2021_rosanchezphoto_0152-1024x683-1.jpg" alt="Fines Ilustrativos" />
                   </div>
-                </div>
-              </div>
+                  <p>El Instituto Nacional de Aprendizaje (INA) afirma estar capacitado para asumir el servicio de inspección vehicular ante el vencimiento del contrato con la empresa Riteve, el cual será el próximo 15 de julio.</p>
+                  <a
+                    target="_blank"
+                    href="https://www.monumental.co.cr/2022/06/15/ina-se-ve-con-capacidad-de-asumir-el-servicio-de-revision-tecnica-vehicular/"
+                    rel="nofollow noreferrer"
+                    className="text-light btn btn-primary mt-2 mb-2"
+                    value="Ingresar"
+                  >
+                    Más información &rarr;
+                  </a>
             </div>
           </div>
         </div>
