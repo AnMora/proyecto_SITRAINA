@@ -263,6 +263,10 @@ const Sitraina = (props) => {
   return (
     <div className="container-fluid">
       <div className="mt-4">
+        
+        <div className="alert alert-danger font-weight-bold" role="alert">
+          El sitio de SITRAINA solicita disculpas a sus usuarios visitantes y seguidores del programa SITRAINA INFORMA ya que el caballero presentador Esteban Paniagua no se encuentra en buenas condiciones, y esperamos se recupere pronto!
+        </div>
 
         <div className="alert alert-primary" role="alert">
           <Link to="/EnVIVO">
@@ -303,10 +307,10 @@ const Sitraina = (props) => {
             aria-controls="collapseCard"
           >
             <h4 className="m-0 font-weight-bold text-primary">
-            INA se ve con capacidad de asumir el servicio de revisión técnica vehicular
+              INA se ve con capacidad de asumir el servicio de revisión técnica vehicular
             </h4>
-            <small className="mt-2">
-            Presidente de la institución respetará decisión del MOPT
+            <small className="mt-2 mb-0 mr-3 font-weight-bold text-gray-800">
+              Presidente de la institución respetará decisión del MOPT
             </small>
             
           </a>
@@ -315,7 +319,9 @@ const Sitraina = (props) => {
               <div className="text-center">
                   <img className="img-fluid mt-3 mb-4 rounded-lg img-thumbnail" style={{width: "30rem"}} src="https://d1lofqbqbj927c.cloudfront.net/monumental/2022/06/Entrega_CentroFormacionProfesional_INA_SanRamon_April-09-2021_rosanchezphoto_0152-1024x683-1.jpg" alt="Fines Ilustrativos" />
                   </div>
-                  <p>El Instituto Nacional de Aprendizaje (INA) afirma estar capacitado para asumir el servicio de inspección vehicular ante el vencimiento del contrato con la empresa Riteve, el cual será el próximo 15 de julio.</p>
+                  <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                    El Instituto Nacional de Aprendizaje (INA) afirma estar capacitado para asumir el servicio de inspección vehicular ante el vencimiento del contrato con la empresa Riteve, el cual será el próximo 15 de julio.
+                  </div>
                   <a
                     target="_blank"
                     href="https://www.monumental.co.cr/2022/06/15/ina-se-ve-con-capacidad-de-asumir-el-servicio-de-revision-tecnica-vehicular/"

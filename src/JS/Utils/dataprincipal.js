@@ -47,9 +47,9 @@ const DPP = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA - REPETICIÓN",
-            dia: "Programa: Martes 23 de Febrero 2021",
-            tema: 'Explica qué son las Fake News en el contexto de la política',
-            con: "Andrés Gallardo - Docente de Filosofía, UNA",
+            dia: "Programa: Viernes 22 de Abril 2022",
+            tema: '¿Qué pasa con la plata del INA?',
+            con: "Esteban Paniagua - Comunicador de SITRAINA INFORMA",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
