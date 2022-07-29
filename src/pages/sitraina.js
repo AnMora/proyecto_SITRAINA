@@ -263,10 +263,6 @@ const Sitraina = (props) => {
   return (
     <div className="container-fluid">
       <div className="mt-4">
-        
-        <div className="alert alert-danger font-weight-bold" role="alert">
-          El sitio de SITRAINA solicita disculpas a sus usuarios visitantes y seguidores del programa SITRAINA INFORMA ya que el caballero presentador Esteban Paniagua no se encuentra en buenas condiciones, y esperamos se recupere pronto!
-        </div>
 
         <div className="alert alert-primary" role="alert">
           <Link to="/EnVIVO">
@@ -307,30 +303,31 @@ const Sitraina = (props) => {
             aria-controls="collapseCard"
           >
             <h4 className="m-0 font-weight-bold text-primary">
-              INA se ve con capacidad de asumir el servicio de revisión técnica vehicular
+              CONVENIOS
             </h4>
-            <small className="mt-2 mb-0 mr-3 font-weight-bold text-gray-800">
-              Presidente de la institución respetará decisión del MOPT
+            <small className="mt-2">
+              SITRAINA tiene una serie de convenios de salud, estudio y recreación, así como cursos cortos de capacitación en principios básicos de política, introducción a la ética y educación popular. Les hacemos llegar la siguiente imagen con todos nuestros convenios y servicios educativos propios
             </small>
-            
           </a>
           <div className="collapse show" id="Informativas">
             <div className="card-body">
-              <div className="text-center">
-                  <img className="img-fluid mt-3 mb-4 rounded-lg img-thumbnail" style={{width: "30rem"}} src="https://d1lofqbqbj927c.cloudfront.net/monumental/2022/06/Entrega_CentroFormacionProfesional_INA_SanRamon_April-09-2021_rosanchezphoto_0152-1024x683-1.jpg" alt="Fines Ilustrativos" />
+              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                <div className="row">
+                  <div className="col-12">
+                    <div classname="card">
+                      <div classname="card-body">
+                        <img
+                          src="../../Documentos/informativas/informativas.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
                   </div>
-                  <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                    El Instituto Nacional de Aprendizaje (INA) afirma estar capacitado para asumir el servicio de inspección vehicular ante el vencimiento del contrato con la empresa Riteve, el cual será el próximo 15 de julio.
-                  </div>
-                  <a
-                    target="_blank"
-                    href="https://www.monumental.co.cr/2022/06/15/ina-se-ve-con-capacidad-de-asumir-el-servicio-de-revision-tecnica-vehicular/"
-                    rel="nofollow noreferrer"
-                    className="text-light btn btn-primary mt-2 mb-2"
-                    value="Ingresar"
-                  >
-                    Más información &rarr;
-                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

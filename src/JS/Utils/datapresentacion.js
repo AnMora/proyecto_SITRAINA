@@ -10,10 +10,10 @@ const DPres = {
     ],
     SITRAINAINFORMA: [
         {
-            titulo: "SITRAINA INFORMA - REPETICIÓN",
-            dia: "Programa: Viernes 22 de Abril 2022",
-            tema: '¿Qué pasa con la plata del INA?',
-            con: "Esteban Paniagua - Comunicador de SITRAINA INFORMA",
+            titulo: "SITRAINA INFORMA",
+            dia: "Programa: Martes 26 de Julio, 2022",
+            tema: 'Hablemos sobre la nueva Convención Colectiva',
+            con: "Claudio Alvarado - Secretario general SITRAINA",
         }
     ],
     PiePagina: [

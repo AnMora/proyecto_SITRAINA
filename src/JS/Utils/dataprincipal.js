@@ -46,10 +46,10 @@ const DPP = {
     ],
     SITRAINAINFORMA: [
         {
-            titulo: "SITRAINA INFORMA - REPETICIÓN",
-            dia: "Programa: Viernes 22 de Abril 2022",
-            tema: '¿Qué pasa con la plata del INA?',
-            con: "Esteban Paniagua - Comunicador de SITRAINA INFORMA",
+            titulo: "SITRAINA INFORMA",
+            dia: "Programa: Martes 26 de Julio, 2022",
+            tema: 'Hablemos sobre la nueva Convención Colectiva',
+            con: "Claudio Alvarado - Secretario general SITRAINA",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
@@ -64,10 +64,10 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2022,
-            titulo: "Hoja de Miercoles 08 de Junio, 2022",
-            mes: "Junio",
-            fecha: 8,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-08_junio_2022.pdf",
+            titulo: "Hoja de Miercoles 27 de Julio, 2022",
+            mes: "Julio",
+            fecha: 27,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-27_julio_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js

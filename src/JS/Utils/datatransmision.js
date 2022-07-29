@@ -18,15 +18,15 @@ const EVV = {
     ],
     SITRAINAINFORMA: [
         {
-            titulo: "SITRAINA INFORMA - REPETICIÓN",
-            dia: "Programa: Viernes 22 de Abril 2022",
-            tema: '¿Qué pasa con la plata del INA?',
-            con: "Esteban Paniagua - Comunicador de SITRAINA INFORMA",
+            titulo: "SITRAINA INFORMA",
+            dia: "Programa: Martes 26 de Julio, 2022",
+            tema: 'Hablemos sobre la nueva Convención Colectiva',
+            con: "Claudio Alvarado - Secretario general SITRAINA",
         }
     ],
     Extra1: "Lo pueden ver en vivo en nuestro sitio web o en nuestra página de Facebook.",
     Extra2: "Comuníquese con nuestro departamento de comunicación.",
-    Transmision: "https://www.facebook.com/SitrainaCR/videos/1390236914778357"
+    Transmision: "https://www.youtube.com/watch?v=zpv12gebWkg"
 }
 
 export default EVV;
