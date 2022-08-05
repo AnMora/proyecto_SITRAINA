@@ -64,10 +64,10 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2022,
-            titulo: "Hoja de Miercoles 27 de Julio, 2022",
-            mes: "Julio",
-            fecha: 27,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-27_julio_2022.pdf",
+            titulo: "Hoja de Miercoles 03 de Agosto, 2022",
+            mes: "Agosto",
+            fecha: 3,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-03_agosto_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
