@@ -39,8 +39,8 @@ const Sitraina = (props) => {
           </div>
         </div>
       </>
-    )
-  })
+    );
+  });
 
   const HMReciente = props.data.HMActual.map((item, position) => {
     return (
@@ -263,14 +263,9 @@ const Sitraina = (props) => {
   return (
     <div className="container-fluid">
       <div className="mt-4">
-
         <div className="alert alert-primary" role="alert">
           <Link to="/EnVIVO">
-            <a
-              href="##"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="##" target="_blank" rel="noopener noreferrer">
               <div className="mb-3 mt-3">
                 <div className="card border-left-info shadow h-100 py-2">
                   {SI_Programa}
@@ -278,9 +273,7 @@ const Sitraina = (props) => {
               </div>
             </a>
           </Link>
-          <strong>
-            {SI_alert}
-          </strong>
+          <strong>{SI_alert}</strong>
         </div>
 
         {/* {HMReciente} */}
@@ -302,18 +295,199 @@ const Sitraina = (props) => {
             aria-expanded="true"
             aria-controls="collapseCard"
           >
-            <h4 className="m-0 font-weight-bold text-primary">
-              CONVENIOS
-            </h4>
+            <h4 className="m-0 font-weight-bold text-primary">Informativas</h4>
             <small className="mt-2">
-              SITRAINA tiene una serie de convenios de salud, estudio y recreación, así como cursos cortos de capacitación en principios básicos de política, introducción a la ética y educación popular. Les hacemos llegar la siguiente imagen con todos nuestros convenios y servicios educativos propios
+              Despliegue cada pestaña para leer la información adjunta
             </small>
           </a>
           <div className="collapse show" id="Informativas">
             <div className="card-body">
-              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                <div className="row">
+              <div className="mb-0 font-weight-bold text-gray-800">
+                <div id="accordion" role="tablist">
+                  <div className="card">
+                    <div className="card-header" role="tab" id="headingOne">
+                      <h5 className="mb-0">
+                        <a
+                          data-toggle="collapse"
+                          href="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne"
+                        >
+                          <h4 className="m-0 font-weight-bold text-primary">
+                            Cursos libres para afiliados y familiares
+                          </h4>
+                          <small className="mt-2">
+                            La escuela sindical de STITRAINA ofrece a sus asociados y familiares de primer orden los siguiente cursos libres
+                          </small>
+                        </a>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseOne"
+                      className="collapse show"
+                      role="tabpanel"
+                      aria-labelledby="headingOne"
+                    >
+                      <div className="card-body">
+                        <img
+                          src="../../Documentos/informativas/cursos sitraina.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card">
+                    <div className="card-header" role="tab" id="headingTwo">
+                      <h5 className="mb-0">
+                        <a
+                          data-toggle="collapse"
+                          href="#collapseTwo"
+                          aria-expanded="true"
+                          aria-controls="collapseTwo"
+                        >
+                          <h4 className="m-0 font-weight-bold text-primary">
+                            Aclaracion derebajos salariales
+                          </h4>
+                          <small className="mt-2">
+                            Desde el 7 de julio, en la Hoja del Miércoles, SITRAINA les ha venido informando que no se puede realizar embargo ni rebajo de cuotas sobre salario mínimo. Porque en SITRAINA estamos de Su Lado:
+                          </small>
+                        </a>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseTwo"
+                      className="collapse show"
+                      role="tabpanel"
+                      aria-labelledby="headingOne"
+                    >
+                      <div className="card-body">
+                        <img
+                          src="../../Documentos/informativas/derecho sitraina.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card">
+                    <div className="card-header" role="tab" id="headingThree">
+                      <h5 className="mb-0">
+                        <a
+                          data-toggle="collapse"
+                          href="#collapseThree"
+                          aria-expanded="true"
+                          aria-controls="collapseThree"
+                        >
+                          <h4 className="m-0 font-weight-bold text-primary">
+                            Participe activamente de la labor sindical
+                          </h4>
+                          <small className="mt-2">
+                            Estamos interesados/as en formar nuevos cuadros sindicales para SITRAINA. Puede comenzar incorporándose a alguna de estas comisiones. Les esperamos
+                          </small>
+                        </a>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseThree"
+                      className="collapse show"
+                      role="tabpanel"
+                      aria-labelledby="headingThree"
+                    >
+                      <div className="card-body">
+                        <img
+                          src="../../Documentos/informativas/labor sindical sitraina.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card"> 
+                    <div className="card-header" role="tab" id="headingFour">
+                      <h5 className="mb-0">
+                        <a
+                          data-toggle="collapse"
+                          href="#collapseFour"
+                          aria-expanded="true"
+                          aria-controls="collapseFour"
+                        >
+                          <h4 className="m-0 font-weight-bold text-primary">
+                            Convenios
+                          </h4>
+                          <small className="mt-2">
+                            SITRAINA tiene una serie de convenios de salud, estudio y recreación, así como cursos cortos de capacitación en principios básicos de política, introducción a la ética y educación popular. Les hacemos llegar la siguiente imagen con todos nuestros convenios y servicios educativos propios
+                          </small>
+                        </a>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseFour"
+                      className="collapse show"
+                      role="tabpanel"
+                      aria-labelledby="headingFour"
+                    >
+                      <div className="card-body">
+                        <img
+                          src="../../Documentos/informativas/informativas.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* <div className="row mb-2">
                   <div className="col-12">
+                    <div classname="card">
+                      <div classname="card-body">
+                        <img
+                          src="../../Documentos/informativas/cursos sitraina.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row mb-2">
+                  <div className="col-md-4">
+                    <div classname="card">
+                      <div classname="card-body">
+                        <img
+                          src="../../Documentos/informativas/derecho sitraina.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div classname="card">
+                      <div classname="card-body">
+                        <img
+                          src="../../Documentos/informativas/labor sindical.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
                     <div classname="card">
                       <div classname="card-body">
                         <img
@@ -326,7 +500,7 @@ const Sitraina = (props) => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
