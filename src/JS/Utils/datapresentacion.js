@@ -12,8 +12,8 @@ const DPres = {
         {
             titulo: "SITRAINA INFORMA",
             dia: "Programa: Martes 26 de Julio, 2022",
-            tema: 'Hablemos sobre la nueva Convención Colectiva',
-            con: "Claudio Alvarado - Secretario general SITRAINA",
+            tema: 'Sindicalismo y SITRAINA en la celebración de sus 44 años',
+            con: "MSC. Esteban Paniagua - Asesor de Comunicación",
         }
     ],
     PiePagina: [
