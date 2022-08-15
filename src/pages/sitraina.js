@@ -305,6 +305,41 @@ const Sitraina = (props) => {
               <div className="mb-0 font-weight-bold text-gray-800">
                 <div id="accordion" role="tablist">
                   <div className="card">
+                    <div className="card-header" role="tab" id="headingNew">
+                      <h5 className="mb-0">
+                        <a
+                          data-toggle="collapse"
+                          href="#collapseNew"
+                          aria-expanded="true"
+                          aria-controls="collapseNew"
+                        >
+                          <h4 className="m-0 font-weight-bold text-primary">
+                            BUSSCO
+                          </h4>
+                          <small className="mt-2">
+                            El BUSSCO demanda el incumplimiento del mandato contitucional de otorgar el 8% del PIB a la educación pública del país
+                          </small>
+                        </a>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseNew"
+                      className="collapse show"
+                      role="tabpanel"
+                      aria-labelledby="headingNew"
+                    >
+                      <div className="card-body">
+                        <img
+                          src="../../Documentos/informativas/BUSSCO4.jpg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card">
                     <div className="card-header" role="tab" id="headingOne">
                       <h5 className="mb-0">
                         <a
@@ -445,62 +480,6 @@ const Sitraina = (props) => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="row mb-2">
-                  <div className="col-12">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/cursos sitraina.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="row mb-2">
-                  <div className="col-md-4">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/derecho sitraina.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/labor sindical.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/informativas.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>
