@@ -48,6 +48,14 @@ const DHmiercoles = {
     ],
     HM2022: [
       // Hoja de Miercoles Actual
+      // Hoja_de_Miercoles-24_agosto_2022.pdf
+      {
+        año: 2022,
+        titulo: "Hoja de Miercoles 24 de Agosto, 2022",
+        mes: "Agosto",
+        fecha: 24,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-24_agosto_2022.pdf",
+      },
       {
         año: 2022,
         titulo: "Hoja de Miercoles 03 de Agosto, 2022",
