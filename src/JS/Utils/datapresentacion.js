@@ -11,8 +11,8 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 26 de Julio, 2022",
-            tema: 'Sindicalismo y SITRAINA en la celebración de sus 44 años',
+            dia: "Programa: Martes 23 de Agosto, 2022",
+            tema: 'Origen histórico de SITRAINA (1968 - 1978)',
             con: "MSC. Esteban Paniagua - Asesor de Comunicación",
         }
     ],
