@@ -11,9 +11,9 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 23 de Agosto, 2022",
-            tema: 'Origen histórico de SITRAINA (1968 - 1978)',
-            con: "MSC. Esteban Paniagua - Asesor de Comunicación",
+            dia: "Programa: Martes 30 de Agosto, 2022",
+            tema: 'Situación del FEES',
+            con: "Kendy Chacón - Secretaria General AFITEC || Rosemary Gómez - Secretaria General Adjunta, SINDEU",
         }
     ],
     PiePagina: [

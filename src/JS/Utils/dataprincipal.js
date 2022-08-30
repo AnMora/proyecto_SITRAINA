@@ -45,11 +45,12 @@ const DPP = {
         }
     ],
     SITRAINAINFORMA: [
+        // ón
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 23 de Agosto, 2022",
-            tema: 'Origen histórico de SITRAINA (1968 - 1978)',
-            con: "MSC. Esteban Paniagua - Asesor de Comunicación",
+            dia: "Programa: Martes 30 de Agosto, 2022",
+            tema: 'Situación del FEES',
+            con: "Kendy Chacón - Secretaria General AFITEC || Rosemary Gómez - Secretaria General Adjunta, SINDEU",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
@@ -62,6 +63,13 @@ const DPP = {
     ],
     HMActual: [
         // Hoja de Miercoles Actual
+        {
+            año: 2022,
+            titulo: "Hoja de Miercoles - Jueves 26 de Agosto, 2022 - Edicion Especial",
+            mes: "Agosto",
+            fecha: 26,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-26_agosto_2022.pdf",
+        },
         {
             año: 2022,
             titulo: "Hoja de Miercoles 24 de Agosto, 2022",
