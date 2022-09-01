@@ -11,9 +11,9 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 30 de Agosto, 2022",
-            tema: 'Situación del FEES',
-            con: "Kendy Chacón - Secretaria General AFITEC || Rosemary Gómez - Secretaria General Adjunta, SINDEU",
+            dia: "Programa: Martes 23 de Agosto, 2022",
+            tema: 'Origen del Sindicalismo en el INA (1968-1978)',
+            con: "Msc. Esteban Paniagua - Asesor de comunicación",
         }
     ],
     PiePagina: [
@@ -52,8 +52,8 @@ const DPres = {
         {
             medio: "Telefono / Tele-Fax: ",
             icon: "fas fa-fax fa-2x text-gray-300",
-            contactar: "2210-6200",
-            otro: "2220-2480 ó a la ext 6200.",
+            // contactar: "2210-6200",
+            otro: "2220-2480 a la ext 6200.",
         },
         {
             medio: "Apartado Postal: ",
