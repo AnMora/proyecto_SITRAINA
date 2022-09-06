@@ -48,9 +48,9 @@ const DPP = {
         // ón
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 23 de Agosto, 2022",
-            tema: 'Origen del Sindicalismo en el INA (1968-1978)',
-            con: "Msc. Esteban Paniagua - Asesor de comunicación",
+            dia: "Programa: Martes 6 de Septiembre, 2022",
+            tema: 'Situación del FEES',
+            con: "Kendy Chacón - Secretaria General Afitec || Rosemary Gómez - Secretaria General Adjunta, Sindeu",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",

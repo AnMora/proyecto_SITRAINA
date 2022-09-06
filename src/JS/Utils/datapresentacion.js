@@ -11,9 +11,9 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 23 de Agosto, 2022",
-            tema: 'Origen del Sindicalismo en el INA (1968-1978)',
-            con: "Msc. Esteban Paniagua - Asesor de comunicación",
+            dia: "Programa: Martes 6 de Septiembre, 2022",
+            tema: 'Situación del FEES',
+            con: "Kendy Chacón - Secretaria General Afitec || Rosemary Gómez - Secretaria General Adjunta, Sindeu",
         }
     ],
     PiePagina: [
@@ -64,7 +64,7 @@ const DPres = {
             medio: "Correos Electronicos: ",
             icon: "fas fa-envelope-open-text fa-2x text-gray-300",
             contactar: "sitraina@ina.ac.cr",
-            otro: "asesorialegalsitraina@gmail.com",
+            otro: "asesorialegalsitraina@gmail.com", 
         },
         {
             medio: "Nuestra oficina central: ",
