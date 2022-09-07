@@ -314,10 +314,10 @@ const Sitraina = (props) => {
                           aria-controls="collapseNew"
                         >
                           <h4 className="m-0 font-weight-bold text-primary">
-                            BUSSCO
+                            Ganadora de una de las tres canastas rifadas por SITRAINA
                           </h4>
                           <small className="mt-2">
-                            El BUSSCO demanda el incumplimiento del mandato contitucional de otorgar el 8% del PIB a la educación pública del país
+                            Felicidades a Sonia Sánchez Artavia, ganadora de una de las tres canastas rifadas por SITRAINA
                           </small>
                         </a>
                       </h5>
@@ -330,7 +330,7 @@ const Sitraina = (props) => {
                     >
                       <div className="card-body">
                         <img
-                          src="../../Documentos/informativas/BUSSCO4.jpg"
+                          src="../../Documentos/informativas/ganadora de rifa.jpg"
                           className="rounded-lg img-thumbnail"
                           data-toggle="modal"
                           data-target=".bd-example-modal-lg"

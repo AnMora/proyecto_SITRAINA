@@ -19,14 +19,14 @@ const EVV = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 23 de Agosto, 2022",
-            tema: 'Origen histórico de SITRAINA (1968 - 1978)',
-            con: "MSC. Esteban Paniagua - Asesor de Comunicación",
+            dia: "Programa: Martes 29 de Marzo, 2022",
+            tema: "El INA: lo que fue, lo que es y lo que puede ser",
+            con: " Jorge Muñoz - Directivo de la Junta Directiva del INA",
         }
     ],
     Extra1: "Lo pueden ver en vivo en nuestro sitio web o en nuestra página de Facebook.",
     Extra2: "Comuníquese con nuestro departamento de comunicación.",
-    Transmision: "https://www.facebook.com/SitrainaCR/videos/3901749273382567"
+    Transmision: "https://www.facebook.com/SitrainaCR/videos/481545686865175"
 }
 
 export default EVV;

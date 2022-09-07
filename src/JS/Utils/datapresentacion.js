@@ -11,9 +11,9 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 6 de Septiembre, 2022",
-            tema: 'Situación del FEES',
-            con: "Kendy Chacón - Secretaria General Afitec || Rosemary Gómez - Secretaria General Adjunta, Sindeu",
+            dia: "Programa: Martes 29 de Marzo, 2022",
+            tema: "El INA: lo que fue, lo que es y lo que puede ser",
+            con: " Jorge Muñoz - Directivo de la Junta Directiva del INA",
         }
     ],
     PiePagina: [
