@@ -65,17 +65,10 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2022,
-            titulo: "Hoja de Miercoles - Jueves 31 de Agosto, 2022",
-            mes: "Agosto",
-            fecha: 31,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-31_agosto_2022.pdf",
-        },
-        {
-            año: 2022,
-            titulo: "Hoja de Miercoles - Jueves 26 de Agosto, 2022 - Edicion Especial",
-            mes: "Agosto",
-            fecha: 26,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-26_agosto_2022.pdf",
+            titulo: "Hoja de Miercoles - Jueves 07 de Septiembre, 2022",
+            mes: "Septiembre",
+            fecha: 7,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-07_septiembre_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
