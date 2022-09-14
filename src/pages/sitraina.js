@@ -304,6 +304,41 @@ const Sitraina = (props) => {
             <div className="card-body">
               <div className="mb-0 font-weight-bold text-gray-800">
                 <div id="accordion" role="tablist">
+                  <div className="card"> 
+                    <div className="card-header" role="tab" id="headingFour">
+                      <h5 className="mb-0">
+                        <a
+                          data-toggle="collapse"
+                          href="#collapseFour"
+                          aria-expanded="true"
+                          aria-controls="collapseFour"
+                        >
+                          <h4 className="m-0 font-weight-bold text-primary">
+                            ¿POR QUE NO SE APROBO EL INCREMENTO SI ESTABA APROBADO?
+                          </h4>
+                          <small className="mt-2">
+                            El 25 de marzo del 2020 el Gobierno Central comunico un decreto ejecutivo que suspendia el aumento salarial de Gobierno Central debido  a la emergencia sanitaria por el COVID-19...
+                          </small>
+                        </a>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseFour"
+                      className="collapse show"
+                      role="tabpanel"
+                      aria-labelledby="headingFour"
+                    >
+                      <div className="card-body">
+                        <img
+                          src="../../Documentos/informativas/incremento.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
                   <div className="card">
                     <div className="card-header" role="tab" id="headingNew">
                       <h5 className="mb-0">
@@ -436,41 +471,6 @@ const Sitraina = (props) => {
                       <div className="card-body">
                         <img
                           src="../../Documentos/informativas/labor sindical sitraina.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card"> 
-                    <div className="card-header" role="tab" id="headingFour">
-                      <h5 className="mb-0">
-                        <a
-                          data-toggle="collapse"
-                          href="#collapseFour"
-                          aria-expanded="true"
-                          aria-controls="collapseFour"
-                        >
-                          <h4 className="m-0 font-weight-bold text-primary">
-                            Convenios
-                          </h4>
-                          <small className="mt-2">
-                            SITRAINA tiene una serie de convenios de salud, estudio y recreación, así como cursos cortos de capacitación en principios básicos de política, introducción a la ética y educación popular. Les hacemos llegar la siguiente imagen con todos nuestros convenios y servicios educativos propios
-                          </small>
-                        </a>
-                      </h5>
-                    </div>
-                    <div
-                      id="collapseFour"
-                      className="collapse show"
-                      role="tabpanel"
-                      aria-labelledby="headingFour"
-                    >
-                      <div className="card-body">
-                        <img
-                          src="../../Documentos/informativas/informativas.jpeg"
                           className="rounded-lg img-thumbnail"
                           data-toggle="modal"
                           data-target=".bd-example-modal-lg"

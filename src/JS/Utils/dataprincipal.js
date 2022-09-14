@@ -65,10 +65,10 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2022,
-            titulo: "Hoja de Miercoles - Jueves 07 de Septiembre, 2022",
+            titulo: "Hoja de Miercoles - Lunes 12 de Septiembre, 2022 - Edicion Especial",
             mes: "Septiembre",
-            fecha: 7,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-07_septiembre_2022.pdf",
+            fecha: 12,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-12_septiembre_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
