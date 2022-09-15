@@ -304,7 +304,69 @@ const Sitraina = (props) => {
             <div className="card-body">
               <div className="mb-0 font-weight-bold text-gray-800">
                 <div id="accordion" role="tablist">
-                  <div className="card"> 
+                <div className="card">
+                    <div className="card-header" role="tab" id="headingNew">
+                      <h5 className="mb-0">
+                        <a
+                          data-toggle="collapse"
+                          href="#collapseNew"
+                          aria-expanded="true"
+                          aria-controls="collapseNew"
+                        >
+                          <h4 className="m-0 font-weight-bold text-primary">
+                            Ganadoras de una de las tres canastas rifadas por
+                            SITRAINA
+                          </h4>
+                          <small className="mt-2">
+                            Felicidades a Sonia Sánchez Artavia y a la Compañera
+                            Yirlanny Campos, ganadoras de una de las canasta con
+                            dos vinos, fruta enlatada y chocolates. Pronto
+                            haremos nuevos concursos similares para todas las
+                            personas afiliadas
+                          </small>
+                        </a>
+                      </h5>
+                    </div>
+                    <div className="row">
+                      <div className="col-md-6">
+                        <div
+                          id="collapseNew"
+                          className="collapse show"
+                          role="tabpanel"
+                          aria-labelledby="headingNew"
+                        >
+                          <div className="card-body">
+                            <img
+                              src="../../Documentos/informativas/ganadora de rifa.jpg"
+                              className="rounded-lg img-thumbnail"
+                              data-toggle="modal"
+                              data-target=".bd-example-modal-lg"
+                              alt="SITRAINACR"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        <div
+                          id="collapseNew"
+                          className="collapse show"
+                          role="tabpanel"
+                          aria-labelledby="headingNew"
+                        >
+                          <div className="card-body">
+                            <img
+                              src="../../Documentos/informativas/ganadora de rifa1.jpg"
+                              className="rounded-lg img-thumbnail"
+                              data-toggle="modal"
+                              data-target=".bd-example-modal-lg"
+                              alt="SITRAINACR"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card">
                     <div className="card-header" role="tab" id="headingFour">
                       <h5 className="mb-0">
                         <a
@@ -314,10 +376,14 @@ const Sitraina = (props) => {
                           aria-controls="collapseFour"
                         >
                           <h4 className="m-0 font-weight-bold text-primary">
-                            ¿POR QUE NO SE APROBO EL INCREMENTO SI ESTABA APROBADO?
+                            ¿POR QUE NO SE APROBO EL INCREMENTO SI ESTABA
+                            APROBADO?
                           </h4>
                           <small className="mt-2">
-                            El 25 de marzo del 2020 el Gobierno Central comunico un decreto ejecutivo que suspendia el aumento salarial de Gobierno Central debido  a la emergencia sanitaria por el COVID-19...
+                            El 25 de marzo del 2020 el Gobierno Central comunico
+                            un decreto ejecutivo que suspendia el aumento
+                            salarial de Gobierno Central debido a la emergencia
+                            sanitaria por el COVID-19...
                           </small>
                         </a>
                       </h5>
@@ -340,41 +406,6 @@ const Sitraina = (props) => {
                     </div>
                   </div>
                   <div className="card">
-                    <div className="card-header" role="tab" id="headingNew">
-                      <h5 className="mb-0">
-                        <a
-                          data-toggle="collapse"
-                          href="#collapseNew"
-                          aria-expanded="true"
-                          aria-controls="collapseNew"
-                        >
-                          <h4 className="m-0 font-weight-bold text-primary">
-                            Ganadora de una de las tres canastas rifadas por SITRAINA
-                          </h4>
-                          <small className="mt-2">
-                            Felicidades a Sonia Sánchez Artavia, ganadora de una de las tres canastas rifadas por SITRAINA
-                          </small>
-                        </a>
-                      </h5>
-                    </div>
-                    <div
-                      id="collapseNew"
-                      className="collapse show"
-                      role="tabpanel"
-                      aria-labelledby="headingNew"
-                    >
-                      <div className="card-body">
-                        <img
-                          src="../../Documentos/informativas/ganadora de rifa.jpg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
                     <div className="card-header" role="tab" id="headingOne">
                       <h5 className="mb-0">
                         <a
@@ -387,7 +418,9 @@ const Sitraina = (props) => {
                             Cursos libres para afiliados y familiares
                           </h4>
                           <small className="mt-2">
-                            La escuela sindical de STITRAINA ofrece a sus asociados y familiares de primer orden los siguiente cursos libres
+                            La escuela sindical de STITRAINA ofrece a sus
+                            asociados y familiares de primer orden los siguiente
+                            cursos libres
                           </small>
                         </a>
                       </h5>
@@ -422,7 +455,10 @@ const Sitraina = (props) => {
                             Aclaracion derebajos salariales
                           </h4>
                           <small className="mt-2">
-                            Desde el 7 de julio, en la Hoja del Miércoles, SITRAINA les ha venido informando que no se puede realizar embargo ni rebajo de cuotas sobre salario mínimo. Porque en SITRAINA estamos de Su Lado:
+                            Desde el 7 de julio, en la Hoja del Miércoles,
+                            SITRAINA les ha venido informando que no se puede
+                            realizar embargo ni rebajo de cuotas sobre salario
+                            mínimo. Porque en SITRAINA estamos de Su Lado:
                           </small>
                         </a>
                       </h5>
@@ -457,7 +493,10 @@ const Sitraina = (props) => {
                             Participe activamente de la labor sindical
                           </h4>
                           <small className="mt-2">
-                            Estamos interesados/as en formar nuevos cuadros sindicales para SITRAINA. Puede comenzar incorporándose a alguna de estas comisiones. Les esperamos
+                            Estamos interesados/as en formar nuevos cuadros
+                            sindicales para SITRAINA. Puede comenzar
+                            incorporándose a alguna de estas comisiones. Les
+                            esperamos
                           </small>
                         </a>
                       </h5>

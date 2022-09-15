@@ -50,6 +50,13 @@ const DHmiercoles = {
       // Hoja de Miercoles Actual
       {
         año: 2022,
+        titulo: "Hoja de Miercoles - Lunes 14 de Septiembre, 2022",
+        mes: "Septiembre",
+        fecha: 14,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-14_septiembre_2022.pdf",
+      },
+      {
+        año: 2022,
         titulo: "Hoja de Miercoles - Lunes 12 de Septiembre, 2022 - Edicion Especial",
         mes: "Septiembre",
         fecha: 12,
