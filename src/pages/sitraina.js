@@ -81,6 +81,48 @@ const Sitraina = (props) => {
     );
   });
 
+  const Informativas = props.data.Informativas.map((item, position) => {
+    return (
+      <>
+        <div key={position} className="card">
+          <div className="card-header" role="tab" id="heading">
+            <h5 className="mb-0">
+              <a
+                data-toggle="collapse"
+                href={'#' + item.id}
+                aria-expanded="true"
+                aria-controls={item.id}
+              >
+                <h4 className="m-0 font-weight-bold text-primary">
+                  {item.titulo}
+                </h4>
+                <small className="mt-2">
+                  {item.descripcion}
+                </small>
+              </a>
+            </h5>
+          </div>
+          <div
+            id={item.id}
+            className="collapse show"
+            role="tabpanel"
+            aria-labelledby="headingOne"
+          >
+            <div className="card-body">
+              <img
+                src={item.imagen}
+                className="rounded-lg img-thumbnail"
+                data-toggle="modal"
+                data-target=".bd-example-modal-lg"
+                alt="SITRAINACR"
+              />
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  });
+
   const Sitraina = props.data.Sitraina.map((item, position) => {
     if (position === 0) {
       return (
@@ -304,219 +346,7 @@ const Sitraina = (props) => {
             <div className="card-body">
               <div className="mb-0 font-weight-bold text-gray-800">
                 <div id="accordion" role="tablist">
-                <div className="card">
-                    <div className="card-header" role="tab" id="headingTwo">
-                      <h5 className="mb-0">
-                        <a
-                          data-toggle="collapse"
-                          href="#collapseTwo"
-                          aria-expanded="true"
-                          aria-controls="collapseTwo"
-                        >
-                          <h4 className="m-0 font-weight-bold text-primary">
-                            SIRAINA somos todos/as
-                          </h4>
-                          <small className="mt-2">
-                            SITRAINA se encuentra preparando comisiones para revisar y actualizar el Estatuto y los reglamentos del SINDICATO. Para nosotros/as es muy importante que ustedes se una a las comisiones, aporten su conocimiento y hagamos un proceso democrático
-                          </small>
-                        </a>
-                      </h5>
-                    </div>
-                    <div
-                      id="collapseTwo"
-                      className="collapse show"
-                      role="tabpanel"
-                      aria-labelledby="headingOne"
-                    >
-                      <div className="card-body">
-                        <img
-                          src="../../Documentos/informativas/SomosTodos.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" role="tab" id="headingNew">
-                      <h5 className="mb-0">
-                        <a
-                          data-toggle="collapse"
-                          href="#collapseNew"
-                          aria-expanded="true"
-                          aria-controls="collapseNew"
-                        >
-                          <h4 className="m-0 font-weight-bold text-primary">
-                            Ganadoras de una de las tres canastas rifadas por
-                            SITRAINA
-                          </h4>
-                          <small className="mt-2">
-                            Felicidades a Sonia Sánchez Artavia y a la Compañera
-                            Yirlanny Campos, ganadoras de una de las canasta con
-                            dos vinos, fruta enlatada y chocolates. Pronto
-                            haremos nuevos concursos similares para todas las
-                            personas afiliadas
-                          </small>
-                        </a>
-                      </h5>
-                    </div>
-                    <div className="row">
-                      <div className="col-md-6">
-                        <div
-                          id="collapseNew"
-                          className="collapse show"
-                          role="tabpanel"
-                          aria-labelledby="headingNew"
-                        >
-                          <div className="card-body">
-                            <img
-                              src="../../Documentos/informativas/ganadora de rifa.jpg"
-                              className="rounded-lg img-thumbnail"
-                              data-toggle="modal"
-                              data-target=".bd-example-modal-lg"
-                              alt="SITRAINACR"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-md-6">
-                        <div
-                          id="collapseNew"
-                          className="collapse show"
-                          role="tabpanel"
-                          aria-labelledby="headingNew"
-                        >
-                          <div className="card-body">
-                            <img
-                              src="../../Documentos/informativas/ganadora de rifa1.jpg"
-                              className="rounded-lg img-thumbnail"
-                              data-toggle="modal"
-                              data-target=".bd-example-modal-lg"
-                              alt="SITRAINACR"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" role="tab" id="headingFour">
-                      <h5 className="mb-0">
-                        <a
-                          data-toggle="collapse"
-                          href="#collapseFour"
-                          aria-expanded="true"
-                          aria-controls="collapseFour"
-                        >
-                          <h4 className="m-0 font-weight-bold text-primary">
-                            ¿POR QUE NO SE APROBO EL INCREMENTO SI ESTABA
-                            APROBADO?
-                          </h4>
-                          <small className="mt-2">
-                            El 25 de marzo del 2020 el Gobierno Central comunico
-                            un decreto ejecutivo que suspendia el aumento
-                            salarial de Gobierno Central debido a la emergencia
-                            sanitaria por el COVID-19...
-                          </small>
-                        </a>
-                      </h5>
-                    </div>
-                    <div
-                      id="collapseFour"
-                      className="collapse show"
-                      role="tabpanel"
-                      aria-labelledby="headingFour"
-                    >
-                      <div className="card-body">
-                        <img
-                          src="../../Documentos/informativas/incremento.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="card">
-                    <div className="card-header" role="tab" id="headingOne">
-                      <h5 className="mb-0">
-                        <a
-                          data-toggle="collapse"
-                          href="#collapseOne"
-                          aria-expanded="true"
-                          aria-controls="collapseOne"
-                        >
-                          <h4 className="m-0 font-weight-bold text-primary">
-                            Cursos libres para afiliados y familiares
-                          </h4>
-                          <small className="mt-2">
-                            La escuela sindical de STITRAINA ofrece a sus
-                            asociados y familiares de primer orden los siguiente
-                            cursos libres
-                          </small>
-                        </a>
-                      </h5>
-                    </div>
-                    <div
-                      id="collapseOne"
-                      className="collapse show"
-                      role="tabpanel"
-                      aria-labelledby="headingOne"
-                    >
-                      <div className="card-body">
-                        <img
-                          src="../../Documentos/informativas/cursos sitraina.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="card">
-                    <div className="card-header" role="tab" id="headingThree">
-                      <h5 className="mb-0">
-                        <a
-                          data-toggle="collapse"
-                          href="#collapseThree"
-                          aria-expanded="true"
-                          aria-controls="collapseThree"
-                        >
-                          <h4 className="m-0 font-weight-bold text-primary">
-                            Participe activamente de la labor sindical
-                          </h4>
-                          <small className="mt-2">
-                            Estamos interesados/as en formar nuevos cuadros
-                            sindicales para SITRAINA. Puede comenzar
-                            incorporándose a alguna de estas comisiones. Les
-                            esperamos
-                          </small>
-                        </a>
-                      </h5>
-                    </div>
-                    <div
-                      id="collapseThree"
-                      className="collapse show"
-                      role="tabpanel"
-                      aria-labelledby="headingThree"
-                    >
-                      <div className="card-body">
-                        <img
-                          src="../../Documentos/informativas/labor sindical sitraina.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
+                  {Informativas}
                 </div>
               </div>
             </div>

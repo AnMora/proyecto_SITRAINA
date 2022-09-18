@@ -79,31 +79,37 @@ const DPP = {
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
-    Informacion: [
+    Informativas: [
         {
-            seccion: "Hoja de Miercoles",
-            icon: "fas fa-clipboard-list fa-2x text-gray-300",
-            path: "/sitraina/hojamiercoles",
-            descripcion: "Información sobre hojas nuevas cada semana"
+            id: "collapseOne",
+            titulo: "SITRAINA somos todos/as",
+            imagen: "../../Documentos/informativas/SomosTodos.jpeg",
+            descripcion: "SITRAINA se encuentra preparando comisiones para revisar y actualizar el Estatuto y los reglamentos del SINDICATO. Para nosotros/as es muy importante que ustedes se una a las comisiones, aporten su conocimiento y hagamos un proceso democrático"
         },
         {
-            seccion: "Reglamentos",
-            icon: "fas fa-book fa-2x text-gray-300",
-            path: "/sitraina/reglamentos",
-            descripcion: "Información sobre reglas y codigos"
+            id: "collapseTwo",
+            titulo: "Segunda ganadora de una de las tres canastas rifadas por SITRAINA",
+            imagen: "../../Documentos/informativas/ganadora de rifa1.jpg",
+            descripcion: "Felicidades a la compañera Yirlanny Campos, ganadoras de una de las canasta con dos vinos, fruta enlatada y chocolates. Pronto haremos nuevos concursos similares para todas las personas afiliadas"
         },
         {
-            seccion: "Junta Directiva",
-            icon: "fas fa-address-book fa-2x text-gray-300",
-            path: "/sitraina/juntadirectiva",
-            descripcion: "Información sobre los miembros"
+            id: "collapseThree",
+            titulo: "¿POR QUE NO SE APROBO EL INCREMENTO SI ESTABA APROBADO?",
+            imagen: "../../Documentos/informativas/incremento.jpeg",
+            descripcion: "El 25 de marzo del 2020 el Gobierno Central comunico un decreto ejecutivo que suspendia el aumento salarial de Gobierno Central debido a la emergencia sanitaria por el COVID-19..."
         },
         {
-            seccion: "Convenios",
-            icon: "fas fa-info-circle fa-2x text-gray-300",
-            path: "/sitraina/convenios",
-            descripcion: "Información sobre los convenios"
-        }
+            id: "collapseFour",
+            titulo: "Cursos libres para afiliados y familiares",
+            imagen: "../../Documentos/informativas/cursos sitraina.jpeg",
+            descripcion: "La escuela sindical de STITRAINA ofrece a sus asociados y familiares de primer orden los siguiente cursos libres"
+        },
+        {
+            id: "collapseFive",
+            titulo: "Participe activamente de la labor sindical",
+            imagen: "../../Documentos/informativas/labor sindical sitraina.jpeg",
+            descripcion: "Estamos interesados/as en formar nuevos cuadros sindicales para SITRAINA. Puede comenzar incorporándose a alguna de estas comisiones"
+        },
     ],
     Sitraina: [
         {   
