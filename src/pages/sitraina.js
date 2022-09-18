@@ -305,6 +305,42 @@ const Sitraina = (props) => {
               <div className="mb-0 font-weight-bold text-gray-800">
                 <div id="accordion" role="tablist">
                 <div className="card">
+                    <div className="card-header" role="tab" id="headingTwo">
+                      <h5 className="mb-0">
+                        <a
+                          data-toggle="collapse"
+                          href="#collapseTwo"
+                          aria-expanded="true"
+                          aria-controls="collapseTwo"
+                        >
+                          <h4 className="m-0 font-weight-bold text-primary">
+                            SIRAINA somos todos/as
+                          </h4>
+                          <small className="mt-2">
+                            SITRAINA se encuentra preparando comisiones para revisar y actualizar el Estatuto y los reglamentos del SINDICATO. Para nosotros/as es muy importante que ustedes se una a las comisiones, aporten su conocimiento y hagamos un proceso democrático
+                          </small>
+                        </a>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapseTwo"
+                      className="collapse show"
+                      role="tabpanel"
+                      aria-labelledby="headingOne"
+                    >
+                      <div className="card-body">
+                        <img
+                          src="../../Documentos/informativas/SomosTodos.jpeg"
+                          className="rounded-lg img-thumbnail"
+                          data-toggle="modal"
+                          data-target=".bd-example-modal-lg"
+                          alt="SITRAINACR"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="card">
                     <div className="card-header" role="tab" id="headingNew">
                       <h5 className="mb-0">
                         <a
@@ -442,44 +478,7 @@ const Sitraina = (props) => {
                       </div>
                     </div>
                   </div>
-                  <div className="card">
-                    <div className="card-header" role="tab" id="headingTwo">
-                      <h5 className="mb-0">
-                        <a
-                          data-toggle="collapse"
-                          href="#collapseTwo"
-                          aria-expanded="true"
-                          aria-controls="collapseTwo"
-                        >
-                          <h4 className="m-0 font-weight-bold text-primary">
-                            Aclaracion derebajos salariales
-                          </h4>
-                          <small className="mt-2">
-                            Desde el 7 de julio, en la Hoja del Miércoles,
-                            SITRAINA les ha venido informando que no se puede
-                            realizar embargo ni rebajo de cuotas sobre salario
-                            mínimo. Porque en SITRAINA estamos de Su Lado:
-                          </small>
-                        </a>
-                      </h5>
-                    </div>
-                    <div
-                      id="collapseTwo"
-                      className="collapse show"
-                      role="tabpanel"
-                      aria-labelledby="headingOne"
-                    >
-                      <div className="card-body">
-                        <img
-                          src="../../Documentos/informativas/derecho sitraina.jpeg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
+
                   <div className="card">
                     <div className="card-header" role="tab" id="headingThree">
                       <h5 className="mb-0">

@@ -11,9 +11,9 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 29 de Marzo, 2022",
-            tema: "El INA: lo que fue, lo que es y lo que puede ser",
-            con: " Jorge Muñoz - Directivo de la Junta Directiva del INA",
+            dia: "Programa: Martes 20 de Septiembre, 2022",
+            tema: "Costo de la Vida y la situación politica costarricense",
+            con: " Jorge Coronado - Dirigente de BUSSCO",
         }
     ],
     PiePagina: [
