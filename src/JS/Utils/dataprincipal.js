@@ -65,17 +65,10 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2022,
-            titulo: "Hoja de Miercoles - Lunes 14 de Septiembre, 2022",
+            titulo: "Hoja de Miercoles - Lunes 21 de Septiembre, 2022",
             mes: "Septiembre",
-            fecha: 14,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-14_septiembre_2022.pdf",
-        },
-        {
-            año: 2022,
-            titulo: "Hoja de Miercoles - Lunes 12 de Septiembre, 2022 - Edicion Especial",
-            mes: "Septiembre",
-            fecha: 12,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-12_septiembre_2022.pdf",
+            fecha: 21,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-21_septiembre_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
