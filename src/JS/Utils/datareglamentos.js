@@ -47,15 +47,16 @@ const DRegla = {
         }
     ],
     Documentos: [
+        // Estatuto Orgánico de SITRAINA
+        {
+            reglamento: "Estatuto Orgánico de SITRAINA",
+            descripcion: "Asociacion voluntaria de trabajadores y pensionados.",
+            link: "../../Documentos/reglamentos/Estatuto Orgánico de SITRAINA.pdf",
+        },
         {
             reglamento: "Criterio de Zonaje",
             descripcion: "Reglamento para el pago de zonaje al personal del INA.",
             link: "../../Documentos/reglamentos/Reglamento-criterio_de_zonaje_2013.pdf",
-        },
-        {
-            reglamento: "Estatuto Sitraina",
-            descripcion: "Asociacion voluntaria de trabajadores y pensionados.",
-            link: "../../Documentos/reglamentos/Reglamento-Estatuto_SITRAINA_aprobado_por_el_Ministerio_de_Trabajo.pdf",
         },
         {
             reglamento: "Ley 2 - Codigo de Trabajo",

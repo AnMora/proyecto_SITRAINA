@@ -63,6 +63,14 @@ const DPP = {
     ],
     HMActual: [
         // Hoja de Miercoles Actual
+        // Hoja_de_Miercoles-23_septiembre_2022-Edicion_ESpecial.pdf
+        {
+            año: 2022,
+            titulo: "Hoja de Miercoles - Viernes 24 de Septiembre, 2022 - Edicion Especial",
+            mes: "Septiembre",
+            fecha: 23,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-23_septiembre_2022-Edicion_ESpecial.pdf",
+        },
         {
             año: 2022,
             titulo: "Hoja de Miercoles - Lunes 21 de Septiembre, 2022",
