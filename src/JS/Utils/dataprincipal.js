@@ -48,9 +48,9 @@ const DPP = {
         // ón
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 20 de Septiembre, 2022",
-            tema: "Costo de la Vida y la situación politica costarricense",
-            con: " Jorge Coronado - Dirigente de BUSSCO",
+            dia: "Programa: Martes 27 de Septiembre, 2022",
+            tema: "Contexto político Costarricense",
+            con: " Luis Chavarría - Secretario General, UNDECA",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
