@@ -66,17 +66,10 @@ const DPP = {
         // Hoja_de_Miercoles-23_septiembre_2022-Edicion_ESpecial.pdf
         {
             año: 2022,
-            titulo: "Hoja de Miercoles - Viernes 28 de Septiembre, 2022",
-            mes: "Septiembre",
-            fecha: 28,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-28_septiembre_2022.pdf",
-        },
-        {
-            año: 2022,
-            titulo: "Hoja de Miercoles - Viernes 24 de Septiembre, 2022 - Edicion Especial",
-            mes: "Septiembre",
-            fecha: 23,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-23_septiembre_2022-Edicion_ESpecial.pdf",
+            titulo: "Hoja de Miercoles - Viernes 05 de Octubre, 2022",
+            mes: "Octubre",
+            fecha: 5,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-05_octubre_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
