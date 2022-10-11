@@ -76,33 +76,21 @@ const DPP = {
     Informativas: [
         {
             id: "collapseOne",
-            titulo: "SITRAINA somos todos/as",
-            imagen: "../../Documentos/informativas/SomosTodos.jpeg",
-            descripcion: "SITRAINA se encuentra preparando comisiones para revisar y actualizar el Estatuto y los reglamentos del SINDICATO. Para nosotros/as es muy importante que ustedes se una a las comisiones, aporten su conocimiento y hagamos un proceso democrático"
+            titulo: "Campaña de recolección de víveres",
+            imagen: "../../Documentos/informativas/recolecta.jpeg",
+            descripcion: "En SITRAINA estamos interesados/as en ayudar en la recolección de víveres para damnificados en Río Claro"
         },
         {
             id: "collapseTwo",
-            titulo: "Segunda ganadora de una de las tres canastas rifadas por SITRAINA",
-            imagen: "../../Documentos/informativas/ganadora de rifa1.jpg",
-            descripcion: "Felicidades a la compañera Yirlanny Campos, ganadoras de una de las canasta con dos vinos, fruta enlatada y chocolates. Pronto haremos nuevos concursos similares para todas las personas afiliadas"
+            titulo: "VIVA EL SERVICIO PUBLICO",
+            imagen: "../../Documentos/informativas/privado.jpg",
+            descripcion: "Cuando todo sea privado, estaremos privados de todo."
         },
         {
             id: "collapseThree",
-            titulo: "¿POR QUE NO SE APROBO EL INCREMENTO SI ESTABA APROBADO?",
-            imagen: "../../Documentos/informativas/incremento.jpeg",
-            descripcion: "El 25 de marzo del 2020 el Gobierno Central comunico un decreto ejecutivo que suspendia el aumento salarial de Gobierno Central debido a la emergencia sanitaria por el COVID-19..."
-        },
-        {
-            id: "collapseFour",
-            titulo: "Cursos libres para afiliados y familiares",
-            imagen: "../../Documentos/informativas/cursos sitraina.jpeg",
-            descripcion: "La escuela sindical de STITRAINA ofrece a sus asociados y familiares de primer orden los siguiente cursos libres"
-        },
-        {
-            id: "collapseFive",
-            titulo: "Participe activamente de la labor sindical",
-            imagen: "../../Documentos/informativas/labor sindical sitraina.jpeg",
-            descripcion: "Estamos interesados/as en formar nuevos cuadros sindicales para SITRAINA. Puede comenzar incorporándose a alguna de estas comisiones"
+            titulo: "Tercera ganadora de una de las tres canastas rifadas por SITRAINA",
+            imagen: "../../Documentos/informativas/ganadora de rifa2.jpg",
+            descripcion: "El día 4 de octubre entregamos la última canasta de la rifa hecha hace unas semanas. Felicidades a la compañera ganadora."
         },
     ],
     Sitraina: [
