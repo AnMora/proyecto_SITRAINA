@@ -63,7 +63,15 @@ const DPP = {
     ],
     HMActual: [
         // Hoja de Miercoles Actual
+        // Hoja_de_Miercoles-12_octubre_2022.pdf
         // Hoja_de_Miercoles-23_septiembre_2022-Edicion_ESpecial.pdf
+        {
+            año: 2022,
+            titulo: "Hoja de Miercoles - Miercoles 12 de Octubre, 2022",
+            mes: "Octubre",
+            fecha: 12,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-12_octubre_2022.pdf",
+        },
         {
             año: 2022,
             titulo: "Hoja de Miercoles - Viernes 05 de Octubre, 2022",
