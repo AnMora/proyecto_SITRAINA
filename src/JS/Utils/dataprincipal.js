@@ -48,9 +48,9 @@ const DPP = {
         // ón
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 27 de Septiembre, 2022",
-            tema: "Contexto político Costarricense",
-            con: " Luis Chavarría - Secretario General, UNDECA",
+            dia: "Programa: Martes 20 de Septiembre, 2022",
+            tema: "Alto Costo de la Vida y Política Nacional",
+            con: " Jorge Coronado - Dirigente del BUSSCO",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
@@ -63,42 +63,34 @@ const DPP = {
     ],
     HMActual: [
         // Hoja de Miercoles Actual
-        // Hoja_de_Miercoles-12_octubre_2022.pdf
-        // Hoja_de_Miercoles-23_septiembre_2022-Edicion_ESpecial.pdf
         {
             año: 2022,
-            titulo: "Hoja de Miercoles - Miercoles 12 de Octubre, 2022",
+            titulo: "Hoja de Miercoles - Miercoles 19 de Octubre, 2022",
             mes: "Octubre",
-            fecha: 12,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-12_octubre_2022.pdf",
-        },
-        {
-            año: 2022,
-            titulo: "Hoja de Miercoles - Viernes 05 de Octubre, 2022",
-            mes: "Octubre",
-            fecha: 5,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-05_octubre_2022.pdf",
+            fecha: 19,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-19_octubre_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
+    // ú
     Informativas: [
         {
             id: "collapseOne",
-            titulo: "Campaña de recolección de víveres",
-            imagen: "../../Documentos/informativas/recolecta.jpeg",
-            descripcion: "En SITRAINA estamos interesados/as en ayudar en la recolección de víveres para damnificados en Río Claro"
+            titulo: "Contra el Cáncer de Mamá",
+            imagen: "../../Documentos/informativas/cancermujer.jpg",
+            descripcion: "Mes de prevención y lucha contra el Cáncer de Mamá"
         },
         {
             id: "collapseTwo",
-            titulo: "VIVA EL SERVICIO PUBLICO",
-            imagen: "../../Documentos/informativas/privado.jpg",
-            descripcion: "Cuando todo sea privado, estaremos privados de todo."
+            titulo: "15 de Octubre -  Día Mundial de la Mujer Rural",
+            imagen: "../../Documentos/informativas/ruralmujer.jpg",
+            descripcion: "Felicidades en su día"
         },
         {
             id: "collapseThree",
-            titulo: "Tercera ganadora de una de las tres canastas rifadas por SITRAINA",
-            imagen: "../../Documentos/informativas/ganadora de rifa2.jpg",
-            descripcion: "El día 4 de octubre entregamos la última canasta de la rifa hecha hace unas semanas. Felicidades a la compañera ganadora."
+            titulo: "Campaña de recolección de víveres",
+            imagen: "../../Documentos/informativas/recolecta.jpeg",
+            descripcion: "En SITRAINA estamos interesados/as en ayudar en la recolección de víveres para damnificados en Río Claro"
         },
     ],
     Sitraina: [
