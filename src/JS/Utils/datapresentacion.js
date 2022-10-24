@@ -11,9 +11,9 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 27 de Septiembre, 2022",
-            tema: "Contexto político Costarricense",
-            con: " Luis Chavarría - Secretario General, UNDECA",
+            dia: "Programa: Martes 20 de Septiembre, 2022",
+            tema: "Alto Costo de la Vida y Política Nacional",
+            con: " Jorge Coronado - Dirigente del BUSSCO",
         }
     ],
     PiePagina: [
