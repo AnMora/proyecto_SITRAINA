@@ -2,7 +2,7 @@ import React from "react";
 import $ from "jquery";
 import ReactTooltip from "react-tooltip";
 import { Link } from "react-router-dom";
-import Boleta from "../../Documentos/afiliacion/boleta_afiliacion_sitraina.pdf";
+import Boleta from "../../Documentos/afiliacion/Boleta_de_afiliacion_a_SITRAINA.docx";
 
 const Navbar = (props) => {
   const handleSide = (e) => {

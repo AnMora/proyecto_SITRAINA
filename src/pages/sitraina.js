@@ -301,10 +301,15 @@ const Sitraina = (props) => {
       );
     }
   });
-
+// ó á
   return (
     <div className="container-fluid">
-      <div className="mt-4">
+    <div className="mt-4">
+      <div className="alert alert-info" role="alert">
+        Descargue la nueva boleta de afiliación de SITRAINA, opción en el menu:{" "} <strong>Afiliación</strong>
+    </div>
+
+      
         <div className="alert alert-primary" role="alert">
           <Link to="/EnVIVO">
             <a href="##" target="_blank" rel="noopener noreferrer">
