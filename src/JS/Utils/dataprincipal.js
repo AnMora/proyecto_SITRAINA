@@ -48,9 +48,9 @@ const DPP = {
         // ón
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 20 de Septiembre, 2022",
-            tema: "Alto Costo de la Vida y Política Nacional",
-            con: " Jorge Coronado - Dirigente del BUSSCO",
+            dia: "Programa: Martes 01 de Noviembre, 2022",
+            tema: "El INA y la lucha sindical",
+            con: " Marianela Delgado Quesada - Secretaria General Adjunta SITRAINA",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
