@@ -48,9 +48,9 @@ const DPP = {
         // ón
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 01 de Noviembre, 2022",
-            tema: "El INA y la lucha sindical",
-            con: " Marianela Delgado Quesada - Secretaria General Adjunta SITRAINA",
+            dia: "Programa: Martes 08 de Noviembre, 2022",
+            tema: "El INA hoy",
+            con: " Tyron Quesada - Representante sindical ante la junta directiva del INA",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
