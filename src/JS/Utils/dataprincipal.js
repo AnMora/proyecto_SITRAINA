@@ -65,6 +65,13 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2022,
+            titulo: "Hoja de Miercoles - Miercoles 11 de Noviembre, 2022 - Edicion Especial",
+            mes: "Noviembre",
+            fecha: 11,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-11_noviembre_2022-Edicion_Especial.pdf",
+        },
+        {
+            año: 2022,
             titulo: "Hoja de Miercoles - Miercoles 09 de Noviembre, 2022",
             mes: "Noviembre",
             fecha: 9,
