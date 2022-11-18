@@ -333,7 +333,7 @@ const Sitraina = (props) => {
 
         {/* Programa Especial */}
 
-        <div className="card border-left-danger shadow mb-4">
+        {/* <div className="card border-left-danger shadow mb-4">
           <a
             href="#Informativas"
             className="d-block card-header"
@@ -356,7 +356,7 @@ const Sitraina = (props) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Programa Especial */}
 
