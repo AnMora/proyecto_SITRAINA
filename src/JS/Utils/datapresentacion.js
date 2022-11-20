@@ -11,9 +11,9 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 15 de Noviembre, 2022",
-            tema: "Hablemos sobre la CCSS",
-            con: "Deivis Ovares Morales - Secretario de organización, UNDECA COORDINADOR DE FRENASS",
+            dia: "Programa: Martes 22 de Noviembre, 2022",
+            tema: "Violencia contra las mujeres en la política",
+            con: "Dra. Grace Prada Ortiz - Catedrática pensionada de la UNA",
         }
     ],
     PiePagina: [

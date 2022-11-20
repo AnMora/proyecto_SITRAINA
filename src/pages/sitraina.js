@@ -29,6 +29,8 @@ const Sitraina = (props) => {
                       <strong>{item.tema}</strong>
                     </h3>
                     Con <strong>{item.con}</strong>.
+                    <br />
+                    <div className="font-weight-bold text-info text-uppercase mt-2">{SI_alert}</div>
                   </div>
                 </div>
               </div>
@@ -64,6 +66,9 @@ const Sitraina = (props) => {
                       <div className="col-auto">
                         <div className="mb-0 mr-3 font-weight-bold text-gray-800">
                           {item.año} / {item.mes} / {item.fecha}
+                          {/* <div className="font-weight-bold text-info text-uppercase mt-2">
+                            Visualice o descargue la hoja de miércoles más reciente.
+                          </div> */}
                         </div>
                       </div>
                     </div>
@@ -310,7 +315,7 @@ const Sitraina = (props) => {
     </div>
 
       
-        <div className="alert alert-primary" role="alert">
+        {/* <div className="alert alert-primary" role="alert"> */}
           <Link to="/EnVIVO">
             <a href="##" target="_blank" rel="noopener noreferrer">
               <div className="mb-3 mt-3">
@@ -320,16 +325,18 @@ const Sitraina = (props) => {
               </div>
             </a>
           </Link>
-          <strong>{SI_alert}</strong>
-        </div>
+          {/* <strong>
+            Visualice o descargue la hoja de miércoles más reciente.
+          </strong> */}
+        {/* </div> */}
 
         {/* {HMReciente} */}
-        <div className="alert alert-primary" role="alert">
+        {/* <div className="alert alert-primary" role="alert"> */}
           {HMReciente}
-          <strong>
+          {/* <strong>
             Visualice o descargue la hoja de miércoles más reciente.
-          </strong>
-        </div>
+          </strong> */}
+        {/* </div> */}
 
         {/* Programa Especial */}
 

@@ -25,6 +25,7 @@ const ENVIVO = (props) => {
                     </h3>
                     Con <strong>{item.con}</strong>.
                   </div>
+                  
                 </div>
               </div>
             </div>
@@ -62,6 +63,12 @@ const ENVIVO = (props) => {
               </div>
             </div>
           )}
+
+          <div className="font-weight-bold text-info text-uppercase mt-2">
+            {SI_alert1}
+            <br />
+            {SI_alert2}
+          </div>
         </div>
       </>
     );
@@ -71,18 +78,15 @@ const ENVIVO = (props) => {
     <>
       <div className="container-fluid">
         <div className="mt-4">
-          <div className="alert alert-primary" role="alert">
+          {/* <div className="alert alert-primary" role="alert"> */}
             <div className="mb-3 mt-3">
               <div className="card border-left-info shadow h-100 py-2">
                 {SI_Programa}
+                
               </div>
             </div>
-            <strong>
-              {SI_alert1}
-              <br />
-              {SI_alert2}
-            </strong>
-          </div>
+            
+          {/* </div> */}
         </div>
       </div>
 
