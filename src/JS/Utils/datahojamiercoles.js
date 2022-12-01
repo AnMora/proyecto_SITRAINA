@@ -51,6 +51,20 @@ const DHmiercoles = {
       // Hoja_de_Miercoles-16_noviembre_2022.pdf
       {
         año: 2022,
+        titulo: "Hoja de Miercoles - Miercoles 30 de Noviembre, 2022",
+        mes: "Noviembre",
+        fecha: 30,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-30_noviembre_2022.pdf",
+      },
+      {
+          año: 2022,
+          titulo: "Hoja de Miercoles - Miercoles 24 de Noviembre, 2022",
+          mes: "Noviembre",
+          fecha: 24,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-24_noviembre_2022.pdf",
+      },
+      {
+        año: 2022,
         titulo: "Hoja de Miercoles - Miercoles 16 de Noviembre, 2022",
         mes: "Noviembre",
         fecha: 16,
