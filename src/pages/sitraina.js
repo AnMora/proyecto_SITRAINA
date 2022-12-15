@@ -310,9 +310,9 @@ const Sitraina = (props) => {
   return (
     <div className="container-fluid">
     <div className="mt-4">
-      <div className="alert alert-info" role="alert">
-        Descargue la nueva boleta de afiliación de SITRAINA, opción en el menu:{" "} <strong>Afiliación</strong>
-    </div>
+      <div className="alert alert-danger" role="alert">
+        <strong>SITRAINA</strong> les desea una muy Feliz Navidad y un próspero Año Nuevo!
+      </div>
 
       
         {/* <div className="alert alert-primary" role="alert"> */}

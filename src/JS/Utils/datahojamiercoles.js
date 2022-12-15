@@ -48,7 +48,20 @@ const DHmiercoles = {
     ],
     HM2022: [
       // Hoja de Miercoles Actual
-      // Hoja_de_Miercoles-16_noviembre_2022.pdf
+      {
+        año: 2022,
+        titulo: "Hoja de Miercoles - Miercoles 14 de Diciembre, 2022",
+        mes: "Diciembre",
+        fecha: 14,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-14_diciembre_2022.pdf",
+      },
+      {
+          año: 2022,
+          titulo: "Hoja de Miercoles - Miercoles 07 de Diciembre, 2022",
+          mes: "Diciembre",
+          fecha: 7,
+          link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-07_diciembre_2022.pdf",
+      },
       {
         año: 2022,
         titulo: "Hoja de Miercoles - Miercoles 30 de Noviembre, 2022",

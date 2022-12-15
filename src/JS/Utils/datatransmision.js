@@ -19,14 +19,14 @@ const EVV = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 06 de Diciembre, 2022",
-            tema: "Comunicación Sindical",
-            con: "Martín Chinchilla - Periodista de UNDECA",
+            dia: "Programa: Martes 13 de Diciembre, 2022",
+            tema: "Control Político ",
+            con: "CCSS - Defensa de la Caja",
         }
     ],
     Extra1: "Lo pueden ver en vivo en nuestro sitio web o en nuestra página de Facebook.",
     Extra2: "Comuníquese con nuestro departamento de comunicación.",
-    Transmision: "https://www.facebook.com/100028989294973/videos/5694403717279796"
+    Transmision: "https://www.facebook.com/100076006690394/videos/1526326564534680/"
 }
 
 export default EVV;

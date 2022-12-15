@@ -11,9 +11,9 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 06 de Diciembre, 2022",
-            tema: "Comunicación Sindical",
-            con: "Martín Chinchilla - Periodista de UNDECA",
+            dia: "Programa: Martes 13 de Diciembre, 2022",
+            tema: "Control Político ",
+            con: "CCSS - Defensa de la Caja",
         }
     ],
     PiePagina: [

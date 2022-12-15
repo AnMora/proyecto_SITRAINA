@@ -48,9 +48,9 @@ const DPP = {
         // ón í
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 06 de Diciembre, 2022",
-            tema: "Comunicación Sindical",
-            con: "Martín Chinchilla - Periodista de UNDECA",
+            dia: "Programa: Martes 13 de Diciembre, 2022",
+            tema: "Control Político ",
+            con: "CCSS - Defensa de la Caja",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
@@ -65,17 +65,17 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2022,
-            titulo: "Hoja de Miercoles - Miercoles 30 de Noviembre, 2022",
-            mes: "Noviembre",
-            fecha: 30,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-30_noviembre_2022.pdf",
+            titulo: "Hoja de Miercoles - Miercoles 14 de Diciembre, 2022",
+            mes: "Diciembre",
+            fecha: 14,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-14_diciembre_2022.pdf",
         },
         {
             año: 2022,
-            titulo: "Hoja de Miercoles - Miercoles 24 de Noviembre, 2022",
-            mes: "Noviembre",
-            fecha: 24,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-24_noviembre_2022.pdf",
+            titulo: "Hoja de Miercoles - Miercoles 07 de Diciembre, 2022",
+            mes: "Diciembre",
+            fecha: 7,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-07_diciembre_2022.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
