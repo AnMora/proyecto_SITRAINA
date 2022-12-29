@@ -19,14 +19,14 @@ const EVV = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 13 de Diciembre, 2022",
+            dia: "Programa: Lunes 24 de Octubre, 2022",
             tema: "Control Político ",
-            con: "CCSS - Defensa de la Caja",
+            con: "Claudio Alvarado - Secretario General",
         }
     ],
     Extra1: "Lo pueden ver en vivo en nuestro sitio web o en nuestra página de Facebook.",
     Extra2: "Comuníquese con nuestro departamento de comunicación.",
-    Transmision: "https://www.facebook.com/100076006690394/videos/1526326564534680/"
+    Transmision: "https://www.facebook.com/SitrainaCR/videos/846238976531828"
 }
 
 export default EVV;
