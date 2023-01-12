@@ -48,9 +48,9 @@ const DPP = {
         // ón í
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 13 de Diciembre, 2022",
-            tema: "Control Político ",
-            con: "CCSS - Defensa de la Caja",
+            dia: "Programa: Martes 17 de Enero, 2023",
+            tema: "Contexto Político Nacional",
+            con: "Mainier Barboza - Movimiento Patriótico por Costa Rica",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
@@ -64,18 +64,11 @@ const DPP = {
     HMActual: [
         // Hoja de Miercoles Actual
         {
-            año: 2022,
-            titulo: "Hoja de Miercoles - Miercoles 14 de Diciembre, 2022",
-            mes: "Diciembre",
-            fecha: 14,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-14_diciembre_2022.pdf",
-        },
-        {
-            año: 2022,
-            titulo: "Hoja de Miercoles - Miercoles 07 de Diciembre, 2022",
-            mes: "Diciembre",
-            fecha: 7,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2022/Hoja_de_Miercoles-07_diciembre_2022.pdf",
+            año: 2023,
+            titulo: "Hoja de Miercoles - Miercoles 11 de Enero, 2023",
+            mes: "Enero",
+            fecha: 11,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-11_enero_2023.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js

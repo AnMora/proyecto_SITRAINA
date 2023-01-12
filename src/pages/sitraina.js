@@ -309,12 +309,7 @@ const Sitraina = (props) => {
 // ó á
   return (
     <div className="container-fluid">
-    <div className="mt-4">
-      <div className="alert alert-danger" role="alert">
-        <strong>SITRAINA</strong> les desea una muy Feliz Navidad y un próspero Año Nuevo!
-      </div>
-
-      
+    <div className="mt-4">      
         {/* <div className="alert alert-primary" role="alert"> */}
           <Link to="/EnVIVO">
             <a href="##" target="_blank" rel="noopener noreferrer">

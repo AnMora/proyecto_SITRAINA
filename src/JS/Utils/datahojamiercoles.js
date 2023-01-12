@@ -46,6 +46,16 @@ const DHmiercoles = {
             lema: "Las Hojas de Miercoles estan acomodadas por listas dentro de las opciones desplegables teniendo de titular su año correspondiente que se muestran a continuacion."
         }
     ],
+    HM2023: [
+      // Hoja de Miercoles Actual
+      {
+        año: 2023,
+        titulo: "Hoja de Miercoles - Miercoles 11 de Enero, 2023",
+        mes: "Enero",
+        fecha: 11,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-11_enero_2023.pdf",
+      },
+    ],
     HM2022: [
       // Hoja de Miercoles Actual
       {

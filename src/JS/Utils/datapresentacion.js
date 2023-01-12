@@ -11,9 +11,9 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 13 de Diciembre, 2022",
-            tema: "Control Político ",
-            con: "CCSS - Defensa de la Caja",
+            dia: "Programa: Martes 17 de Enero, 2023",
+            tema: "Contexto Político Nacional",
+            con: "Mainier Barboza - Movimiento Patriótico por Costa Rica",
         }
     ],
     PiePagina: [

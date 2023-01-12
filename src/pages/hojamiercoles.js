@@ -4,6 +4,40 @@ import ScrollToTop from "../JS/componentes/ScrollToTop";
 const HojaMiercoles = (props) => {
   const Info_HMiercoles = props.data.HMiercoles[0];
 
+  const HM2023 = props.data.HM2023.map((item,position) => {
+    return (
+        <>
+          <a key={position} href={item.link} target="_blank" rel="noopener noreferrer">
+            <div className="container-fluid">
+              <div className="mb-3 mt-3">
+                <div className="card border-left-warning shadow h-100 py-2">
+                  <div className="card-body">
+                    <div className="row no-gutters align-items-center">
+                      <div className="col mr-2">
+                        <div className="font-weight-bold text-info text-uppercase mb-1">
+                          {item.titulo}
+                        </div>
+                        <div className="row no-gutters align-items-center">
+                          <div className="col-auto">
+                            <div className="mb-0 mr-3 font-weight-bold text-gray-800">
+                              {item.año} / {item.mes} / {item.fecha}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-auto">
+                        <i className="fas fa-download fa-2x text-gray-300"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </>
+    )
+  })
+
   const HM2022 = props.data.HM2022.map((item,position) => {
     return (
         <>
@@ -127,6 +161,22 @@ const HojaMiercoles = (props) => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="card border-bottom-info shadow mb-4">
+          <a
+            href="#Collapse2023"
+            className="d-block card-header"
+            data-toggle="collapse"
+            role="button"
+            aria-expanded="true"
+            aria-controls="collapseCard"
+          >
+            <h4 className="m-0 font-weight-bold text-primary">2023</h4>
+          </a>
+          <div className="collapse show" id="Collapse2023">
+              {HM2023}
           </div>
         </div>
 
