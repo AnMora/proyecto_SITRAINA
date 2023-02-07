@@ -48,9 +48,9 @@ const DPP = {
         // ón í
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 24 de Enero, 2023",
+            dia: "Programa: Martes 17 de Enero, 2023",
             tema: "Contexto Político Nacional",
-            con: "Ricardo Segura Ballar - Comisión Nacional de Enlace",
+            con: "Mainier Barboza - Movimiento Patriótico por Costa Rica",
         }
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",

@@ -11,14 +11,14 @@ const DPres = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 24 de Enero, 2023",
+            dia: "Programa: Martes 17 de Enero, 2023",
             tema: "Contexto Político Nacional",
-            con: "Ricardo Segura Ballar - Comisión Nacional de Enlace",
+            con: "Mainier Barboza - Movimiento Patriótico por Costa Rica",
         }
     ],
     PiePagina: [
         {
-            Derechos: "Copyright © TODOS LOS DERECHOS RESERVADOS - SITRAINA 2022",
+            Derechos: "Copyright © TODOS LOS DERECHOS RESERVADOS - SITRAINA 2023",
             iconos: [
                 {
                     Nombre: "Facebook de SITRAINA",
