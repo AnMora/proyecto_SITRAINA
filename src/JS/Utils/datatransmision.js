@@ -19,7 +19,7 @@ const EVV = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 17 de Enero, 2023",
+            dia: "Programa: Martes 14 de Febrero, 2023",
             tema: "Contexto Político Nacional",
             con: "Mainier Barboza - Movimiento Patriótico por Costa Rica",
         }

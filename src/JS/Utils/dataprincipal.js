@@ -48,7 +48,7 @@ const DPP = {
         // ón í
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 17 de Enero, 2023",
+            dia: "Programa: Martes 14 de Febrero, 2023",
             tema: "Contexto Político Nacional",
             con: "Mainier Barboza - Movimiento Patriótico por Costa Rica",
         }
@@ -65,10 +65,10 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2023,
-            titulo: "Hoja de Miercoles - Miercoles 18 de Enero, 2023",
-            mes: "Enero",
-            fecha: 18,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-18_enero_2023.pdf",
+            titulo: "Hoja de Miercoles - Miercoles 08 de Febrero, 2023",
+            mes: "Febrero",
+            fecha: 8,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-08_febrero_2023.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
