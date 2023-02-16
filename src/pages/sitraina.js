@@ -98,7 +98,7 @@ const Sitraina = (props) => {
                 aria-expanded="true"
                 aria-controls={item.id}
               >
-                <h4 className="m-0 font-weight-bold text-primary">
+                <h4 className="m-0 font-weight-bold text-info">
                   {item.titulo}
                 </h4>
                 <small className="mt-2">
@@ -335,7 +335,7 @@ const Sitraina = (props) => {
 
         {/* Programa Especial */}
 
-        {/* <div className="card border-left-danger shadow mb-4">
+        <div className="card border-left-info shadow mb-4">
           <a
             href="#Informativas"
             className="d-block card-header"
@@ -344,7 +344,7 @@ const Sitraina = (props) => {
             aria-expanded="true"
             aria-controls="collapseCard"
           >
-            <h4 className="m-0 font-weight-bold text-primary">Informativas</h4>
+            <h4 className="m-0 font-weight-bold text-info">Informativas</h4>
             <small className="mt-2">
               Despliegue cada pestaña para leer la información adjunta
             </small>
@@ -358,87 +358,9 @@ const Sitraina = (props) => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* Programa Especial */}
-
-        <div className="card border-left-info shadow mb-4">
-          <a
-            href="#Informativas1"
-            className="d-block card-header"
-            data-toggle="collapse"
-            role="button"
-            aria-expanded="true"
-            aria-controls="collapseCard"
-          >
-            <h4 className="m-0 font-weight-bold text-info">
-              RIFA DE SITRAINA
-            </h4>
-            <small className="mt-2">
-              Mes del Amor y la Amistad
-            </small>
-          </a>
-          <div className="collapse show" id="Informativas1">
-            <div className="card-body">
-              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                <div className="row">
-                  <div className="col-12">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/amor_amistad.jpg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="card border-left-success shadow mb-4">
-          <a
-            href="#Informativas2"
-            className="d-block card-header"
-            data-toggle="collapse"
-            role="button"
-            aria-expanded="true"
-            aria-controls="collapseCard"
-          >
-            <h4 className="m-0 font-weight-bold text-success">
-              Ley de Empleo Público
-            </h4>
-            <small className="mt-2">
-              Información de su interés
-            </small>
-          </a>
-          <div className="collapse show" id="Informativas2">
-            <div className="card-body">
-              <div className="mb-0 mr-3 font-weight-bold text-gray-800">
-                <div className="row">
-                  <div className="col-12">
-                    <div classname="card">
-                      <div classname="card-body">
-                        <img
-                          src="../../Documentos/informativas/salariopublico.jpg"
-                          className="rounded-lg img-thumbnail"
-                          data-toggle="modal"
-                          data-target=".bd-example-modal-lg"
-                          alt="SITRAINACR"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div className="row">{Sitraina}</div>
 

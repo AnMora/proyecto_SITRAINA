@@ -76,21 +76,15 @@ const DPP = {
     Informativas: [
         {
             id: "collapseOne",
-            titulo: "Contra el Cáncer de Mamá",
-            imagen: "../../Documentos/informativas/cancermujer.jpg",
-            descripcion: "Mes de prevención y lucha contra el Cáncer de Mamá"
+            titulo: "Rifa de SITRAINA",
+            imagen: "../../Documentos/informativas/amor_amistad.jpg",
+            descripcion: "Mes del Amor y la Amistad"
         },
         {
             id: "collapseTwo",
-            titulo: "15 de Octubre -  Día Mundial de la Mujer Rural",
-            imagen: "../../Documentos/informativas/ruralmujer.jpg",
-            descripcion: "Felicidades en su día"
-        },
-        {
-            id: "collapseThree",
-            titulo: "Campaña de recolección de víveres",
-            imagen: "../../Documentos/informativas/recolecta.jpeg",
-            descripcion: "En SITRAINA estamos interesados/as en ayudar en la recolección de víveres para damnificados en Río Claro"
+            titulo: "Ley de Empleo Público",
+            imagen: "../../Documentos/informativas/salariopublico.jpg",
+            descripcion: "Información de su interés"
         },
     ],
     Sitraina: [
