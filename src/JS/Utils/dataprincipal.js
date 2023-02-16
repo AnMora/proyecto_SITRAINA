@@ -65,10 +65,10 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2023,
-            titulo: "Hoja de Miercoles - Miercoles 08 de Febrero, 2023",
+            titulo: "Hoja de Miercoles - Miercoles 15 de Febrero, 2023",
             mes: "Febrero",
-            fecha: 8,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-08_febrero_2023.pdf",
+            fecha: 15,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-15_febrero_2023.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js

@@ -26,7 +26,7 @@ const EVV = {
     ],
     Extra1: "Lo pueden ver en vivo en nuestro sitio web o en nuestra página de Facebook.",
     Extra2: "Comuníquese con nuestro departamento de comunicación.",
-    Transmision: "https://www.facebook.com/SitrainaCR/videos/3340295562878332"
+    Transmision: "https://www.facebook.com/SitrainaCR/videos/913859053141428"
 }
 
 export default EVV;
