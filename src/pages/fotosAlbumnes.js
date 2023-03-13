@@ -110,6 +110,23 @@ const AlbumnesFotos = (props) => {
         )
     })
 
+    // SITRAINA_FRENASS
+    const FRENASS = props.data.SITRAINA_FRENASS.map((item,position) => {
+        return (
+            <>
+                <div key={position} className="col-xl-2 col-md-4 pics" onClick={() => getImg(item.img, item.titulo, item.descripcion)}>
+                    <div className="m-2">
+                        <img src={item.img} className='rounded-lg img-thumbnail'
+                        data-toggle="modal"
+                        data-target=".bd-example-modal-lg" 
+                        alt="SITRAINACR"
+                        />
+                    </div>
+                </div>
+            </>
+        )
+    })
+
     return (
         <>
             <div className='container-fluid'>
@@ -134,7 +151,23 @@ const AlbumnesFotos = (props) => {
                     </div>
                 </div>
 
-                {/* Manifestacion01mayo */}
+                <div className="card border-bottom-info shadow mb-4">
+                    <a
+                        href="#ConvocatoriaFRENASS"
+                        className="d-block card-header"
+                        data-toggle="collapse"
+                        role="button"
+                        aria-expanded="true"
+                        aria-controls="collapseCard"
+                    >
+                        <h5 className="m-0 font-weight-bold text-primary">Convocatoria de FRENASS</h5>
+                    </a>
+                    <div className="collapse show" id="ConvocatoriaFRENASS">
+                        <div className="row">
+                            {FRENASS}
+                        </div>
+                    </div>
+                </div>
 
                 <div className="card border-bottom-info shadow mb-4">
                     <a

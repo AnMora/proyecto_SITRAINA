@@ -47,11 +47,11 @@ const DPP = {
     SITRAINAINFORMA: [
         // ón í
         {
-            titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 14 de Febrero, 2023",
-            tema: "Contexto Político Nacional",
-            con: "Mainier Barboza - Movimiento Patriótico por Costa Rica",
-        }
+            titulo: "Cine - Foro",
+            dia: "Programa: Sabado 11 de Marzo, 2023",
+            tema: "Cortometraje",
+            con: "Mujeres en resistencia, la historia del 8 de Marzo",
+        },
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
     InfoAnuales: [
@@ -65,10 +65,10 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2023,
-            titulo: "Hoja de Miercoles - Miercoles 15 de Febrero, 2023",
-            mes: "Febrero",
-            fecha: 15,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-15_febrero_2023.pdf",
+            titulo: "Hoja de Miercoles - Miercoles 08 de Marzo, 2023",
+            mes: "Marzo",
+            fecha: 8,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-08_marzo_2023.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
@@ -76,12 +76,18 @@ const DPP = {
     Informativas: [
         {
             id: "collapseOne",
-            titulo: "Rifa de SITRAINA",
-            imagen: "../../Documentos/informativas/amor_amistad.jpg",
-            descripcion: "Mes del Amor y la Amistad"
+            titulo: "Cortometraje - Mujeres en resistencia, la historia del 8 de Marzo",
+            imagen: "../../Documentos/informativas/cortometraje.png",
+            descripcion: "Les invitamos a este cine-foro, en el cual se rifará 3 premios de 20 mil colones cada uno, entre las personas afiliadas que participen. El evento es el sábado 11 de marzo, a las 5 pm."
         },
         {
             id: "collapseTwo",
+            titulo: "Ganadores de rifa de SITRAINA",
+            imagen: "../../Documentos/informativas/ganadoresamoryamistad.png",
+            descripcion: "Febrero, mes del Amor y la Amistad"
+        },
+        {
+            id: "collapseThree",
             titulo: "Ley de Empleo Público",
             imagen: "../../Documentos/informativas/salariopublico.jpg",
             descripcion: "Información de su interés"

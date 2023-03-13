@@ -46,6 +46,28 @@ const DFotAlbm = {
             lema: "Una galería de imágenes es un recurso muy útil cuando necesitas mostrar una serie de fotos en una página o artículo de tu sitio web. Te permite agruparlas y mostrarlas de una forma más profesional.",
         }
     ],
+    SITRAINA_FRENASS: [
+        {
+            titulo: "SITRAINA - Convocatoria de FRENASS",
+            img: "../../multimedia/imagenes/Album_ande/ande1.jpg",
+            descripcion: "Estrategia para defender la CCSS de la arremetida neoliberal"
+        },
+        {
+            titulo: "SITRAINA - Convocatoria de FRENASS",
+            img: "../../multimedia/imagenes/Album_ande/ande2.jpg",
+            descripcion: "Estrategia para defender la CCSS de la arremetida neoliberal"
+        },
+        {
+            titulo: "SITRAINA - Convocatoria de FRENASS",
+            img: "../../multimedia/imagenes/Album_ande/ande3.jpg",
+            descripcion: "Estrategia para defender la CCSS de la arremetida neoliberal"
+        },
+        {
+            titulo: "SITRAINA - Convocatoria de FRENASS",
+            img: "../../multimedia/imagenes/Album_ande/ande4.jpg",
+            descripcion: "Estrategia para defender la CCSS de la arremetida neoliberal"
+        },
+    ],
     SITRAINA_01_Mayo_2022: [
         {
             titulo: "SITRAINA - Manifestacion del 1 de mayo",

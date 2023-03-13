@@ -48,6 +48,28 @@ const DHmiercoles = {
     ],
     HM2023: [
       // Hoja de Miercoles Actual
+      // Hoja_de_Miercoles-08_marzo_2023.pdf
+      {
+        año: 2023,
+        titulo: "Hoja de Miercoles - Miercoles 08 de Marzo, 2023",
+        mes: "Marzo",
+        fecha: 8,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-08_marzo_2023.pdf",
+      },
+      {
+        año: 2023,
+        titulo: "Hoja de Miercoles - Jueves 23 de Febrero, 2023 - Edicion Especial",
+        mes: "Febrero",
+        fecha: 23,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-23_febrero_2023-Edicion_Especial.pdf",
+      },
+      {
+        año: 2023,
+        titulo: "Hoja de Miercoles - Miercoles 22 de Febrero, 2023",
+        mes: "Febrero",
+        fecha: 22,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-22_febrero_2023.pdf",
+      },
       {
         año: 2023,
         titulo: "Hoja de Miercoles - Miercoles 15 de Febrero, 2023",

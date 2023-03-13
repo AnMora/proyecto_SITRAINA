@@ -9,12 +9,19 @@ const DPres = {
         }
     ],
     SITRAINAINFORMA: [
+        // Cortometraje - Mujeres en resistencia, la historia del 8 de Marzo
         {
-            titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 14 de Febrero, 2023",
-            tema: "Contexto Político Nacional",
-            con: "Mainier Barboza - Movimiento Patriótico por Costa Rica",
-        }
+            titulo: "Cine - Foro",
+            dia: "Programa: Sabado 11 de Marzo, 2023",
+            tema: "Cortometraje",
+            con: "Mujeres en resistencia, la historia del 8 de Marzo",
+        },
+        // {
+        //     titulo: "SITRAINA INFORMA",
+        //     dia: "Programa: Martes 07 de Marzo, 2023",
+        //     tema: "Contexto Político Nacional",
+        //     con: "Ricardo Segura Ballar - Comisión Nacional de Enlace",     
+        // }
     ],
     PiePagina: [
         {

@@ -19,14 +19,14 @@ const EVV = {
     SITRAINAINFORMA: [
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 14 de Febrero, 2023",
+            dia: "Programa: Martes 07 de Marzo, 2023",
             tema: "Contexto Político Nacional",
-            con: "Mainier Barboza - Movimiento Patriótico por Costa Rica",
+            con: "Ricardo Segura Ballar - Comisión Nacional de Enlace",     
         }
     ],
     Extra1: "Lo pueden ver en vivo en nuestro sitio web o en nuestra página de Facebook.",
     Extra2: "Comuníquese con nuestro departamento de comunicación.",
-    Transmision: "https://www.facebook.com/SitrainaCR/videos/913859053141428"
+    Transmision: "https://www.facebook.com/SitrainaCR/videos/161287806794207"
 }
 
 export default EVV;
