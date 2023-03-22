@@ -17,16 +17,17 @@ const EVV = {
         // }
     ],
     SITRAINAINFORMA: [
+        // ón í
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 07 de Marzo, 2023",
-            tema: "Contexto Político Nacional",
-            con: "Ricardo Segura Ballar - Comisión Nacional de Enlace",     
-        }
+            dia: "Programa: Martes 21 de Marzo, 2023",
+            tema: "El Estado Costarricense NO está quebrado",
+            con: "Jorge Coronado - Comisión Nacional de Enlace",
+        },
     ],
     Extra1: "Lo pueden ver en vivo en nuestro sitio web o en nuestra página de Facebook.",
     Extra2: "Comuníquese con nuestro departamento de comunicación.",
-    Transmision: "https://www.facebook.com/SitrainaCR/videos/161287806794207"
+    Transmision: "https://www.facebook.com/SitrainaCR/videos/223300363566825"
 }
 
 export default EVV;

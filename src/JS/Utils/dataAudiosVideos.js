@@ -47,6 +47,15 @@ const DAudVid = {
         }
     ],
     VideosYoutube: [
+        // https://www.youtube.com/watch?v=0oiGY1AtJ9c
+        {
+            titulo: "UNDECA SOBRE SUSPENSIÓN DE PROYECTOS CCSS",
+            descripcion: "UNDECA rechaza la decisión arbitraria de la actual Junta Directiva de la CCSS de suspender todas las obras que benefician y que son urgentes para la población en materia de salud pública.",
+            año: "2023",
+            mes: "Marzo",
+            fecha: "14",
+            link: "https://www.youtube.com/watch?v=0oiGY1AtJ9c",
+        },
         {
             titulo: "Porque el INA SÍ es Capaz",
             descripcion: "Ante un modelo académico y conservador y una administración neoliberal del Estado que busca reducir la función pública al mínimo y erradicar los programas de justicia, equidad social e igualdad de oportunidades; desde la Filial de Inglés de SITRAINA demostramos como el INA SÍ es Capaz de adaptarse al cambio tecnológico en la enseñanza y responder a las necesidades de formación técnica de las clases más vulnerables de este país. Les invitamos a ver este pequeño reportaje hecho en CENECOS.",

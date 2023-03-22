@@ -45,12 +45,12 @@ const DPP = {
         }
     ],
     SITRAINAINFORMA: [
-        // ón í
+        // ón ú í ü, é, á, í, ó, ú, ñ, Ñ
         {
-            titulo: "Cine - Foro",
-            dia: "Programa: Sabado 11 de Marzo, 2023",
-            tema: "Cortometraje",
-            con: "Mujeres en resistencia, la historia del 8 de Marzo",
+            titulo: "SITRAINA INFORMA",
+            dia: "Programa: Martes 21 de Marzo, 2023",
+            tema: "El Estado Costarricense NO está quebrado",
+            con: "Jorge Coronado - Comisión Nacional de Enlace",
         },
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
@@ -65,10 +65,17 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2023,
-            titulo: "Hoja de Miercoles - Miercoles 08 de Marzo, 2023",
+            titulo: "Hoja de Miercoles - Jueves 16 de Marzo, 2023 - Edición Especial",
             mes: "Marzo",
-            fecha: 8,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-08_marzo_2023.pdf",
+            fecha: 16,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-16_marzo_2023-Edicion_Especial.pdf",
+        },
+        {
+            año: 2023,
+            titulo: "Hoja de Miercoles - Miercoles 15 de Marzo, 2023",
+            mes: "Marzo",
+            fecha: 15,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-15_marzo_2023.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
@@ -76,15 +83,15 @@ const DPP = {
     Informativas: [
         {
             id: "collapseOne",
-            titulo: "Cortometraje - Mujeres en resistencia, la historia del 8 de Marzo",
-            imagen: "../../Documentos/informativas/cortometraje.png",
-            descripcion: "Les invitamos a este cine-foro, en el cual se rifará 3 premios de 20 mil colones cada uno, entre las personas afiliadas que participen. El evento es el sábado 11 de marzo, a las 5 pm."
+            titulo: "Montesquien",
+            imagen: "../../Documentos/informativas/montesquien.jpg",
+            descripcion: "A pesar de que estas palabras del filósofo Montesquieu son del siglo XVIII, se aplican muy bien a lo que estamos viviendo en Costa Rica con el gobierno de Rodrigo Chaves y las élites de poder que representa"
         },
         {
             id: "collapseTwo",
-            titulo: "Ganadores de rifa de SITRAINA",
-            imagen: "../../Documentos/informativas/ganadoresamoryamistad.png",
-            descripcion: "Febrero, mes del Amor y la Amistad"
+            titulo: "Cortometraje - Mujeres en resistencia, la historia del 8 de Marzo",
+            imagen: "../../Documentos/informativas/cortometraje.png",
+            descripcion: "Les invitamos a este cine-foro, en el cual se rifará 3 premios de 20 mil colones cada uno, entre las personas afiliadas que participen. El evento es el sábado 11 de marzo, a las 5 pm."
         },
         {
             id: "collapseThree",

@@ -9,19 +9,12 @@ const DPres = {
         }
     ],
     SITRAINAINFORMA: [
-        // Cortometraje - Mujeres en resistencia, la historia del 8 de Marzo
         {
-            titulo: "Cine - Foro",
-            dia: "Programa: Sabado 11 de Marzo, 2023",
-            tema: "Cortometraje",
-            con: "Mujeres en resistencia, la historia del 8 de Marzo",
+            titulo: "SITRAINA INFORMA",
+            dia: "Programa: Martes 21 de Marzo, 2023",
+            tema: "El Estado Costarricense NO está quebrado",
+            con: "Jorge Coronado - Comisión Nacional de Enlace",
         },
-        // {
-        //     titulo: "SITRAINA INFORMA",
-        //     dia: "Programa: Martes 07 de Marzo, 2023",
-        //     tema: "Contexto Político Nacional",
-        //     con: "Ricardo Segura Ballar - Comisión Nacional de Enlace",     
-        // }
     ],
     PiePagina: [
         {
