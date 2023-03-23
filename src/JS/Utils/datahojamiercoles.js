@@ -48,7 +48,13 @@ const DHmiercoles = {
     ],
     HM2023: [
       // Hoja de Miercoles Actual
-      // Hoja_de_Miercoles-08_marzo_2023.pdf
+      {
+        año: 2023,
+        titulo: "Hoja de Miercoles - Miercoles 22 de Marzo, 2023",
+        mes: "Marzo",
+        fecha: 22,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-22_marzo_2023.pdf",
+      },
       {
         año: 2023,
         titulo: "Hoja de Miercoles - Miercoles 15 de Marzo, 2023",

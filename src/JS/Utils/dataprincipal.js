@@ -65,17 +65,10 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2023,
-            titulo: "Hoja de Miercoles - Jueves 16 de Marzo, 2023 - Edición Especial",
+            titulo: "Hoja de Miercoles - Miercoles 22 de Marzo, 2023",
             mes: "Marzo",
-            fecha: 16,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-16_marzo_2023-Edicion_Especial.pdf",
-        },
-        {
-            año: 2023,
-            titulo: "Hoja de Miercoles - Miercoles 15 de Marzo, 2023",
-            mes: "Marzo",
-            fecha: 15,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-15_marzo_2023.pdf",
+            fecha: 22,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-22_marzo_2023.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
