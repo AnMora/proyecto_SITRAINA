@@ -48,9 +48,9 @@ const DPP = {
         // ón ú í ü, é, á, í, ó, ú, ñ, Ñ
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 21 de Marzo, 2023",
-            tema: "El Estado Costarricense NO está quebrado",
-            con: "Jorge Coronado - Comisión Nacional de Enlace",
+            dia: "Programa: Martes 28 de Marzo, 2023",
+            tema: "Situación actual de la CCSS",
+            con: "Deivis Ovares Morales - Representante de FRENASS",
         },
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
@@ -72,22 +72,17 @@ const DPP = {
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
-    // ú
+    // ú ón í
     Informativas: [
+        // manifestacio_29_03_2023
         {
             id: "collapseOne",
-            titulo: "Montesquien",
-            imagen: "../../Documentos/informativas/montesquien.jpg",
-            descripcion: "A pesar de que estas palabras del filósofo Montesquieu son del siglo XVIII, se aplican muy bien a lo que estamos viviendo en Costa Rica con el gobierno de Rodrigo Chaves y las élites de poder que representa"
+            titulo: "Manifestación del 29 de marzo",
+            imagen: "../../Documentos/informativas/manifestacio_29_03_2023.jpg",
+            descripcion: "Por la economía de nuestros agricultores, la seguridad alimentaria y en contra de la alianza del pacífico"
         },
         {
             id: "collapseTwo",
-            titulo: "Cortometraje - Mujeres en resistencia, la historia del 8 de Marzo",
-            imagen: "../../Documentos/informativas/cortometraje.png",
-            descripcion: "Les invitamos a este cine-foro, en el cual se rifará 3 premios de 20 mil colones cada uno, entre las personas afiliadas que participen. El evento es el sábado 11 de marzo, a las 5 pm."
-        },
-        {
-            id: "collapseThree",
             titulo: "Ley de Empleo Público",
             imagen: "../../Documentos/informativas/salariopublico.jpg",
             descripcion: "Información de su interés"

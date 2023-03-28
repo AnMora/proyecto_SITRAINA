@@ -9,11 +9,12 @@ const DPres = {
         }
     ],
     SITRAINAINFORMA: [
+        // ón ú í ü, é, á, í, ó, ú, ñ, Ñ
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 21 de Marzo, 2023",
-            tema: "El Estado Costarricense NO está quebrado",
-            con: "Jorge Coronado - Comisión Nacional de Enlace",
+            dia: "Programa: Martes 28 de Marzo, 2023",
+            tema: "Situación actual de la CCSS",
+            con: "Deivis Ovares Morales - Representante de FRENASS",
         },
     ],
     PiePagina: [

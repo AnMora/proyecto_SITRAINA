@@ -17,7 +17,7 @@ const EVV = {
         // }
     ],
     SITRAINAINFORMA: [
-        // ón í
+        // ón ú í ü, é, á, í, ó, ú, ñ, Ñ
         {
             titulo: "SITRAINA INFORMA",
             dia: "Programa: Martes 21 de Marzo, 2023",
