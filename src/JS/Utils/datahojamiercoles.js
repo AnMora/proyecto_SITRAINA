@@ -50,6 +50,13 @@ const DHmiercoles = {
       // Hoja de Miercoles Actual
       {
         año: 2023,
+        titulo: "Hoja de Miercoles - Miercoles 12 de Abril, 2023",
+        mes: "Abril",
+        fecha: 12,
+        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-12_abril_2023.pdf",
+      },
+      {
+        año: 2023,
         titulo: "Hoja de Miercoles - Miercoles 22 de Marzo, 2023",
         mes: "Marzo",
         fecha: 22,

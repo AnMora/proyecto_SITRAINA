@@ -65,10 +65,10 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2023,
-            titulo: "Hoja de Miercoles - Miercoles 22 de Marzo, 2023",
-            mes: "Marzo",
-            fecha: 22,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-22_marzo_2023.pdf",
+            titulo: "Hoja de Miercoles - Miercoles 12 de Abril, 2023",
+            mes: "Abril",
+            fecha: 12,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-12_abril_2023.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
@@ -77,9 +77,9 @@ const DPP = {
         // manifestacio_29_03_2023
         {
             id: "collapseOne",
-            titulo: "Manifestación del 29 de marzo",
-            imagen: "../../Documentos/informativas/manifestacio_29_03_2023.jpg",
-            descripcion: "Por la economía de nuestros agricultores, la seguridad alimentaria y en contra de la alianza del pacífico"
+            titulo: "Conozca la nueva presidenta del Tribunal Supremo de Elecciones",
+            imagen: "../../Documentos/informativas/TSE.jpg",
+            descripcion: "La abogada Eugenia Zamora Chavarria, Hoy presidenta del TSE"
         },
         {
             id: "collapseTwo",
