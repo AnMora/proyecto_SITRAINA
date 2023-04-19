@@ -20,14 +20,14 @@ const EVV = {
         // ón ú í ü, é, á, í, ó, ú, ñ, Ñ
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 21 de Marzo, 2023",
-            tema: "El Estado Costarricense NO está quebrado",
-            con: "Jorge Coronado - Comisión Nacional de Enlace",
+            dia: "Programa: Martes 18 de Abril, 2023",
+            tema: "Situación Actual de la CCSS",
+            con: "Deivis Ovares Morales - Representante de FRENASS",
         },
     ],
     Extra1: "Lo pueden ver en vivo en nuestro sitio web o en nuestra página de Facebook.",
     Extra2: "Comuníquese con nuestro departamento de comunicación.",
-    Transmision: "https://www.facebook.com/SitrainaCR/videos/223300363566825"
+    Transmision: "https://www.facebook.com/SitrainaCR/videos/3480474308885590/"
 }
 
 export default EVV;

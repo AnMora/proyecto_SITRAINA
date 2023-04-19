@@ -12,8 +12,8 @@ const DPres = {
         // ón ú í ü, é, á, í, ó, ú, ñ, Ñ
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 28 de Marzo, 2023",
-            tema: "Situación actual de la CCSS",
+            dia: "Programa: Martes 18 de Abril, 2023",
+            tema: "Situación Actual de la CCSS",
             con: "Deivis Ovares Morales - Representante de FRENASS",
         },
     ],
