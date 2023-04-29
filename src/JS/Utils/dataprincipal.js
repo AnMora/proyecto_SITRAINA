@@ -59,10 +59,17 @@ const DPP = {
             reglamento: "INFORME ANUAL Fiscalía SITRAINA 2020",
             descripcion: "Este es el primer  Informe que presenta la Fiscalía 2019-2021, a la afiliación. Tiene como imperativo rendir cuentas, lo que se hace necesario  considerando el tiempo transcurrido desde la Asamblea 2019 hasta la fecha.",
             link: "../../Documentos/Informes Anuales/INFORME_ANUAL2020.pdf",
-        },
+        },          
     ],
     HMActual: [
         // Hoja de Miercoles Actual
+        {
+            año: 2023,
+            titulo: "Hoja de Miercoles - Miercoles 27 de Abril, 2023 - Edicion Especial",
+            mes: "Abril",
+            fecha: 27,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-27_abril_2023-Edicion_Especial.pdf",
+        },
         {
             año: 2023,
             titulo: "Hoja de Miercoles - Miercoles 26 de Abril, 2023",
@@ -71,11 +78,11 @@ const DPP = {
             link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-26_abril_2023.pdf",
         },
         {
-        año: 2023,
-        titulo: "Hoja de Miercoles - Miercoles 25 de Abril, 2023 - Edicion Especial",
-        mes: "Abril",
-        fecha: 25,
-        link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-25_abril_2023-Edicion_Especial.pdf",
+            año: 2023,
+            titulo: "Hoja de Miercoles - Miercoles 25 de Abril, 2023 - Edicion Especial",
+            mes: "Abril",
+            fecha: 25,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-25_abril_2023-Edicion_Especial.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
