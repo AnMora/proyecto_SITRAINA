@@ -51,7 +51,7 @@ const DRegla = {
         {
             reglamento: "Estatuto Orgánico de SITRAINA",
             descripcion: "Asociacion voluntaria de trabajadores y pensionados.",
-            link: "../../Documentos/reglamentos/Estatuto Orgánico de SITRAINA.pdf",
+            link: "../../Documentos/reglamentos/Estatuto_Organico_de_SITRAINA.pdf",
         },
         {
             reglamento: "Criterio de Zonaje",
