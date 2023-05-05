@@ -20,14 +20,14 @@ const EVV = {
         // ón ú í ü, é, á, í, ó, ú, ñ, Ñ
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 25 de Abril, 2023",
-            tema: "Luchas actuales de las y los policías",
-            con: "Susan Quirós Días - Secretaria General de la unión nacional de trabajadores",
+            dia: "Programa: Martes 02 de Mayo, 2023",
+            tema: "¿Como fue la reestructuración en el INA en tiempos de Clara Zomer?",
+            con: "José Eduardo Rodríguez - Ex Sindicalista pensionado de SITRAINA",
         },
     ],
     Extra1: "Lo pueden ver en vivo en nuestro sitio web o en nuestra página de Facebook.",
     Extra2: "Comuníquese con nuestro departamento de comunicación.",
-    Transmision: "https://www.facebook.com/SitrainaCR/videos/998052448049862/"
+    Transmision: "https://www.facebook.com/SitrainaCR/videos/649524400337774"
 }
 
 export default EVV;

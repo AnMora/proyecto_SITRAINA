@@ -12,9 +12,9 @@ const DPres = {
         // ón ú í ü, é, á, í, ó, ú, ñ, Ñ
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 25 de Abril, 2023",
-            tema: "Luchas actuales de las y los policías",
-            con: "Susan Quirós Días - Secretaria General de la unión nacional de trabajadores",
+            dia: "Programa: Martes 02 de Mayo, 2023",
+            tema: "¿Como fue la reestructuración en el INA en tiempos de Clara Zomer?",
+            con: "José Eduardo Rodríguez - Ex Sindicalista pensionado de SITRAINA",
         },
     ],
     PiePagina: [

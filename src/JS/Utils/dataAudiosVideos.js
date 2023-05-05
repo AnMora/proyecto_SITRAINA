@@ -47,7 +47,15 @@ const DAudVid = {
         }
     ],
     VideosYoutube: [
-        // https://www.youtube.com/watch?v=0oiGY1AtJ9c
+        // https://youtu.be/CK9Cq5auYI4
+        {
+            titulo: "SITRAINA sí cree que el INA pueda afrontar la revolución industrial 4.0: no a la sustitución del INA",
+            descripcion: "SITRAINA sí cree que el INA pueda afrontar la revolución industrial 4.0: no a la sustitución del INA",
+            año: "2023",
+            mes: "Abril",
+            fecha: "20",
+            link: "https://youtu.be/CK9Cq5auYI4",
+        },
         {
             titulo: "UNDECA SOBRE SUSPENSIÓN DE PROYECTOS CCSS",
             descripcion: "UNDECA rechaza la decisión arbitraria de la actual Junta Directiva de la CCSS de suspender todas las obras que benefician y que son urgentes para la población en materia de salud pública.",

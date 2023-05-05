@@ -45,12 +45,12 @@ const DPP = {
         }
     ],
     SITRAINAINFORMA: [
-        // ón ú í ü, é, á, í, ó, ú, ñ, Ñ
+        // ón ú í ü, é, á, í, ó, ú, ñ, Ñ ¿?
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 25 de Abril, 2023",
-            tema: "Luchas actuales de las y los policías",
-            con: "Susan Quirós Días - Secretaria General de la unión nacional de trabajadores",
+            dia: "Programa: Martes 02 de Mayo, 2023",
+            tema: "¿Como fue la reestructuración en el INA en tiempos de Clara Zomer?",
+            con: "José Eduardo Rodríguez - Ex Sindicalista pensionado de SITRAINA",
         },
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
@@ -65,41 +65,32 @@ const DPP = {
         // Hoja de Miercoles Actual
         {
             año: 2023,
-            titulo: "Hoja de Miercoles - Miercoles 27 de Abril, 2023 - Edicion Especial",
-            mes: "Abril",
-            fecha: 27,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-27_abril_2023-Edicion_Especial.pdf",
-        },
-        {
-            año: 2023,
-            titulo: "Hoja de Miercoles - Miercoles 26 de Abril, 2023",
-            mes: "Abril",
-            fecha: 26,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-26_abril_2023.pdf",
-        },
-        {
-            año: 2023,
-            titulo: "Hoja de Miercoles - Miercoles 25 de Abril, 2023 - Edicion Especial",
-            mes: "Abril",
-            fecha: 25,
-            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-25_abril_2023-Edicion_Especial.pdf",
+            titulo: "Hoja de Miercoles - Miercoles 03 de Mayo, 2023",
+            mes: "Mayo",
+            fecha: 3,
+            link: "../../Documentos/hoja de miercoles/Hoja de Miercoles 2023/Hoja_de_Miercoles-03_mayo_2023.pdf",
         },
     ],
     // REVISAR CAMBIOS EN datahojamiercoles.js
     // ú ón í
     Informativas: [
-        // manifestacio_29_03_2023
         {
             id: "collapseOne",
-            titulo: "Conozca la nueva presidenta del Tribunal Supremo de Elecciones",
-            imagen: "../../Documentos/informativas/TSE.jpg",
-            descripcion: "La abogada Eugenia Zamora Chavarria, Hoy presidenta del TSE"
+            titulo: "¿Qué es una reestructuración?",
+            imagen: "../../Documentos/informativas/restructuracionSITRAINA.jpeg",
+            descripcion: "Compañeros/as, el día de hoy iniciamos una nueva campaña para comprender lo que es una reestructuración e irla relacionando con nuestra campaña anterior de debate de los argumentos académicos que impulsan la privatización del INA. A continuación les hacemos la primera entrega de esta campaña."
         },
         {
             id: "collapseTwo",
-            titulo: "Ley de Empleo Público",
-            imagen: "../../Documentos/informativas/salariopublico.jpg",
-            descripcion: "Información de su interés"
+            titulo: "Junta Directiva de SITRAINA",
+            imagen: "../../Documentos/informativas/juntadirectivaSITRAINA.jpeg",
+            descripcion: "Esta es la Junta Directiva de SITRAINA. Estamos para servirles."
+        },
+        {
+            id: "collapseThree",
+            titulo: "Pase por su paraguas de SITRAINA",
+            imagen: "../../Documentos/informativas/paraguasSITRAINA.jpg",
+            descripcion: "Estimados/as Afiliados/as. Nos complace informarles que ya pueden pasar a las oficinas del Sindicato a retirar su paraguas. Si no puede retirarlo personalmente, debe rellenar la boleta que se les enviará por correo electrónico y entregarla con las respectivas copias de su cédula y de la persona que retira. Estamos para servirles."
         },
     ],
     Sitraina: [
