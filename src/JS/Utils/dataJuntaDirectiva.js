@@ -106,8 +106,8 @@ const DJDirectiva = {
     ],
     finanzas_administracion: [
         {
-            representante: "Henry Moya Picado",
-            contactar: "hmoyapicado@gmail.com",
+            representante: "Milagro Miranda Ramírez",
+            contactar: "",
             cargo: "Secretarío de Finanzas y Administración",
             deberes: [
                 {
@@ -175,7 +175,7 @@ const DJDirectiva = {
     ],
     afiliacion_propaganda: [
         {
-            representante: "Milagro Miranda Ramírez",
+            representante: "Rigoberto Chaves Chavarría",
             contactar: "mmirandaramirez@ina.ac.cr",
             cargo: "Secretaría de Afiliación y Propaganda",
             deberes: [
@@ -226,8 +226,8 @@ const DJDirectiva = {
     ],
     educacion: [
         {
-            representante: "Keylor López Rodríguez",
-            contactar: "klopezrodriguez@ina.ac.cr",
+            representante: "Geovanny Guillén Solís",
+            contactar: "",
             cargo: "Secretaría de Educación",
             deberes: [
                 {
@@ -271,8 +271,8 @@ const DJDirectiva = {
     ],
     La_mujer: [
         {
-            representante: "María Oriley Brown",
-            contactar: "morileybrown@ina.ac.cr",
+            representante: "Aisha Blackwood Barret",
+            contactar: "ablackwoodbarret@ina.ac.cr",
             cargo: "Secretaría Asuntos de la Mujer",
             deberes: [
                 {
@@ -310,9 +310,9 @@ const DJDirectiva = {
     ],
     conflictos: [
         {
-            representante: "Ricardo Jara Núñez",
-            contactar: "rjaranunez@ina.ac.cr",
-            cargo: "Secretarío Asuntos de Conflictos",
+            representante: "Luzmilda Cerdas Rojas",
+            contactar: "",
+            cargo: "Secretarío Asuntos de Conflictos - Núcleos Tecnológicos",
             deberes: [
                 {
                     atribucion: "Asistir puntualmente a todas las sesiones de la Junta Directiva y Asamblea General."
@@ -354,10 +354,11 @@ const DJDirectiva = {
         }
     ],
     suplencia: [
+        // ón ú í ü, é, á, í, ó, ú, ñ, Ñ ¿?
         {
-            representante: "Andrés Moreno Vargas",
-            contactar: "amorenovargas@ina.ac.cr",
-            cargo: "Primer Suplencia",
+            representante: "Reiner Morera Blanco",
+            contactar: "",
+            cargo: "Primer Suplencia - Núcleo Eléctrico",
             deberes: [
               {
                   atribucion: "La suplencia tendrá como función la de ocupar la primera vacante que se presente entre los miembros titulares de la Junta Directiva, y la de cumplir las atribuciones y deberes del cargo."
@@ -365,9 +366,9 @@ const DJDirectiva = {
             ]
           },
           {
-            representante: "Aisha Blackwood Barret",
-            contactar: "ablackwoodbarret@ina.ac.cr",
-            cargo: "Segunda Suplencia",
+            representante: "Marco Delgado Jara",
+            contactar: "",
+            cargo: "Segunda Suplencia - Regional Oriental",
             deberes: [
               {
                   atribucion: "La suplencia tendrá como función la de ocupar la primera vacante que se presente entre los miembros titulares de la Junta Directiva, y la de cumplir las atribuciones y deberes del cargo."
