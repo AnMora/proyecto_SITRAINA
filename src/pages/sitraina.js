@@ -85,6 +85,7 @@ const Sitraina = (props) => {
       </>
     );
   });
+  // ACTUALIZACION PARA NETLIFY
 
   const Informativas = props.data.Informativas.map((item, position) => {
     return (
