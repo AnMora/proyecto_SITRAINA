@@ -67,7 +67,7 @@ const Navbar = (props) => {
   return (
     <>
       <ul
-        className="navbar-nav bg-gray-900 sidebar sidebar-dark accordion"
+        className="navbar-nav bg-primary sidebar sidebar-dark accordion"
         id="accordionSidebar"
       >
         {estasEn === "Pagina Principal" ? (
@@ -202,11 +202,11 @@ const Navbar = (props) => {
               <div className="col-12 mt-2 mb-3">
                 <a
                   href={Boleta}
-                  className="d-none d-block btn btn-sm btn-primary shadow-sm icon p-2"
+                  className="d-none d-block btn btn-outline-light shadow-sm icon"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fas fa-fw fa-download fa-sm text-white-50"></i>
+                  <i className="fas fa-fw fa-download fa-sm"></i>
                   <span>Boleta</span>
                 </a>
               </div>

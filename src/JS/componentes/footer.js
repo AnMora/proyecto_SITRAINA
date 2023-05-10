@@ -10,7 +10,7 @@ const Footer = (props) => {
             <>
                 <a
                     key={position}
-                    className="btn btn-lg btn-outline-info btn-circle m-1"
+                    className="btn btn-lg btn-outline-light btn-circle m-1"
                     href={item.Link}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -64,7 +64,7 @@ const Footer = (props) => {
                     <div className="mt-4 mb-4">
                         <div className="row no-gutters text-center text-primary align-items-center">
                             <div className="col mr-2">
-                                <div className="h4 font-weight-bold text-info text-uppercase mb-1">
+                                <div className="h4 font-weight-bold text-white text-uppercase mb-1">
                                     {Contacto.lema}
                                 </div>
                             </div>

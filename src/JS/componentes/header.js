@@ -15,7 +15,7 @@ const Header = (props) => {
 
   return (
     <>
-      <nav className="navbar navbar-expand navbar-light text-white bg-primary topbar static-top shadow">
+      <nav className="navbar navbar-expand navbar-light bg-light topbar static-top shadow">
         <button
           id="sidebarToggleTop"
           className="btn btn-outline-light btn-link text-white d-md-none icon"
@@ -63,7 +63,7 @@ const Header = (props) => {
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <span className="mr-2 d-lg-inline">
+              <span className="mr-2 d-lg-inline text-primary">
                 <b>SITRAINA</b>
               </span>
               <img
