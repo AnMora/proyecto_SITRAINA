@@ -18,7 +18,7 @@ const Header = (props) => {
       <nav className="navbar navbar-expand navbar-light bg-light topbar static-top shadow">
         <button
           id="sidebarToggleTop"
-          className="btn btn-outline-light btn-link text-white d-md-none icon"
+          className="btn btn-outline-primary btn-link text-primary d-md-none icon"
           onClick={(e) => handleMenu(e)}
         >
           <i className="fa fa-bars"></i>

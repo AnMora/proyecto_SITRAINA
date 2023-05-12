@@ -48,9 +48,9 @@ const DPP = {
         // ón ú í ü, é, á, í, ó, ú, ñ, Ñ ¿?
         {
             titulo: "SITRAINA INFORMA",
-            dia: "Programa: Martes 02 de Mayo, 2023",
-            tema: "¿Como fue la reestructuración en el INA en tiempos de Clara Zomer?",
-            con: "José Eduardo Rodríguez - Ex Sindicalista pensionado de SITRAINA",
+            dia: "Programa: Martes 16 de Mayo, 2023",
+            tema: "La labor diaria de una persona docente del INA",
+            con: "Sebastián Miranda Brenes - Docente de gestión ambiental, subsector de gestion ambiental, UNIDAD REGIONAL HUETAR CARIBE",
         },
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
