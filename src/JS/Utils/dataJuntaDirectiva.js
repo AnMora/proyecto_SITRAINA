@@ -78,7 +78,7 @@ const DJDirectiva = {
         {
             representante: "Marianela Delgado Quesada",
             contactar: "mdelgadoquesada@ina.ac.cr",
-            cargo: "Secretaría General Adjunta",
+            cargo: "Secretaría General Adjunta Regional Occidental",
             deberes: [
                 {
                     atribucion: "Asistir puntualmente a las sesiones de la Junta Directiva y Asamblea General."
@@ -108,7 +108,7 @@ const DJDirectiva = {
         {
             representante: "Milagro Miranda Ramírez",
             contactar: "",
-            cargo: "Secretarío de Finanzas y Administración",
+            cargo: "Secretaría de Finanzas y Administración Uruca",
             deberes: [
                 {
                     atribucion: "Asistir puntualmente a las reuniones de la Junta Directiva y Asamblea General."
@@ -150,7 +150,7 @@ const DJDirectiva = {
         {
           representante: "Martha Picado Ajoy",
           contactar: "mpicadoajoy@ina.ac.cr",
-          cargo: "Secretaria de Actas y Correspondencia",
+          cargo: "Secretaria de Actas y Correspondencia Uruca",
           deberes: [
             {
                 atribucion: "Asistir puntualmente a las reuniones de la Junta Directiva y Asamblea General."
@@ -176,7 +176,7 @@ const DJDirectiva = {
     afiliacion_propaganda: [
         {
             representante: "Rigoberto Chaves Chavarría",
-            contactar: "mmirandaramirez@ina.ac.cr",
+            contactar: "rchaveschavarria@ina.ac.cr",
             cargo: "Secretaría de Afiliación y Propaganda",
             deberes: [
                 {
@@ -210,7 +210,7 @@ const DJDirectiva = {
         {
             representante: "Bernardo Calvo Valverde",
             contactar: "bcalvovalverde@ina.ac.cr",
-            cargo: "Secretarío de Asuntos Culturales y Sociales",
+            cargo: "Secretarío de Asuntos Culturales y Sociales Regional Brunca",
             deberes: [
                 {
                     atribucion: "Asistir puntualmente a las reuniones de la Junta Directiva y Asamblea General."
@@ -227,8 +227,8 @@ const DJDirectiva = {
     educacion: [
         {
             representante: "Geovanny Guillén Solís",
-            contactar: "",
-            cargo: "Secretaría de Educación",
+            contactar: "gguillensolis@ina.ac.cr",
+            cargo: "Secretaría de Educación Regional Oriental",
             deberes: [
                 {
                     atribucion: "Asistir puntualmente a las reuniones de la Junta Directiva y de la Asamblea General, en donde ejercerá con voz y voto."
@@ -273,7 +273,7 @@ const DJDirectiva = {
         {
             representante: "Aisha Blackwood Barret",
             contactar: "ablackwoodbarret@ina.ac.cr",
-            cargo: "Secretaría Asuntos de la Mujer",
+            cargo: "Secretaría Asuntos de la Mujer Regional Huetar Caribe",
             deberes: [
                 {
                     atribucion: "Motivar la participación y organización de la mujer trabajador del INA en SITRAINA."
@@ -311,8 +311,8 @@ const DJDirectiva = {
     conflictos: [
         {
             representante: "Luzmilda Cerdas Rojas",
-            contactar: "",
-            cargo: "Secretarío Asuntos de Conflictos - Núcleos Tecnológicos",
+            contactar: "lcerdasrojas@ina.ac.cr",
+            cargo: "Secretarío Asuntos de Conflictos Núcleos Tecnológicos",
             deberes: [
                 {
                     atribucion: "Asistir puntualmente a todas las sesiones de la Junta Directiva y Asamblea General."
@@ -357,8 +357,8 @@ const DJDirectiva = {
         // ón ú í ü, é, á, í, ó, ú, ñ, Ñ ¿?
         {
             representante: "Reiner Morera Blanco",
-            contactar: "",
-            cargo: "Primer Suplencia - Núcleo Eléctrico",
+            contactar: "rmorerablanco@ina.ac.cr",
+            cargo: "Primer Suplencia Núcleo Eléctrico",
             deberes: [
               {
                   atribucion: "La suplencia tendrá como función la de ocupar la primera vacante que se presente entre los miembros titulares de la Junta Directiva, y la de cumplir las atribuciones y deberes del cargo."
@@ -367,8 +367,8 @@ const DJDirectiva = {
           },
           {
             representante: "Marco Delgado Jara",
-            contactar: "",
-            cargo: "Segunda Suplencia - Regional Oriental",
+            contactar: "mdelgadojara@ina.ac.cr",
+            cargo: "Segunda Suplencia Regional Oriental",
             deberes: [
               {
                   atribucion: "La suplencia tendrá como función la de ocupar la primera vacante que se presente entre los miembros titulares de la Junta Directiva, y la de cumplir las atribuciones y deberes del cargo."
