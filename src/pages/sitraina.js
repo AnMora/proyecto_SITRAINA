@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import ReactGA from "react-ga";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ScrollToTop from "../JS/componentes/ScrollToTop";
 
 const Sitraina = (props) => {
@@ -11,6 +11,10 @@ const Sitraina = (props) => {
   }, []);
 
   const SI_alert = props.data.Extra;
+  const Facebook_Link = props.data.Facebook_Link;
+  const RS_Facebook = props.data.RS_Facebook;
+  const Whatsapp_Link = props.data.Whatsapp_Link;
+  const RS_Whatsapp = props.data.RS_Whatsapp;
 
   const SI_Programa = props.data.SITRAINAINFORMA.map((item, position) => {
     return (
@@ -35,8 +39,21 @@ const Sitraina = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-auto">
+            {/* <div className="col-auto">
               <i className="fas fa-play fa-2x text-gray-300"></i>
+            </div> */}
+            <div className="col-auto">
+              <a href={Facebook_Link} target="_blank" rel="noopener noreferrer">
+                <button type="button" className="mt-2 btn btn-primary">
+                  {RS_Facebook}
+                </button>
+              </a>
+              <br />
+              <a href={Whatsapp_Link} target="_blank" rel="noopener noreferrer">
+                <button type="button" className="mt-2 btn btn-outline-success btn-sm">
+                  {RS_Whatsapp}
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -312,15 +329,15 @@ const Sitraina = (props) => {
     <div className="container-fluid">
     <div className="mt-4">      
         {/* <div className="alert alert-primary" role="alert"> */}
-          <Link to="/EnVIVO">
-            <a href="##" target="_blank" rel="noopener noreferrer">
+          {/* <Link to="/EnVIVO"> */}
+            <a href="https://www.facebook.com/SitrainaCR" target="_blank" rel="noopener noreferrer">
               <div className="mb-3 mt-3">
                 <div className="card border-left-info shadow h-100 py-2">
                   {SI_Programa}
                 </div>
               </div>
             </a>
-          </Link>
+          {/* </Link> */}
           {/* <strong>
             Visualice o descargue la hoja de miércoles más reciente.
           </strong> */}

@@ -54,6 +54,10 @@ const DPP = {
         },
     ],
     Extra: "Visualice el programa SITRAINA INFORMA dando clic encima del texto.",
+    Facebook_Link: "https://www.facebook.com/SitrainaCR",
+    RS_Facebook: "Facebook",
+    Whatsapp_Link: "https://wa.me/50663400176/?text=www.sitraina.org:%20Deje%20su%20mensaje%20a%20continuación...",
+    RS_Whatsapp: "Whatsapp",
     InfoAnuales: [
         {
             reglamento: "INFORME ANUAL Fiscalía SITRAINA 2020",

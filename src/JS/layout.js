@@ -15,7 +15,7 @@ import Presentacion from '../pages/presentacion';
 import Navbar from "./componentes/navbar";
 import Header from "./componentes/header";
 import Sitraina from '../pages/sitraina';
-import ENVIVO from "../pages/transmision";
+// import ENVIVO from "../pages/transmision";
 import Footer from './componentes/footer';
 
 // Pagina sitraina/contactenos
@@ -190,7 +190,7 @@ class Layout extends Component {
                             </main>
                         </div>
                     </Route> */}
-                    <Route path="/EnVIVO">
+                    {/* <Route path="/EnVIVO">
                         <div id="wrapper">
                             <Navbar data={this.state.pDataTranmisiones} />
                             <main id="content-wrapper" className="d-flex flex-column">
@@ -199,7 +199,7 @@ class Layout extends Component {
                                 <Footer data={this.state.pDataPresentacion} />
                             </main>
                         </div>
-                    </Route>
+                    </Route> */}
                     <Route path="/sitraina">
                         <div id="wrapper">
                             <Navbar data={this.state.pDataPaginaPrincipal} />
