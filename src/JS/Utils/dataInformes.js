@@ -91,7 +91,7 @@ const DInfoAnual = {
         },
         {
             informes: "Informe de Secretaría de la Mujer 2022",
-            link: "../../Documentos/Informes Anuales/Informe_Secretaría_de_la_Mujer_2022.pdf",
+            link: "../../Documentos/Informes Anuales/Informe_Secretaria_de_la_Mujer_2022.pdf",
         },
         {
             informes: "Informe de Secretaria General Adjunta 2022 ,28-04-22",
@@ -100,4 +100,4 @@ const DInfoAnual = {
     ],
 }
 
-export default DInfoAnual
+export default DInfoAnual;
